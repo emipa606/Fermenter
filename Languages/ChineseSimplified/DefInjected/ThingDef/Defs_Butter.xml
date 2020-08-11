@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_Butter.label>黄油</FRMT_Butter.label>
+  <FRMT_Butter.description>黄油是一种在冷藏和室温下为固体的高脂量乳制品。一般涂抹在普通面包或烤面包的表面，当做蔬菜的调味品，也用于烹饪佐料，例如烘培，酱汁调制，煎炸。</FRMT_Butter.description>
+  <FRMT_Butter.ingestible.ingestCommandString>享用 {0}</FRMT_Butter.ingestible.ingestCommandString>
+  <FRMT_Butter.ingestible.ingestReportString>正在享用 {0}.</FRMT_Butter.ingestible.ingestReportString>
+  <FRMT_PrecursorButter.label>半成品黄油</FRMT_PrecursorButter.label>
+  <FRMT_PrecursorButter.description>牛奶和蔬菜的混合物，能在发酵器内加工制成黄油。</FRMT_PrecursorButter.description>
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pickled Veg -->
+  <FRMT_VegPickled.label>野菜の酢漬け</FRMT_VegPickled.label>
+  <FRMT_VegPickled.description>保存用に酢漬けにされた野菜です。</FRMT_VegPickled.description>
+  <!-- Pickled Fruit -->
+  <FRMT_FruitPickled.label>果実の酢漬け</FRMT_FruitPickled.label>
+  <FRMT_FruitPickled.description>保存用に酢漬けにされた果実です。</FRMT_FruitPickled.description>
+  <!-- Pickled Fungi -->
+  <FRMT_FungiPickled.label>キノコの酢漬け</FRMT_FungiPickled.label>
+  <FRMT_FungiPickled.description>保存用に酢漬けにされたキノコです。</FRMT_FungiPickled.description>
+</LanguageData>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>FermenterTab</defName>
+    <label>Fermenter</label>
+  </ResearchTabDef>
+  <!--  Fermentation Buildings -->
+  <ResearchProjectDef>
+    <defName>FermenterVat</defName>
+    <label>Fermenter Vat</label>
+    <description>Grants the ability to build the fermenter vat. A large wooden fermentation vessel.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Brewing</li>
+    </prerequisites>
+    <tab>FermenterTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Fermenter</defName>
+    <label>Fermenter</label>
+    <description>Grants the ability to build the fermenter. An automated machine to make processed food products.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Brewing</li>
+      <li>Electricity</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>FermenterTab</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+  <!--  Oil plants and trees -->
+  <ResearchProjectDef>
+    <defName>FRMT_OilPlants</defName>
+    <label>Oil plants</label>
+    <description>Grants the ability to grow plants with oil producing products.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>FermenterTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>FRMT_OilTrees</defName>
+    <label>Oil trees</label>
+    <description>Grants the ability to grow trees with oil producing products.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>FRMT_OilPlants</li>
+      <li>TreeSowing</li>
+    </prerequisites>
+    <tab>FermenterTab</tab>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+</Defs>

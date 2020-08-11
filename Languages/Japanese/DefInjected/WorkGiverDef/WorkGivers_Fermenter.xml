@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WG_TakeProductFermenter.label>発酵槽から製品を取り出す</WG_TakeProductFermenter.label>
+  <WG_TakeProductFermenter.verb>製品を取り出す</WG_TakeProductFermenter.verb>
+  <WG_TakeProductFermenter.gerund>から製品を取り出す</WG_TakeProductFermenter.gerund>
+  <WG_TakeProductFermenterVat.label>発酵桶から製品を取り出す</WG_TakeProductFermenterVat.label>
+  <WG_TakeProductFermenterVat.verb>製品を取り出す</WG_TakeProductFermenterVat.verb>
+  <WG_TakeProductFermenterVat.gerund>から製品を取り出す</WG_TakeProductFermenterVat.gerund>
+  <WG_FillFermenter.label>発酵槽を満たす</WG_FillFermenter.label>
+  <WG_FillFermenter.verb>満たす</WG_FillFermenter.verb>
+  <WG_FillFermenter.gerund>を満たす</WG_FillFermenter.gerund>
+  <WG_FillFermenterVat.label>発酵桶を満たす</WG_FillFermenterVat.label>
+  <WG_FillFermenterVat.verb>満たす</WG_FillFermenterVat.verb>
+  <WG_FillFermenterVat.gerund>を満たす</WG_FillFermenterVat.gerund>
+</LanguageData>

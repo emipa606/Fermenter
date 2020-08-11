@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_CheeseMozzarella.label>モッツァレラチーズ</FRMT_CheeseMozzarella.label>
+  <FRMT_CheeseMozzarella.description>モッツァレラチーズを切り分けたものです。新鮮なモッツァレラは一般的に白色ですが、動物に与える餌によって季節的によってわずかに黄色いことがあります。</FRMT_CheeseMozzarella.description>
+  <FRMT_CheeseCottage.label>カッテージチーズ</FRMT_CheeseCottage.label>
+  <FRMT_CheeseCottage.description>カッテージチーズは、爽やかでまろやかな味わいのカードチーズです。古くは「カードとホエー」と呼ばれ、熟成できませんが発酵が早く簡単に作れます。</FRMT_CheeseCottage.description>
+  <FRMT_PrecursorCheese.label>カード</FRMT_PrecursorCheese.label>
+  <FRMT_PrecursorCheese.description>天然の動物性ミルクと乳糖と酢酸菌を原料としたチーズの原材料です。発酵させてチーズにします。</FRMT_PrecursorCheese.description>
+</LanguageData>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fermenter.Name>Fermenter</Fermenter.Name>
+  <Fermenter.NoIngredients>Cannot locate ingredient {0} for the fermenter</Fermenter.NoIngredients>
+  <!--  Check defs -->
+  <Fermenter.product>product</Fermenter.product>
+  <Fermenter.resource>resource</Fermenter.resource>
+  <Fermenter.spoilprod>spoil product</Fermenter.spoilprod>
+  <Fermenter.ErrThing>FermentDef: {0} has a {1} ( {2} ) that is not defined as a ThingDef.</Fermenter.ErrThing>
+  <Fermenter.prodIngest>product not defined as an ingestible.</Fermenter.prodIngest>
+  <Fermenter.ErrThingIng>FermentDef: {0} has a product: ( {2} ) that is a {1}.</Fermenter.ErrThingIng>
+  <Fermenter.ErrResearch>FermentDef: {0} has a research project ( {1} ) that is not defined.</Fermenter.ErrResearch>
+  <Fermenter.WarnLowHrs>FermentDef: {0} has a low fermentation period value of {1} hours. Please check details for a value best higher than {2}. Value will be corrected.</Fermenter.WarnLowHrs>
+  <Fermenter.WarnHighHrs>FermentDef: {0} has a high fermentation period value of {1} hours. Please check details for a value best less than {2}.</Fermenter.WarnHighHrs>
+  <Fermenter.CheckProcess>Fermenter has checked {0} fermentation definitions.</Fermenter.CheckProcess>
+  <!--  Fermenter -->
+  <Fermenter.Select>Select Product</Fermenter.Select>
+  <Fermenter.SelectDesc>Select fermentation product.</Fermenter.SelectDesc>
+  <Fermenter.SelNone>No Product</Fermenter.SelNone>
+  <Fermenter.MakeProcess>Produce {0} from {1}.</Fermenter.MakeProcess>
+  <Fermenter.BatchLabel>(Batch:{0})</Fermenter.BatchLabel>
+  <Fermenter.SelectBatchLimit>Select batch Size</Fermenter.SelectBatchLimit>
+  <Fermenter.StockLabel>(Limit:{0}, ({1}%))</Fermenter.StockLabel>
+  <Fermenter.StockLabelNL>( No Limit )</Fermenter.StockLabelNL>
+  <Fermenter.SelectStockLimit>Select product stock limit</Fermenter.SelectStockLimit>
+  <Fermenter.StockNoLimit>No Limit</Fermenter.StockNoLimit>
+  <Fermenter.Production>Production</Fermenter.Production>
+  <Fermenter.ProductionDesc>Toggle Production</Fermenter.ProductionDesc>
+  <Fermenter.ProdNoProd>(No Product Selected)</Fermenter.ProdNoProd>
+  <Fermenter.ProdStopped>(Stopped)</Fermenter.ProdStopped>
+  <Fermenter.Cancel>Cancel</Fermenter.Cancel>
+  <Fermenter.DoNothing>Do Nothing</Fermenter.DoNothing>
+  <Fermenter.SelCancel>Select cancelation of batch.</Fermenter.SelCancel>
+  <Fermenter.InvalidCancelStatus>Can only cancel a batch during filling or fermentation.</Fermenter.InvalidCancelStatus>
+  <Fermenter.WaitChange>Cannot change product since currently</Fermenter.WaitChange>
+  <Fermenter.IsProducingATM> producing at the moment.</Fermenter.IsProducingATM>
+  <Fermenter.HasProductOrSpoilWait> emptying a product or spoiled materials.</Fermenter.HasProductOrSpoilWait>
+  <Fermenter.SpoiledMsg>Fermenter's contents have spoiled.</Fermenter.SpoiledMsg>
+  <Fermenter.tempfine>fine</Fermenter.tempfine>
+  <Fermenter.tempbad>bad</Fermenter.tempbad>
+  <Fermenter.temppoor>poor</Fermenter.temppoor>
+  <Fermenter.tempregulated>is being regulated</Fermenter.tempregulated>
+  <Fermenter.tempwarning> a {0} temperature for fermentation</Fermenter.tempwarning>
+  <Fermenter.tempmsg>Ambient temperature: {0} degrees {2}, {1}.</Fermenter.tempmsg>
+  <Fermenter.TmpCelsius>Celsius</Fermenter.TmpCelsius>
+  <Fermenter.TmpFahrenheit>Fahrenheit</Fermenter.TmpFahrenheit>
+  <Fermenter.TmpKelvin>Kelvin</Fermenter.TmpKelvin>
+  <!--  Status -->
+  <Fermenter.Idle>Idle</Fermenter.Idle>
+  <Fermenter.WaitFill>Filling</Fermenter.WaitFill>
+  <Fermenter.Fermenting>Processing</Fermenter.Fermenting>
+  <Fermenter.WaitEmpty>Emptying</Fermenter.WaitEmpty>
+  <Fermenter.Cleaning>Cleaning</Fermenter.Cleaning>
+  <Fermenter.Stopped>Stopped</Fermenter.Stopped>
+  <Fermenter.Spoiled>Spoiled</Fermenter.Spoiled>
+  <Fermenter.Resetting>Resetting</Fermenter.Resetting>
+  <Fermenter.Cancelling>Cancelling</Fermenter.Cancelling>
+
+</LanguageData>

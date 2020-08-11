@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fermenter.Name>発酵槽</Fermenter.Name>
+  <Fermenter.NoIngredients>発酵槽用の材料{0}が見つかりません</Fermenter.NoIngredients>
+  <!--  Check defs -->
+  <Fermenter.product>製品</Fermenter.product>
+  <Fermenter.resource>資源</Fermenter.resource>
+  <Fermenter.spoilprod>発酵品</Fermenter.spoilprod>
+  <Fermenter.ErrThing>FermentDef：{0}には、ThingDefとして未定義な{1}（{2}）が含まれています。</Fermenter.ErrThing>
+  <Fermenter.prodIngest>摂取可能なものとして定義されていない製品。</Fermenter.prodIngest>
+  <Fermenter.ErrThingIng>FermentDef：{0}には製品があります：（{2}）それは{1}です。</Fermenter.ErrThingIng>
+  <Fermenter.ErrResearch>FermentDef：{0}には未定義の研究計画（{1}）があります。</Fermenter.ErrResearch>
+  <Fermenter.WarnLowHrs>FermentDef：{0}は発酵期間の数値が({1}時間)と短い。{2}よりも高い数値については、詳細を確認してください。数値は修正されます。</Fermenter.WarnLowHrs>
+  <Fermenter.WarnHighHrs>FermentDef：{0}は発酵期間の数値が({1}時間)と長い。{2}未満の最適な数値の詳細を確認してください。</Fermenter.WarnHighHrs>
+  <Fermenter.CheckProcess>発酵槽で{0}発酵の度合いを確認しました。</Fermenter.CheckProcess>
+  <!--  Fermenter -->
+  <Fermenter.Select>製品を選択</Fermenter.Select>
+  <Fermenter.SelectDesc>発酵させる製品を選択します。</Fermenter.SelectDesc>
+  <Fermenter.SelNone>製品なし</Fermenter.SelNone>
+  <Fermenter.MakeProcess>{1}から{0}を生産</Fermenter.MakeProcess>
+  <Fermenter.BatchLabel>ロット：{0}</Fermenter.BatchLabel>
+  <Fermenter.SelectBatchLimit>ロットサイズを選択</Fermenter.SelectBatchLimit>
+  <Fermenter.StockLabel>制限：{0}, ({1}%)</Fermenter.StockLabel>
+  <Fermenter.StockLabelNL>（無制限）</Fermenter.StockLabelNL>
+  <Fermenter.SelectStockLimit>生産在庫制限を選択</Fermenter.SelectStockLimit>
+  <Fermenter.StockNoLimit>無制限</Fermenter.StockNoLimit>
+  <Fermenter.Production>製造</Fermenter.Production>
+  <Fermenter.ProductionDesc>製造を切り替えます</Fermenter.ProductionDesc>
+  <Fermenter.ProdNoProd>（製品が未選択）</Fermenter.ProdNoProd>
+  <Fermenter.ProdStopped>（停止）</Fermenter.ProdStopped>
+  <Fermenter.Cancel>中止</Fermenter.Cancel>
+  <Fermenter.DoNothing>何もしない</Fermenter.DoNothing>
+  <Fermenter.SelCancel>ロットの中止を選択します。</Fermenter.SelCancel>
+  <Fermenter.InvalidCancelStatus>補充中か発酵中の時だけロットを中止可能です。</Fermenter.InvalidCancelStatus>
+  <Fermenter.WaitChange>現状では製品を変更できません</Fermenter.WaitChange>
+  <Fermenter.IsProducingATM>（生産進行中、生産工程ボタンで切替）</Fermenter.IsProducingATM>
+  <Fermenter.HasProductOrSpoilWait>製品または腐敗した材料を捨てる。</Fermenter.HasProductOrSpoilWait>
+  <Fermenter.SpoiledMsg>発酵槽の中身が腐敗しました。</Fermenter.SpoiledMsg>
+  <Fermenter.tempfine>良好</Fermenter.tempfine>
+  <Fermenter.tempbad>悪化</Fermenter.tempbad>
+  <Fermenter.temppoor>水準以下</Fermenter.temppoor>
+  <Fermenter.tempregulated>は制限されてる</Fermenter.tempregulated>
+  <Fermenter.tempwarning>発酵槽の内部温度：{0}℃</Fermenter.tempwarning>
+  <Fermenter.tempmsg>周囲温度：{2} {0}℃、{1}。</Fermenter.tempmsg>
+  <Fermenter.TmpCelsius>摂氏</Fermenter.TmpCelsius>
+  <Fermenter.TmpFahrenheit>華氏</Fermenter.TmpFahrenheit>
+  <Fermenter.TmpKelvin>ケルビン</Fermenter.TmpKelvin>
+  <!--  Status -->
+  <Fermenter.Idle>待機中</Fermenter.Idle>
+  <Fermenter.WaitFill>補充中</Fermenter.WaitFill>
+  <Fermenter.Fermenting>進行中</Fermenter.Fermenting>
+  <Fermenter.WaitEmpty>空にする</Fermenter.WaitEmpty>
+  <Fermenter.Cleaning>清掃中</Fermenter.Cleaning>
+  <Fermenter.Stopped>停止中</Fermenter.Stopped>
+  <Fermenter.Spoiled>腐敗した</Fermenter.Spoiled>
+  <Fermenter.Resetting>リセット中</Fermenter.Resetting>
+  <Fermenter.Cancelling>中止中</Fermenter.Cancelling>
+</LanguageData>

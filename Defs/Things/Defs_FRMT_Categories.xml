@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>FRMT_Resources</defName>
+    <label>Fermenter Resources</label>
+    <parent>Manufactured</parent>
+    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+    <resourceReadoutRoot>false</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FRMT_Oils</defName>
+    <label>Fermenter Oils</label>
+    <parent>FRMT_Resources</parent>
+    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+    <resourceReadoutRoot>false</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FRMT_Pickles</defName>
+    <label>Fermenter Pickles</label>
+    <parent>FRMT_Resources</parent>
+    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+    <resourceReadoutRoot>false</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>FRMT_Precursors</defName>
+    <label>Fermenter Precursors</label>
+    <parent>FRMT_Resources</parent>
+    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+    <resourceReadoutRoot>false</resourceReadoutRoot>
+  </ThingCategoryDef>
+</Defs>

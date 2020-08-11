@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_FRMT_PrecursorYoghurt.label>Stelle Joghurtvorstufe her</Make_FRMT_PrecursorYoghurt.label>
+  <Make_FRMT_PrecursorYoghurt.description>Stelle Joghurtvorstufe aus Milch und Laktosebakterien her.</Make_FRMT_PrecursorYoghurt.description>
+  <Make_FRMT_PrecursorYoghurt.jobString>Joghurtvorstufe herstellen.</Make_FRMT_PrecursorYoghurt.jobString>
+  <Make_FRMT_FruitYoghurt.label>Stelle Fruchtjoghurt her</Make_FRMT_FruitYoghurt.label>
+  <Make_FRMT_FruitYoghurt.description>Stelle Fruchtjoghurt aus Naturjoghurt und Früchten her.</Make_FRMT_FruitYoghurt.description>
+  <Make_FRMT_FruitYoghurt.jobString>FruchtJoghurt herstellen.</Make_FRMT_FruitYoghurt.jobString>
+</LanguageData>

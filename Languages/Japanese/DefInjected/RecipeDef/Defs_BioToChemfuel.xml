@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_FRMT_BioFuelPrecursor.label>バイオ化学燃料原料を作る</Make_FRMT_BioFuelPrecursor.label>
+  <Make_FRMT_BioFuelPrecursor.description>有機物からバイオ化学燃料の原料を発酵生成します。</Make_FRMT_BioFuelPrecursor.description>
+  <Make_FRMT_BioFuelPrecursor.jobString>バイオ化学燃料原料を製作中</Make_FRMT_BioFuelPrecursor.jobString>
+</LanguageData>

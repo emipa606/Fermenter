@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FRMT_CheeseMozzarella.label>Mozzarella Cheese</FRMT_CheeseMozzarella.label>
+  <FRMT_CheeseMozzarella.description>A shredded, low moisture mozzarella. Fresh mozzarella is generally white but may vary seasonally to slightly yellow depending on the animal's diet.</FRMT_CheeseMozzarella.description>
+
+  <FRMT_CheeseCottage.label>Cottage Cheese</FRMT_CheeseCottage.label>
+  <FRMT_CheeseCottage.description>Cottage cheese is a fresh cheese curd product with a mild flavor. In the past, it was known as "curds and whey." It is not aged, but produced more quickly through fermentation.</FRMT_CheeseCottage.description>
+
+  <FRMT_PrecursorCheese.label>Cheese Precursor</FRMT_PrecursorCheese.label>
+  <FRMT_PrecursorCheese.description>A preperation made from natural animal milk, lactose and acetic bacteria. Used to ferment into cheese.</FRMT_PrecursorCheese.description>
+
+
+</LanguageData>

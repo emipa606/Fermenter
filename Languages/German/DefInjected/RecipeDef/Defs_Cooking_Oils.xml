@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Oil precursor recipes -->
+  <Make_FRMT_CornOilPrecursor.label>Stelle Maisölvorstufe her</Make_FRMT_CornOilPrecursor.label>
+  <Make_FRMT_CornOilPrecursor.description>Stelle Maisölvorstufe aus Mais und Lösungsmittel her.</Make_FRMT_CornOilPrecursor.description>
+  <Make_FRMT_CornOilPrecursor.jobString>Maisölvorstufe herstellen.</Make_FRMT_CornOilPrecursor.jobString>
+  <Make_FRMT_OliveOilPrecursor.label>Stelle Olivenölvorstufe her</Make_FRMT_OliveOilPrecursor.label>
+  <Make_FRMT_OliveOilPrecursor.description>Stelle Olivenölvorläufer aus Oliven und Lösungsmittel her.</Make_FRMT_OliveOilPrecursor.description>
+  <Make_FRMT_OliveOilPrecursor.jobString>Olivenölvorstufe herstellen.</Make_FRMT_OliveOilPrecursor.jobString>
+  <Make_FRMT_SesameOilPrecursor.label>Stelle Sesamölvorstufe her</Make_FRMT_SesameOilPrecursor.label>
+  <Make_FRMT_SesameOilPrecursor.description>Stelle Sesamölvorläufer aus Sesamsamen und Lösungsmittel her.</Make_FRMT_SesameOilPrecursor.description>
+  <Make_FRMT_SesameOilPrecursor.jobString>Sesamölvorstufe herstellen.</Make_FRMT_SesameOilPrecursor.jobString>
+  <Make_FRMT_SunflowerOilPrecursor.label>Stelle Sonnenblumenölvorstufe her</Make_FRMT_SunflowerOilPrecursor.label>
+  <Make_FRMT_SunflowerOilPrecursor.description>Stelle Sonnenblumenölvorstufe aus Sonnenblumenkernen und Lösungsmittel her.</Make_FRMT_SunflowerOilPrecursor.description>
+  <Make_FRMT_SunflowerOilPrecursor.jobString>Sonnenblumenölvorstufe herstellen.</Make_FRMT_SunflowerOilPrecursor.jobString>
+  <!-- Hexane -->
+  <MakeRPHexane.label>Stelle Hexan her</MakeRPHexane.label>
+  <MakeRPHexane.description>Stelle 25 Hexan her.</MakeRPHexane.description>
+  <MakeRPHexane.jobString>Hexan herstellen.</MakeRPHexane.jobString>
+</LanguageData>

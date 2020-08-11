@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Settlers</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ThingDef ParentName="ResourceBase">
+              <defName>FRMT_PrecursorChemshine</defName>
+              <label>Chemshine Precursor</label>
+              <description>Chemfuel prepared for distillation into chemshine.</description>
+              <graphicData>
+                <texPath>Things/Item/Resource/FRMT_PrecursorChemshine/FRMT_PrecursorChemshine</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+              </graphicData>
+              <stackLimit>50</stackLimit>
+              <statBases>
+                <MaxHitPoints>50</MaxHitPoints>
+                <MarketValue>11.5</MarketValue>
+                <Mass>0.25</Mass>
+                <Flammability>2.0</Flammability>
+                <DeteriorationRate>1.0</DeteriorationRate>
+              </statBases>
+              <techLevel>Industrial</techLevel>
+              <thingCategories>
+                <li>FRMT_Precursors</li>
+              </thingCategories>
+              <comps>
+                <li Class="CompProperties_Explosive">
+                  <explosiveRadius>1.1</explosiveRadius>
+                  <explosiveDamageType>Flame</explosiveDamageType>
+                  <explosiveExpandPerStackcount>0.185</explosiveExpandPerStackcount>
+                  <startWickOnDamageTaken>
+                    <li>Flame</li>
+                  </startWickOnDamageTaken>
+                  <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+                  <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+                  <preExplosionSpawnChance>1</preExplosionSpawnChance>
+                  <wickTicks>70~150</wickTicks>
+                </li>
+              </comps>
+              <tickerType>Normal</tickerType>
+            </ThingDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_FRMT_ChemshinePrecursor</defName>
+              <label>make Chemshine precursor</label>
+              <description>Make Chemshine precursor from chemfuel.</description>
+              <jobString>Making Chemshine precursor.</jobString>
+              <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>500</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>Chemfuel</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>Chemfuel</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_PrecursorChemshine>25</FRMT_PrecursorChemshine>
+              </products>
+              <recipeUsers>
+                <li>Brewery</li>
+              </recipeUsers>
+              <researchPrerequisite>BiofuelRefining</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_Chemshine</defName>
+              <Product>Chemshine</Product>
+              <Resource>FRMT_PrecursorChemshine</Resource>
+              <SpoilProduct>FRMT_PrecursorChemshine</SpoilProduct>
+              <FermentHours>24.0</FermentHours>
+              <ResearchProject>BiofuelRefining</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Settlers</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>RimCuisine 2: Bottling and Booze Expansion (Continued)</li>
+      </mods>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="Make_FRMT_ChemshinePrecursor"]/recipeUsers</xpath>
+        <value>
+          <li>RC2_ElectricBrewery</li>
+          <li>RC2_BrewingSpot</li>
+        </value>
+      </match>
+    </match>
+  </Operation>
+</Patch>

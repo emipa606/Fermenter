@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Oils -->
+  <FRMT_CornOil.label>玉米油</FRMT_CornOil.label>
+  <FRMT_CornOil.description>玉米油(也称粟米油)是一种用玉米胚芽提取制成的油。主要用于烹饪，其高冒烟点的特点，使得精炼玉米油成为一种优秀的油炸油。一般情况下，玉米油相较于其他植物油而言价格更高。</FRMT_CornOil.description>
+  <FRMT_CornOil.ingestible.ingestCommandString>享用 {0}</FRMT_CornOil.ingestible.ingestCommandString>
+  <FRMT_CornOil.ingestible.ingestReportString>正在享用 {0}.</FRMT_CornOil.ingestible.ingestReportString>
+  <FRMT_OliveOil.label>橄榄油</FRMT_OliveOil.label>
+  <FRMT_OliveOil.description>橄榄油是从传统农作物——橄榄(木犀科油橄榄的果实)中提取制成的液状油。常用于烹饪，不管是煎炸还是作为沙拉酱。</FRMT_OliveOil.description>
+  <FRMT_OliveOil.ingestible.ingestCommandString>享用 {0}</FRMT_OliveOil.ingestible.ingestCommandString>
+  <FRMT_OliveOil.ingestible.ingestReportString>正在享用 {0}.</FRMT_OliveOil.ingestible.ingestReportString>
+  <FRMT_SesameOil.label>芝麻油</FRMT_SesameOil.label>
+  <FRMT_SesameOil.description>芝麻油是从芝麻籽中提取制成的可食用植物油。除被用作烹饪油外，也作为调味品在许多菜肴中出现，具有独特的坚果类香味和味道。</FRMT_SesameOil.description>
+  <FRMT_SesameOil.ingestible.ingestCommandString>享用 {0}</FRMT_SesameOil.ingestible.ingestCommandString>
+  <FRMT_SesameOil.ingestible.ingestReportString>正在享用 {0}.</FRMT_SesameOil.ingestible.ingestReportString>
+  <FRMT_SunflowerOil.label>葵花籽油</FRMT_SunflowerOil.label>
+  <FRMT_SunflowerOil.description>葵花籽油是用向日葵子压榨制成的不挥发油。葵花籽油常被作为烹炸油。</FRMT_SunflowerOil.description>
+  <FRMT_SunflowerOil.ingestible.ingestCommandString>享用 {0}</FRMT_SunflowerOil.ingestible.ingestCommandString>
+  <FRMT_SunflowerOil.ingestible.ingestReportString>正在享用 {0}.</FRMT_SunflowerOil.ingestible.ingestReportString>
+  <!-- Oil Precursors -->
+  <FRMT_PrecursorCornOil.label>半成品玉米油</FRMT_PrecursorCornOil.label>
+  <FRMT_PrecursorCornOil.description>玉米和溶剂的混合物，能在发酵容器中制取相应的植物油。</FRMT_PrecursorCornOil.description>
+  <FRMT_PrecursorOliveOil.label>半成品橄榄油</FRMT_PrecursorOliveOil.label>
+  <FRMT_PrecursorOliveOil.description>橄榄和溶剂的混合物，能在发酵容器中制取相应的植物油。</FRMT_PrecursorOliveOil.description>
+  <FRMT_PrecursorSesameOil.label>半成品芝麻油</FRMT_PrecursorSesameOil.label>
+  <FRMT_PrecursorSesameOil.description>芝麻籽和溶剂的混合物，能在发酵容器中制取相应的植物油。</FRMT_PrecursorSesameOil.description>
+  <FRMT_PrecursorSunflowerOil.label>半成品葵花籽油</FRMT_PrecursorSunflowerOil.label>
+  <FRMT_PrecursorSunflowerOil.description>向日葵子和溶剂的混合物，能在发酵容器中制取相应的植物油。</FRMT_PrecursorSunflowerOil.description>
+  <!-- Hexane -->
+  <RPHexane.label>己烷</RPHexane.label>
+  <RPHexane.description>己烷是含有6个碳原子的链烷，化学式C6H14。无色液体，纯己烷没有气味，沸点在50到70°C(122到158°F)之间。因其廉价，安全性较高，化学性质稳定，易挥发和非极性溶剂的特性而被广泛使用。</RPHexane.description>
+</LanguageData>

@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>FRMT_CheeseMozzarella</defName>
+    <label>Mozzarella Cheese</label>
+    <description>A shredded, low moisture mozzarella. Fresh mozzarella is generally white but may vary seasonally to slightly yellow depending on the animal's diet.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_CheeseMozzarella/FRMT_CheeseMozzarella</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>12.0</MarketValue>
+      <Mass>0.05</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.3</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>50</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <foodType>Processed</foodType>
+      <tasteThought>AteFRMTCheeseGood</tasteThought>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>FRMT_CheeseCottage</defName>
+    <label>Cottage Cheese</label>
+    <description>Cottage cheese is a fresh cheese curd product with a mild flavor. In the past, it was known as "curds and whey." It is not aged, but produced more quickly through fermentation.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_CheeseCottage/FRMT_CheeseCottage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>9.5</MarketValue>
+      <Mass>0.05</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.3</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>25</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <foodType>Processed</foodType>
+      <tasteThought>AteFRMTCheese</tasteThought>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+  <ThoughtDef>
+    <defName>AteFRMTCheese</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>0.5</durationDays>
+    <stackLimit>2</stackLimit>
+    <stages>
+      <li>
+        <label>ate cheese</label>
+        <description>Hmm, cheese is so tangy.</description>
+        <baseMoodEffect>+2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteFRMTCheeseGood</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>0.5</durationDays>
+    <stackLimit>2</stackLimit>
+    <stages>
+      <li>
+        <label>ate mozzarella cheese</label>
+        <description>Hmm, cheese is so creamy and tangy.</description>
+        <baseMoodEffect>+3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AteFRMTCheeseSpecial</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>0.5</durationDays>
+    <stackLimit>2</stackLimit>
+    <stages>
+      <li>
+        <label>ate matured cheese</label>
+        <description>Hmm, cheese is so rich, creamy and tangy.</description>
+        <baseMoodEffect>+4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>FRMT_PrecursorCheese</defName>
+    <label>Cheese Precursor</label>
+    <description>A preperation made from natural animal milk, lactose and acetic bacteria. Used to ferment into cheese.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorCheese/FRMT_PrecursorCheese</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>3.35</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>Processed</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_FRMT_PrecursorCheese</defName>
+    <label>make Cheese Precursor</label>
+    <description>Make cheese precursor from milk, lactose and acetic bacterium.</description>
+    <jobString>Making cheese precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+            <li>FRMT_PastMilk</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_LacticAcidBacteria</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_AceticAcidBacteria</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+        <li>FRMT_PastMilk</li>
+        <li>FRMT_LacticAcidBacteria</li>
+        <li>FRMT_AceticAcidBacteria</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorCheese>25</FRMT_PrecursorCheese>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fermenter.Name>发酵器</Fermenter.Name>
+  <Fermenter.NoIngredients>{0} 无法作为发酵器的原料</Fermenter.NoIngredients>
+  <!--  Check defs -->
+  <Fermenter.product>产物</Fermenter.product>
+  <Fermenter.resource>原料</Fermenter.resource>
+  <Fermenter.spoilprod>变质产物</Fermenter.spoilprod>
+  <Fermenter.ErrThing>发酵配方:{0} 中的 {1} ( {2} ) 未被定义(无法识别)为ThingDef。</Fermenter.ErrThing>
+  <Fermenter.prodIngest>产物未被定义(无法识别)为可食用物。</Fermenter.prodIngest>
+  <Fermenter.ErrThingIng>发酵配方: {0} 的产物:( {2} )为 {1}。</Fermenter.ErrThingIng>
+  <Fermenter.ErrResearch>发酵配方: {0} 中的研究项目( {1} )未定义(无法识别)。</Fermenter.ErrResearch>
+  <Fermenter.WarnLowHrs>发酵配方: {0} 的发酵周期过短: {1} 小时。请检查发酵周期的更新数值，最好大于 {2}。已修正数值。</Fermenter.WarnLowHrs>
+  <Fermenter.WarnHighHrs>发酵配方: {0} 的发酵周期过长: {1} 小时。请检查发酵周期的更新数值，最好小于 {2}。已修正数值。</Fermenter.WarnHighHrs>
+  <Fermenter.CheckProcess>发酵器(Mod)已检测到 {0} 个发酵配方。</Fermenter.CheckProcess>
+  <!--  Fermenter -->
+  <Fermenter.Select>选择配方</Fermenter.Select>
+  <Fermenter.SelectDesc>选择发酵配方。</Fermenter.SelectDesc>
+  <Fermenter.SelNone>未选配方</Fermenter.SelNone>
+  <Fermenter.MakeProcess>用 {1} 生产 {0}。</Fermenter.MakeProcess>
+  <Fermenter.BatchLabel>(批次产量:{0})</Fermenter.BatchLabel>
+  <Fermenter.SelectBatchLimit>选择每批次生产的数量</Fermenter.SelectBatchLimit>
+  <Fermenter.StockLabel>(限量:{0}, ({1}%)</Fermenter.StockLabel>
+  <Fermenter.StockLabelNL>(无限)</Fermenter.StockLabelNL>
+  <Fermenter.SelectStockLimit>选择基地中该产品的库存上限</Fermenter.SelectStockLimit>
+  <Fermenter.StockNoLimit>无限</Fermenter.StockNoLimit>
+  <Fermenter.Production>生产过程</Fermenter.Production>
+  <Fermenter.ProductionDesc>切换显示/不显示生产过程</Fermenter.ProductionDesc>
+  <Fermenter.ProdNoProd>(未选择配方)</Fermenter.ProdNoProd>
+  <Fermenter.ProdStopped>(不显示)</Fermenter.ProdStopped>
+  <Fermenter.Cancel>取消</Fermenter.Cancel>
+  <Fermenter.DoNothing>不更改</Fermenter.DoNothing>
+  <Fermenter.SelCancel>选择取消该批次生产。</Fermenter.SelCancel>
+  <Fermenter.InvalidCancelStatus>仅允许在装填或发酵期间取消该批次生产。</Fermenter.InvalidCancelStatus>
+  <Fermenter.WaitChange>当前无法切换配方</Fermenter.WaitChange>
+  <Fermenter.IsProducingATM>(正在生产，请切换生产过程按钮)</Fermenter.IsProducingATM>
+  <Fermenter.HasProductOrSpoilWait> 清空产物或变质物。</Fermenter.HasProductOrSpoilWait>
+  <Fermenter.SpoiledMsg>发酵器中有变质产物。</Fermenter.SpoiledMsg>
+  <Fermenter.tempfine>理想</Fermenter.tempfine>
+  <Fermenter.tempbad>非理想</Fermenter.tempbad>
+  <Fermenter.temppoor>糟糕</Fermenter.temppoor>
+  <Fermenter.tempregulated>自控温程序已运行。</Fermenter.tempregulated>
+  <Fermenter.tempwarning>是 {0} 的发酵温度</Fermenter.tempwarning>
+  <Fermenter.tempmsg>室温: {0} 摄氏度，{1}。</Fermenter.tempmsg>
+  <!--  Status -->
+  <Fermenter.Idle>闲置</Fermenter.Idle>
+  <Fermenter.WaitFill>装填中</Fermenter.WaitFill>
+  <Fermenter.Fermenting>发酵中</Fermenter.Fermenting>
+  <Fermenter.WaitEmpty>清空中</Fermenter.WaitEmpty>
+  <Fermenter.Cleaning>清洁中</Fermenter.Cleaning>
+  <Fermenter.Stopped>停机</Fermenter.Stopped>
+  <Fermenter.Spoiled>已变质</Fermenter.Spoiled>
+  <Fermenter.Resetting>重置中</Fermenter.Resetting>
+  <Fermenter.Cancelling>取消中</Fermenter.Cancelling>
+</LanguageData>

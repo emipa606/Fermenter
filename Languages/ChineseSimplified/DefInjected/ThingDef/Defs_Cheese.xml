@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_CheeseMozzarella.label>马苏里拉奶酪</FRMT_CheeseMozzarella.label>
+  <FRMT_CheeseMozzarella.description>一种含水量较低的细片状马苏里拉奶酪。新鲜的马苏里拉奶酪常为白色，但也可能因动物的季节性饮食而导致色泽略显淡黄。</FRMT_CheeseMozzarella.description>
+  <FRMT_CheeseCottage.label>白干酪</FRMT_CheeseCottage.label>
+  <FRMT_CheeseCottage.description>白干酪是一种带有温和香味的、新鲜的凝状奶酪。在以前，它又叫做“酥酪”。它的历史并不久远，但你可以通过发酵来快速量产。</FRMT_CheeseCottage.description>
+  <FRMT_PrecursorCheese.label>半成品奶酪</FRMT_PrecursorCheese.label>
+  <FRMT_PrecursorCheese.description>由天然动物乳汁、乳糖和醋酸菌制成的半成品。可经发酵制成奶酪。</FRMT_PrecursorCheese.description>
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pickled Veg -->
+  <Make_FRMT_VegPickled.label>野菜の酢漬を作る</Make_FRMT_VegPickled.label>
+  <Make_FRMT_VegPickled.description>野菜を酢漬けにします。</Make_FRMT_VegPickled.description>
+  <Make_FRMT_VegPickled.jobString>野菜を酢漬けにしている</Make_FRMT_VegPickled.jobString>
+  <!-- Pickled Fruit -->
+  <Make_FRMT_FruitPickled.label>果実の酢漬を作る</Make_FRMT_FruitPickled.label>
+  <Make_FRMT_FruitPickled.description>果実を酢漬けにします。</Make_FRMT_FruitPickled.description>
+  <Make_FRMT_FruitPickled.jobString>果実を酢漬けにしている</Make_FRMT_FruitPickled.jobString>
+  <!-- Pickled Fungi -->
+  <Make_FRMT_FungiPickled.label>キノコの酢漬を作る</Make_FRMT_FungiPickled.label>
+  <Make_FRMT_FungiPickled.description>キノコを酢漬けにします。</Make_FRMT_FungiPickled.description>
+  <Make_FRMT_FungiPickled.jobString>キノコを酢漬けにしている</Make_FRMT_FungiPickled.jobString>
+</LanguageData>

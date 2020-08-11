@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pickled Veg -->
+  <FRMT_VegPickled.label>Eingelegtes Gemüse</FRMT_VegPickled.label>
+  <FRMT_VegPickled.description>In Essig eingelegtes Gemüse zum konservieren.</FRMT_VegPickled.description>
+  <!-- Pickled Fruit -->
+  <FRMT_FruitPickled.label>Eingelegte Früchte</FRMT_FruitPickled.label>
+  <FRMT_FruitPickled.description>In Essig eingelegte Früchte zum konservieren.</FRMT_FruitPickled.description>
+  <!-- Pickled Fungi -->
+  <FRMT_FungiPickled.label>Eingelegte Pilze</FRMT_FungiPickled.label>
+  <FRMT_FungiPickled.description>In Essig eingelegte Pilze zum konservieren.</FRMT_FungiPickled.description>
+</LanguageData>

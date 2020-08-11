@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_NaturalYoghurt</defName>
+    <label>Natural Yoghurt</label>
+    <description>Yoghurt, also spelled yogurt, yogourt or yoghourt, is a food produced by bacterial fermentation of milk. The bacteria used to make yoghurt are known as yoghurt cultures. The fermentation of lactose by these bacteria produces lactic acid, which acts on milk protein to give yoghurt its texture and characteristic tart flavor.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_NaturalYoghurt/FRMT_NaturalYoghurt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>7.0</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Nutrition>0.3</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.04</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <tasteThought>AteFRMTYoghurt</tasteThought>
+    </ingestible>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_FruitYoghurt</defName>
+    <label>Fruit Yoghurt</label>
+    <description>Fruit Yoghurt, a mix of natural Yoghurt and fruits.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_FruitYoghurt/FRMT_FruitYoghurt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>8.0</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Nutrition>0.35</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.05</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+      <tasteThought>AteFRMTYoghurt</tasteThought>
+    </ingestible>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>18</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThoughtDef>
+    <defName>AteFRMTYoghurt</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>0.5</durationDays>
+    <stackLimit>2</stackLimit>
+    <stages>
+      <li>
+        <label>ate yoghurt</label>
+        <description>Hmm, so creamy.</description>
+        <baseMoodEffect>+2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <JoyGiverDef>
+    <defName>FRMTEatYoghurt</defName>
+    <giverClass>JoyGiver_Ingest</giverClass>
+    <baseChance>4.0</baseChance>
+    <pctPawnsEverDo>0.4</pctPawnsEverDo>
+    <thingDefs>
+      <li>FRMT_NaturalYoghurt</li>
+      <li>FRMT_FruitYoghurt</li>
+    </thingDefs>
+    <joyKind>Meditative</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Eating</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>FRMT_PrecursorYoghurt</defName>
+    <label>Yoghurt Precursor</label>
+    <description>A preperation made from natural animal milk and lactose bacteria. Used to ferment into natural yoghurt</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorYoghurt/FRMT_PrecursorYoghurt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>3.25</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>Processed</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_FRMT_PrecursorYoghurt</defName>
+    <label>make Yoghurt Precursor</label>
+    <description>Make Yoghurt precursor from milk and lactose bacteria.</description>
+    <jobString>Making yoghurt precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+            <li>FRMT_PastMilk</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_LacticAcidBacteria</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+        <li>FRMT_PastMilk</li>
+        <li>FRMT_LacticAcidBacteria</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorYoghurt>25</FRMT_PrecursorYoghurt>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_FRMT_FruitYoghurt</defName>
+    <label>make fruit yoghurt</label>
+    <description>Make fruit yoghurt from natural yoghurt and fruits</description>
+    <jobString>Making fruit yoghurt.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>300</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_NaturalYoghurt</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+            <li>RawAgave</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FRMT_NaturalYoghurt</li>
+        <li>RawBerries</li>
+        <li>RawAgave</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_FruitYoghurt>5</FRMT_FruitYoghurt>
+    </products>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

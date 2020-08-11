@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Churn -->
+  <FRMT_Churn.label>かくはん器</FRMT_Churn.label>
+  <FRMT_Churn.description>液体を他の製品に入れて撹拌するのに使う手動式の機械装置です。</FRMT_Churn.description>
+  <Blueprint_FRMT_Churn.label>かくはん器 (設計)</Blueprint_FRMT_Churn.label>
+  <Blueprint_Install_FRMT_Churn.label>かくはん器 (移動先)</Blueprint_Install_FRMT_Churn.label>
+  <Frame_FRMT_Churn.label>かくはん器 (施工)</Frame_FRMT_Churn.label>
+  <Frame_FRMT_Churn.description>液体を他の製品に入れて撹拌するのに使う手動式の機械装置です。</Frame_FRMT_Churn.description>
+</LanguageData>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fermenter.Name>Fermenter</Fermenter.Name>
+  <Fermenter.NoIngredients>Kann keine {0} finden für den Fermenter</Fermenter.NoIngredients>
+  <!--  Check defs -->
+  <Fermenter.product>Prdukt</Fermenter.product>
+  <Fermenter.resource>Ressource</Fermenter.resource>
+  <Fermenter.spoilprod>Verdorbenes Produkt</Fermenter.spoilprod>
+  <Fermenter.ErrThing>FermentDef: {0} hat eine Zutat {1} ( {2} ) die nicht definiert ist.</Fermenter.ErrThing>
+  <Fermenter.prodIngest>Produkt nicht als einnehmbar definiert.</Fermenter.prodIngest>
+  <Fermenter.ErrThingIng>FermentDef: {0} hat ein Produkt: ( {2} ) welches {1} ist.</Fermenter.ErrThingIng>
+  <Fermenter.ErrResearch>FermentDef: {0} hat ein Forschungsobjekt ( {1} ) welches nicht definiert ist.</Fermenter.ErrResearch>
+  <Fermenter.WarnLowHrs>FermentDef: {0} hat einen niedrigen Gärdauerwert von {1} Stunden. Bitte überprüfen Sie die Details auf einen Wert, der am besten höher als ist {2}. Wert wird korrigiert.</Fermenter.WarnLowHrs>
+  <Fermenter.WarnHighHrs>FermentDef: {0} hat einen hohen Gärdauerwert von {1} Stunden. Bitte überprüfen Sie die Details auf einen Wert, der am besten niedrieger als {2} ist .</Fermenter.WarnHighHrs>
+  <Fermenter.CheckProcess>Fermenter hat  {0} Fermentationsdefinitionen gefunden.</Fermenter.CheckProcess>
+  <!--  Fermenter -->
+  <Fermenter.Select>Wähle Produkt</Fermenter.Select>
+  <Fermenter.SelectDesc>Fermentationsprodukt auswählen.</Fermenter.SelectDesc>
+  <Fermenter.SelNone>Kein Produkt</Fermenter.SelNone>
+  <Fermenter.MakeProcess>Produziere {0} aus {1}.</Fermenter.MakeProcess>
+  <Fermenter.BatchLabel>(Stapel:{0})</Fermenter.BatchLabel>
+  <Fermenter.SelectBatchLimit>Wähle Stapelgröße</Fermenter.SelectBatchLimit>
+  <Fermenter.StockLabel>(Limit:{0}, ({1}%))</Fermenter.StockLabel>
+  <Fermenter.StockLabelNL>( Kein Limit )</Fermenter.StockLabelNL>
+  <Fermenter.SelectStockLimit>Wähle Produktionslimit</Fermenter.SelectStockLimit>
+  <Fermenter.StockNoLimit>Kein Limit</Fermenter.StockNoLimit>
+  <Fermenter.Production>Produktion</Fermenter.Production>
+  <Fermenter.ProductionDesc>Produktion umschalten</Fermenter.ProductionDesc>
+  <Fermenter.ProdNoProd>(Kein Produkt ausgewählt)</Fermenter.ProdNoProd>
+  <Fermenter.ProdStopped>(Angehalten)</Fermenter.ProdStopped>
+  <Fermenter.Cancel>Abbrechen</Fermenter.Cancel>
+  <Fermenter.DoNothing>Nichts tun</Fermenter.DoNothing>
+  <Fermenter.SelCancel>Stornierung der Charge.</Fermenter.SelCancel>
+  <Fermenter.InvalidCancelStatus>Kann eine Charge nur während des Füllens oder der Gärung stornieren.</Fermenter.InvalidCancelStatus>
+  <Fermenter.WaitChange>Produkt kann grade nicht geändert werden. </Fermenter.WaitChange>
+  <Fermenter.IsProducingATM> Produktion im Gange</Fermenter.IsProducingATM>
+  <Fermenter.HasProductOrSpoilWait>Ein Produkt oder verdorbene Materialien entleeren.</Fermenter.HasProductOrSpoilWait>
+  <Fermenter.SpoiledMsg> Fermenterinhalt ist verdorben.</Fermenter.SpoiledMsg>
+  <Fermenter.tempfine>Gute</Fermenter.tempfine>
+  <Fermenter.tempbad>Schlechte</Fermenter.tempbad>
+  <Fermenter.temppoor>Verbesserungswürdige</Fermenter.temppoor>
+  <Fermenter.tempregulated>wird reguliert</Fermenter.tempregulated>
+  <Fermenter.tempwarning> {0} Temperatur für die Fermentation</Fermenter.tempwarning>
+  <Fermenter.tempmsg>Umgebungstemperatur: {0} Grad Celcius, {1}.</Fermenter.tempmsg>
+  <!--  Status -->
+  <Fermenter.Idle>Leerlauf</Fermenter.Idle>
+  <Fermenter.WaitFill>Füllen</Fermenter.WaitFill>
+  <Fermenter.Fermenting>Fermentieren</Fermenter.Fermenting>
+  <Fermenter.WaitEmpty>Entleeren</Fermenter.WaitEmpty>
+  <Fermenter.Cleaning>Säubern</Fermenter.Cleaning>
+  <Fermenter.Stopped>Gestoppt</Fermenter.Stopped>
+  <Fermenter.Spoiled>Verdorben</Fermenter.Spoiled>
+  <Fermenter.Resetting>Zurücksetzen</Fermenter.Resetting>
+  <Fermenter.Cancelling>Abbrechen</Fermenter.Cancelling>
+</LanguageData>

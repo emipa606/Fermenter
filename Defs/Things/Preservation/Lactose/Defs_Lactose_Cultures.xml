@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_LacticAcidBacteria</defName>
+    <label>Lactic Acid Bacteria</label>
+    <description>Lactic acid bacterium sourced from the fermentation of carbohydrates.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_LacticAcidBacteria</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1.25</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Resources</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>8</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>FRMT_StarchMash</defName>
+    <label>Starch Mash</label>
+    <description>Starchy vegetables that has been crudely chopped into a mash. Can be fermented into lactic acid bacteria.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_StarchMash/FRMT_StarchMash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.70</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>4.0</DeteriorationRate>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_FRMT_StarchMash</defName>
+    <label>make starch mash</label>
+    <description>Make starch mash from vegetables.</description>
+    <jobString>Making starch mash.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPotatoes</li>
+            <li>RawRice</li>
+            <li>RawCorn</li>
+          </thingDefs>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawPotatoes</li>
+        <li>RawRice</li>
+        <li>RawCorn</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_StarchMash>25</FRMT_StarchMash>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+      <li>FRMT_OilPress</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

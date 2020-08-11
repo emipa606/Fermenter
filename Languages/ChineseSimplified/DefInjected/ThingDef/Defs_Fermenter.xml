@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fermenter.label>发酵器</Fermenter.label>
+  <Fermenter.description>大型快速发酵/加工设备。具备自控温功能。</Fermenter.description>
+  <Fermenter_Blueprint.label>发酵器(蓝图)</Fermenter_Blueprint.label>
+  <Fermenter_Blueprint_Install.label>发酵器(蓝图)</Fermenter_Blueprint_Install.label>
+  <Fermenter_Frame.label>发酵器(建造中)</Fermenter_Frame.label>
+  <Fermenter_Frame.description>大型快速发酵/加工设备。具备自控温功能。</Fermenter_Frame.description>
+</LanguageData>

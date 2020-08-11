@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Fermentation Buildings -->
+  <FermenterVat.label>発酵桶</FermenterVat.label>
+  <FermenterVat.description>原始的な発酵用の桶を建設できるようになります。大きな木製の発酵容器です。</FermenterVat.description>
+  <Fermenter.label>発酵タンク</Fermenter.label>
+  <Fermenter.description>発酵タンクを建設できるようになります。発酵食品を作るための自動機械です。</Fermenter.description>
+  <!-- Oil plants and trees -->
+  <FRMT_OilPlants.label>オイル作物</FRMT_OilPlants.label>
+  <FRMT_OilPlants.description>オイルが取れる作物を栽培できるようになります。</FRMT_OilPlants.description>
+  <FRMT_OilTrees.label>オイルツリー</FRMT_OilTrees.label>
+  <FRMT_OilTrees.description>オイルを取れる木を栽培できるようになります。</FRMT_OilTrees.description>
+</LanguageData>

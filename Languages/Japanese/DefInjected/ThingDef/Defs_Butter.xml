@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_Butter.label>バター</FRMT_Butter.label>
+  <FRMT_Butter.description>バターは乳脂肪分の多い乳製品で、冷やして常温で固めます。一般的には、食べ物と一緒に焼いたり、バターソースを作ったり、フライパンで焼いたりする料理のほか、パンを焼いたりトーストしたパン製品のスフレや調理した野菜の味付けとして用いられます。</FRMT_Butter.description>
+  <FRMT_Butter.ingestible.ingestCommandString>{0}を消費</FRMT_Butter.ingestible.ingestCommandString>
+  <FRMT_Butter.ingestible.ingestReportString>{0}を消費している</FRMT_Butter.ingestible.ingestReportString>
+  <FRMT_PrecursorButter.label>バター用乳脂肪</FRMT_PrecursorButter.label>
+  <FRMT_PrecursorButter.description>バターを作るために発酵槽で使用するミルクと植物油の混合物です。</FRMT_PrecursorButter.description>
+</LanguageData>

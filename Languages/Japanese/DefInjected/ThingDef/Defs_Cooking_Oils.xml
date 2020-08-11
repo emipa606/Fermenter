@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Oils -->
+  <FRMT_CornOil.label>コーン油</FRMT_CornOil.label>
+  <FRMT_CornOil.description>コーン油（トウモロコシ油）は、コーン（トウモロコシ）の胚芽から抽出された油です。その主な用途は調理用で、その高い沸点は精製したコーンオイルを貴重なフライ用オイルにします。コーン油は一般的に他のどんな種類の植物油よりも安価です。</FRMT_CornOil.description>
+  <FRMT_CornOil.ingestible.ingestCommandString>{0}を消費する</FRMT_CornOil.ingestible.ingestCommandString>
+  <FRMT_CornOil.ingestible.ingestReportString>{0}を消費中</FRMT_CornOil.ingestible.ingestReportString>
+  <FRMT_OliveOil.label>オリーブ油</FRMT_OliveOil.label>
+  <FRMT_OliveOil.description>オリーブオイルは、伝統的な果樹農作物であるオリーブ（学名オリブ・ユーロピアの果実・モクセイ科）から得られる液体です。フライ用やサラダドレッシングなど様々な料理でよく使用されます。</FRMT_OliveOil.description>
+  <FRMT_OliveOil.ingestible.ingestCommandString>{0}を消費する</FRMT_OliveOil.ingestible.ingestCommandString>
+  <FRMT_OliveOil.ingestible.ingestReportString>{0}を消費中</FRMT_OliveOil.ingestible.ingestReportString>
+  <FRMT_SesameOil.label>ゴマ油</FRMT_SesameOil.label>
+  <FRMT_SesameOil.description>ゴマ油はゴマの種子から採れる食用植物油です。食用油として使用されるほかに多くの料理で風味を高めるのに使われ、独特の香りと味が特徴です。</FRMT_SesameOil.description>
+  <FRMT_SesameOil.ingestible.ingestCommandString>{0}を消費する</FRMT_SesameOil.ingestible.ingestCommandString>
+  <FRMT_SesameOil.ingestible.ingestReportString>{0}を消費中</FRMT_SesameOil.ingestible.ingestReportString>
+  <FRMT_SunflowerOil.label>ヒマワリ油</FRMT_SunflowerOil.label>
+  <FRMT_SunflowerOil.description>ひまわり油は、ひまわり（ヘリアンサス=アニュアス）の種子から圧搾された不揮発性の植物油です。ひまわり油は一般的にフライ用として揚げ物料理に使われます。</FRMT_SunflowerOil.description>
+  <FRMT_SunflowerOil.ingestible.ingestCommandString>{0}を消費する</FRMT_SunflowerOil.ingestible.ingestCommandString>
+  <FRMT_SunflowerOil.ingestible.ingestReportString>{0}を消費中</FRMT_SunflowerOil.ingestible.ingestReportString>
+  <!-- Oil Precursors -->
+  <FRMT_PrecursorCornOil.label>コーン植物油脂</FRMT_PrecursorCornOil.label>
+  <FRMT_PrecursorCornOil.description>トウモロコシの実から植物性油を取るために発酵容器で使用するトウモロコシと有機溶媒の混合物です。</FRMT_PrecursorCornOil.description>
+  <FRMT_PrecursorOliveOil.label>オリーブ植物油脂</FRMT_PrecursorOliveOil.label>
+  <FRMT_PrecursorOliveOil.description>オリーブの実から植物性油を取るために発酵容器で使用するオリーブと有機溶媒の混合物です。</FRMT_PrecursorOliveOil.description>
+  <FRMT_PrecursorSesameOil.label>ゴマ植物油脂</FRMT_PrecursorSesameOil.label>
+  <FRMT_PrecursorSesameOil.description>ゴマの種子から植物性油を取るために発酵容器で使用するゴマと有機溶媒の混合物です。</FRMT_PrecursorSesameOil.description>
+  <FRMT_PrecursorSunflowerOil.label>ヒマワリ植物油脂</FRMT_PrecursorSunflowerOil.label>
+  <FRMT_PrecursorSunflowerOil.description>ヒマワリの種子から植物性油を取るために発酵容器で使用するヒマワリと有機溶媒の混合物です。</FRMT_PrecursorSunflowerOil.description>
+  <!-- Hexane -->
+  <RPHexane.label>有機溶媒</RPHexane.label>
+  <RPHexane.description>有機溶媒のヘキサンは、化学式C6H14で炭素6個のアルカン群の呼称としてアルカンと呼びます。沸点が50℃から70℃で常温なら無色透明で、液体の純粋100%なら無臭です。これらは安価に作られて比較的安全でほとんど引火せず、蒸発しやすい非極性溶媒として広く使用されています。</RPHexane.description>
+</LanguageData>

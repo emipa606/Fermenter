@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>Fermenter</defName>
+    <label>Fermenter</label>
+    <description>A large powered fermentation/processing machine. It provides it's own temperature regulation.</description>
+    <graphicData>
+      <texPath>Things/Building/Fermenter/Fermenter</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <size>(3,2)</size>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.85</fillPercent>
+    <blockWind>false</blockWind>
+    <pathCost>85</pathCost>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>150</Mass>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="Fermenter.CompProperties_Ferment">
+        <totalSpoilTicks>65000</totalSpoilTicks>
+        <cleanHours>2.0</cleanHours>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <thingClass>Fermenter.Building_Fermenter</thingClass>
+    <tickerType>Normal</tickerType>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <hasInteractionCell>false</hasInteractionCell>
+    <canOverlapZones>false</canOverlapZones>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>Fermenter</li>
+    </researchPrerequisites>
+    <techLevel>Industrial</techLevel>
+  </ThingDef>
+</Defs>

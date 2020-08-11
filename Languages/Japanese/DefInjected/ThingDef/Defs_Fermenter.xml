@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fermenter.label>発酵タンク</Fermenter.label>
+  <Fermenter.description>電気式の大型発酵加工機械です。機械自身で温度調節が可能です。</Fermenter.description>
+  <Blueprint_Fermenter.label>発酵タンク (設計)</Blueprint_Fermenter.label>
+  <Blueprint_Install_Fermenter.label>発酵タンク (移動先)</Blueprint_Install_Fermenter.label>
+  <Frame_Fermenter.label>発酵タンク (施工)</Frame_Fermenter.label>
+  <Frame_Fermenter.description>電気式の大型発酵加工機械です。機械自身で温度調節が可能です。</Frame_Fermenter.description>
+</LanguageData>

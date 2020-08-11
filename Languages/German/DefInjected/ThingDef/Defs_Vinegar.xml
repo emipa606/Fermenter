@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_Vinegar.label>Essig</FRMT_Vinegar.label>
+  <FRMT_Vinegar.description>Essig ist eine wässrige Lösung von Essigsäure und Spurenchemikalien, die Aromastoffe enthalten können. Gewöhnlich wird die Essigsäure durch Fermentation von Alkohol oder Zucker durch Essigsäurebakterien hergestellt.</FRMT_Vinegar.description>
+  <FRMT_PrecursorVinegar.label>Essigvorstufe</FRMT_PrecursorVinegar.label>
+  <FRMT_PrecursorVinegar.description>Eine Mischung aus Alkohol und Essigsäurebakterien, aus denen Essig fermentiert wird.</FRMT_PrecursorVinegar.description>
+  <FRMT_AceticAcidBacteria.label>Essigsäurebakterien</FRMT_AceticAcidBacteria.label>
+  <FRMT_AceticAcidBacteria.description>Essigsäurebakterien sind in der Luft und in der Natur allgegenwärtig. Sie sind in Umgebungen aktiv, in denen Alkohol als Produkt der Fermentation von Zuckern gebildet wird. Sie können aus dem Blütennektar und aus geschädigten Früchten isoliert werden.</FRMT_AceticAcidBacteria.description>
+  <FRMT_DamagedFruitMash.label>Fruchtbrei</FRMT_DamagedFruitMash.label>
+  <FRMT_DamagedFruitMash.description>Früchte, die grob gehackt und zu Brei gepresst wurde. Kann zu Essigsäurebakterien fermentiert werden.</FRMT_DamagedFruitMash.description>
+</LanguageData>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SeedsPlease</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Olive -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_FRMT_Olives</defName>
+              <label>olive seed</label>
+              <sources>
+                <li>Plant_FRMT_OliveTree</li>
+              </sources>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_FRMT_Olives</defName>
+              <label>extract olive seeds</label>
+              <description>Extract seeds from olives.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_Olives</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_Olives</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_FRMT_Olives>5</Seed_FRMT_Olives>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sesame -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_FRMT_Sesame</defName>
+              <label>sesame seeds</label>
+              <sources>
+                <li>Plant_FRMT_Sesame</li>
+              </sources>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_FRMT_Sesame</defName>
+              <label>extract sesame seeds</label>
+              <description>Extract seeds from sesame.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SesameSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SesameSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_FRMT_Sesame>5</Seed_FRMT_Sesame>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sunflower -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_FRMT_Sunflower</defName>
+              <label>Sunflower seeds</label>
+              <sources>
+                <li>Plant_FRMT_Sunflower</li>
+              </sources>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_FRMT_Sunflower</defName>
+              <label>extract sunflower seeds</label>
+              <description>Extract seeds from sunflower.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SunflowerSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SunflowerSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_FRMT_Sunflower>5</Seed_FRMT_Sunflower>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

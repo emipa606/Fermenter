@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FRMT_OilBase">
+    <defName>FRMT_Butter</defName>
+    <label>Butter</label>
+    <description>Butter is a dairy product with high butterfat content which is solid when chilled and at room temperature. It is generally used as a spread on plain or toasted bread products and a condiment on cooked vegetables, as well as in cooking, such as baking, sauce making, and pan frying.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_Butter/FRMT_Butter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>11.5</MarketValue>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>25</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_PrecursorButter</defName>
+    <label>Butter Precursor</label>
+    <description>A mix of milk and vegetable oil to be used in a fermentation vessel to make butter.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorButter/FRMT_PrecursorButter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>9.92</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.2</DeteriorationRate>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_FRMT_ButterPrecursor</defName>
+    <label>make butter precursor</label>
+    <description>Make butter precursor from milk and vegetable oil.</description>
+    <jobString>Making butter precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>750</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+            <li>FRMT_PastMilk</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_CornOil</li>
+            <li>FRMT_OliveOil</li>
+            <li>FRMT_SesameOil</li>
+            <li>FRMT_SunflowerOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+        <li>FRMT_PastMilk</li>
+        <li>FRMT_CornOil</li>
+        <li>FRMT_OliveOil</li>
+        <li>FRMT_SesameOil</li>
+        <li>FRMT_SunflowerOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorButter>10</FRMT_PrecursorButter>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+</Defs>

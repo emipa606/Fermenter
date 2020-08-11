@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fermenter.label>Fermenter</Fermenter.label>
+  <Fermenter.description>Eine große vollautomatische Fermentations-/ Verarbeitungsmaschine. Sie bietet eine eigene Temperaturregelung.</Fermenter.description>
+  <Fermenter_Blueprint.label>Fermenter (Entwurf)</Fermenter_Blueprint.label>
+  <Fermenter_Blueprint_Install.label>Fermenter (Entwurf)</Fermenter_Blueprint_Install.label>
+  <Fermenter_Frame.label>Fermenter (im Bau)</Fermenter_Frame.label>
+  <Fermenter_Frame.description>Eine große vollautomatische Fermentations-/ Verarbeitungsmaschine. Sie bietet eine eigene Temperaturregelung.</Fermenter_Frame.description>
+</LanguageData>

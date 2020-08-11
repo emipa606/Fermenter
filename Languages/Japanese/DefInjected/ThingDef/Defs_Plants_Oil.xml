@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Olives -->
+  <Plant_FRMT_OliveTree.label>オリーブの木</Plant_FRMT_OliveTree.label>
+  <Plant_FRMT_OliveTree.description>学名オリブ・ユーロピアとして知られるオリーブの木はモクセイ科植物の一種です。</Plant_FRMT_OliveTree.description>
+  <FRMT_Olives.label>オリーブ</FRMT_Olives.label>
+  <FRMT_Olives.description>オリーブとも呼ばれるオリーブの実はオリーブ油が採れる重要な農作物です。その樹木と果実はライラックやジャスミンやレンギョウやトリネコ（学名フラクシヌス）などの種を含む植物科属します。</FRMT_Olives.description>
+  <!-- Sesame -->
+  <Plant_FRMT_Sesame.label>ゴマ</Plant_FRMT_Sesame.label>
+  <Plant_FRMT_Sesame.description>ゴマは、ベネとも呼ばれるゴマ科ゴマ属の一年草です。アフリカのサバンナや熱帯で野生種が広く自生しており、その食用種子のために栽培もされています。</Plant_FRMT_Sesame.description>
+  <FRMT_SesameSeeds.label>ゴマの種子</FRMT_SesameSeeds.label>
+  <FRMT_SesameSeeds.description>ゴマの種子は、人類史で最も古い農作物の1つであり、干ばつのような気候条件にも耐性があって他の作物が育たない場所でも成長します。豊な香りと独特の風味があり、料理では一般的に使われます。</FRMT_SesameSeeds.description>
+  <!-- Sunflower -->
+  <Plant_FRMT_Sunflower.label>ヒマワリ</Plant_FRMT_Sunflower.label>
+  <Plant_FRMT_Sunflower.description>学名ヘリアンサス=アニュアスは、約70種を含むヒマワリ属の植物です。一般的な名前「ヒマワリ」と「サンフラワー」は、通常一年草のヒマワリを指します。</Plant_FRMT_Sunflower.description>
+  <FRMT_SunflowerSeeds.label>ヒマワリの種子</FRMT_SunflowerSeeds.label>
+  <FRMT_SunflowerSeeds.description>ヒマワリの種は、ヒマワリ（学名ヘリアンサス=アニュアス）の果実です。実は「ヒマワリの種子」という呼び方は、その果皮（外皮）が付いたままの状態を指す場合は誤った呼び名です。植物学的に言えばそれは痩果(そうか)です。外皮をむいたとき、残った中身がヒマワリの種子の本体または実と呼ばれます。</FRMT_SunflowerSeeds.description>
+</LanguageData>

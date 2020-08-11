@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsFRMTChurn</defName>
+    <label>Churn</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>20</priorityInType>
+    <fixedBillGiverDefs>
+      <li>FRMT_Churn</li>
+    </fixedBillGiverDefs>
+    <verb>churn products</verb>
+    <gerund>churning products at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <!-- Churn -->
+  <ThingDef ParentName="BenchBase">
+    <defName>FRMT_Churn</defName>
+    <label>Churn</label>
+    <description>A manual device used to agitate liquids into other products.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Building/Churn/FRMT_Churn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--<shaderType>CutoutComplex</shaderType>-->
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories Inherit="false">
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <fillPercent>0.50</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <Mass>5</Mass>
+      <WorkToBuild>2500</WorkToBuild>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>65</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>FRMT_OilPlants</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

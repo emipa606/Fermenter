@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--  Oils  -->
+  <ThingDef Name="FRMT_OilBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <techLevel>Neolithic</techLevel>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <Mass>0.03</Mass>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <ingestible>
+      <tasteThought>AteRawFood</tasteThought>
+      <ingestCommandString>Consume {0}</ingestCommandString>
+      <ingestReportString>Consuming {0}.</ingestReportString>
+      <foodType>Processed</foodType>
+      <preferability>NeverForNutrition</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <useEatingSpeedStat>true</useEatingSpeedStat>
+      <baseIngestTicks>120</baseIngestTicks>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <thingCategories>
+      <li>FRMT_Oils</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="FRMT_OilBase">
+    <defName>FRMT_CornOil</defName>
+    <label>Corn Oil</label>
+    <description>Corn oil (maize oil) is oil extracted from the germ of corn (maize). Its main use is in cooking, where its high smoke point makes refined corn oil a valuable frying oil. Corn oil is generally less expensive than most other types of vegetable oils.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_CornOil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.44</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FRMT_OilBase">
+    <defName>FRMT_OliveOil</defName>
+    <label>Olive Oil</label>
+    <description>Olive oil is a liquid obtained from olives (the fruit of Olea europaea; family Oleaceae), a traditional tree crop. It is commonly used in cooking, whether for frying or as a salad dressing.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_OliveOil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>8.64</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FRMT_OilBase">
+    <defName>FRMT_SesameOil</defName>
+    <label>Sesame Oil</label>
+    <description>Sesame oil is an edible vegetable oil derived from sesame seeds. Besides being used as a cooking oil, it is used as a flavor enhancer in many cuisines, having a distinctive nutty aroma and taste.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_SesameOil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>8.04</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="FRMT_OilBase">
+    <defName>FRMT_SunflowerOil</defName>
+    <label>Sunflower Oil</label>
+    <description>Sunflower oil is the non-volatile oil pressed from the seeds of sunflower (Helianthus annuus). Sunflower oil is commonly used in food as a frying oil.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_SunflowerOil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.74</MarketValue>
+    </statBases>
+  </ThingDef>
+  <!--  Oil Precursors -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_PrecursorCornOil</defName>
+    <label>Corn Oil Precursor</label>
+    <description>A mixture of corn and solvent to be used in a fermentation vessel to derive the associated vegetable oil.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorCornOil/FRMT_PrecursorCornOil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>2.48</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>0.7</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_PrecursorOliveOil</defName>
+    <label>Olive Oil Precursor</label>
+    <description>A mixture of olives and solvent to be used in a fermentation vessel to derive the associated vegetable oil.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorOliveOil/FRMT_PrecursorOliveOil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>2.88</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>150</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_PrecursorSesameOil</defName>
+    <label>Sesame Oil Precursor</label>
+    <description>A mixture of sesame seeds and solvent to be used in a fermentation vessel to derive the associated vegetable oil.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorSesameOil/FRMT_PrecursorSesameOil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>2.68</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>180</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_PrecursorSunflowerOil</defName>
+    <label>Sunflower Oil Precursor</label>
+    <description>A mixture of sunflower seeds and solvent to be used in a fermentation vessel to derive the associated vegetable oil.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorSunflowerOil/FRMT_PrecursorSunflowerOil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>2.58</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>180</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <!--  Oil precursor recipes -->
+  <RecipeDef>
+    <defName>Make_FRMT_CornOilPrecursor</defName>
+    <label>make corn oil precursor</label>
+    <description>Make corn oil precursor from corn and solvent.</description>
+    <jobString>Making corn oil precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCorn</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RPHexane</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawCorn</li>
+        <li>RPHexane</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorCornOil>25</FRMT_PrecursorCornOil>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_FRMT_OliveOilPrecursor</defName>
+    <label>make olive oil precursor</label>
+    <description>Make olive oil precursor from olives and solvent.</description>
+    <jobString>Making olive oil precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_Olives</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RPHexane</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FRMT_Olives</li>
+        <li>RPHexane</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorOliveOil>25</FRMT_PrecursorOliveOil>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilTrees</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_FRMT_SesameOilPrecursor</defName>
+    <label>make sesame oil precursor</label>
+    <description>Make sesame oil precursor from sesame seeds and solvent.</description>
+    <jobString>Making sesame oil precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1100</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_SesameSeeds</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RPHexane</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FRMT_SesameSeeds</li>
+        <li>RPHexane</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorSesameOil>25</FRMT_PrecursorSesameOil>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_FRMT_SunflowerOilPrecursor</defName>
+    <label>make sunflower oil precursor</label>
+    <description>Make sunflower oil precursor from sunflower seeds and solvent.</description>
+    <jobString>Making sunflower oil precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1100</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_SunflowerSeeds</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RPHexane</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FRMT_SunflowerSeeds</li>
+        <li>RPHexane</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorSunflowerOil>25</FRMT_PrecursorSunflowerOil>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+  <!--  Hexane -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>RPHexane</defName>
+    <label>Hexane</label>
+    <description>Hexane is an alkane of six carbon atoms, with the chemical formula C6H14. A colorless liquid, odorless when pure, with boiling points between 50 and 70 °C (122 and 158 °F). They are widely used as cheap, relatively safe, largely unreactive, and easily evaporated non-polar solvents.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Resource/RPHexane</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>6.9</MarketValue>
+      <Mass>0.07</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Resources</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeRPHexane</defName>
+    <label>Make Hexane</label>
+    <description>Make 25 Hexane</description>
+    <jobString>Making Hexane</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workSkill>Intellectual</workSkill>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RPHexane>25</RPHexane>
+    </products>
+    <recipeUsers Inherit="false">
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
+  </RecipeDef>
+</Defs>

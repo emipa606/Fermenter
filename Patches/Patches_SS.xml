@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Social Supplements</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>SSChilliPeppers</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>SSChilliPeppers</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>SSChilliPeppers</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>SSChilliPeppers</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>SSMorel</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>SSMorel</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>SSMorel</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>SSMorel</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+            <value>
+              <li>SSMorel</li>
+              <li>SSGlucose</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>SSMorel</li>
+                <li>SSGlucose</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+            <value>
+              <li>SSMorel</li>
+              <li>SSGlucose</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>SSMorel</li>
+                <li>SSGlucose</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

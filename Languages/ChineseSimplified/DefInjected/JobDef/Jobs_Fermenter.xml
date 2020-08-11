@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FillFermenter.reportString>装填 TargetA.</FillFermenter.reportString>
+  <TakeProductFermenter.reportString>从 TargetA 中取出产物。</TakeProductFermenter.reportString>
+</LanguageData>

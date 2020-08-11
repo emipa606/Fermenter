@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AteFRMTCheese.stages.ate_cheese.label>チーズを食べた</AteFRMTCheese.stages.ate_cheese.label>
+  <AteFRMTCheese.stages.ate_cheese.description>うーん、酸味を感じる。</AteFRMTCheese.stages.ate_cheese.description>
+  <AteFRMTCheeseGood.stages.ate_mozzarella_cheese.label>モッツァレラを食べた</AteFRMTCheeseGood.stages.ate_mozzarella_cheese.label>
+  <AteFRMTCheeseGood.stages.ate_mozzarella_cheese.description>うーん、とてもクリーミーで酸味があります。</AteFRMTCheeseGood.stages.ate_mozzarella_cheese.description>
+  <AteFRMTCheeseSpecial.stages.ate_matured_cheese.label>熟成チーズを食べた</AteFRMTCheeseSpecial.stages.ate_matured_cheese.label>
+  <AteFRMTCheeseSpecial.stages.ate_matured_cheese.description>うーん、濃厚でクリーミーな酸味があります。</AteFRMTCheeseSpecial.stages.ate_matured_cheese.description>
+</LanguageData>

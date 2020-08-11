@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_FRMT_VinegarPrecursor.label>制作半成品醋</Make_FRMT_VinegarPrecursor.label>
+  <Make_FRMT_VinegarPrecursor.description>用乙醇和醋酸杆菌酿制半成品醋。</Make_FRMT_VinegarPrecursor.description>
+  <Make_FRMT_VinegarPrecursor.jobString>正在制作半成品醋。</Make_FRMT_VinegarPrecursor.jobString>
+  <!-- Acetic Acid Bacteria -->
+  <Make_FRMT_DMGFruitMash.label>制作果泥</Make_FRMT_DMGFruitMash.label>
+  <Make_FRMT_DMGFruitMash.description>用水果制作果泥。</Make_FRMT_DMGFruitMash.description>
+  <Make_FRMT_DMGFruitMash.jobString>正在制作果泥。</Make_FRMT_DMGFruitMash.jobString>
+</LanguageData>

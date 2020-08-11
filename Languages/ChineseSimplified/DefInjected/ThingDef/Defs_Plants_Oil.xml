@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Olives -->
+  <Plant_FRMT_OliveTree.label>橄榄树</Plant_FRMT_OliveTree.label>
+  <Plant_FRMT_OliveTree.description>橄榄树，学名为油橄榄，木犀科植物。</Plant_FRMT_OliveTree.description>
+  <FRMT_Olives.label>橄榄</FRMT_Olives.label>
+  <FRMT_Olives.description>橄榄树的果实，也称橄榄，是生产橄榄油的主要农作物。树与果实以其植物系名字命名，诸如此类的还包括丁香、茉莉、连翘属植物和白蜡树属植物。</FRMT_Olives.description>
+  <!-- Sesame -->
+  <Plant_FRMT_Sesame.label>芝麻</Plant_FRMT_Sesame.label>
+  <Plant_FRMT_Sesame.description>芝麻是被子植物，胡麻属，也称胡麻。因其可食用的种子而在热带地区大量种植。</Plant_FRMT_Sesame.description>
+  <FRMT_SesameSeeds.label>芝麻籽</FRMT_SesameSeeds.label>
+  <FRMT_SesameSeeds.description>芝麻籽是已知的最古老的油料作物之一，并且其耐旱性强，能在其他作物无法存活的条件下生长。坚果味十足，是菜肴中的常用材料。</FRMT_SesameSeeds.description>
+  <!-- Sunflower -->
+  <Plant_FRMT_Sunflower.label>向日葵</Plant_FRMT_Sunflower.label>
+  <Plant_FRMT_Sunflower.description>向日葵属大约包含70个物种。人们常说的"向日葵"和"普通向日葵"一般说的是常见的一年生植物向日葵，因其与叶舌相连的圆形花冠看起来像太阳而得名。</Plant_FRMT_Sunflower.description>
+  <FRMT_SunflowerSeeds.label>向日葵子</FRMT_SunflowerSeeds.label>
+  <FRMT_SunflowerSeeds.description>向日葵子是向日葵的果实。用术语"向日葵子"称呼果皮(果壳)中的种子时，这种说法实际上是错误的。从植物学上讲，向日葵子是连萼瘦果。脱壳后，其可食用的剩余物被称为葵花仁或葵花心。</FRMT_SunflowerSeeds.description>
+</LanguageData>

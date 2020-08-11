@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Oil precursor recipes -->
+  <Make_FRMT_CornOilPrecursor.label>制取半成品玉米油</Make_FRMT_CornOilPrecursor.label>
+  <Make_FRMT_CornOilPrecursor.description>用玉米和溶剂制取半成品玉米油。</Make_FRMT_CornOilPrecursor.description>
+  <Make_FRMT_CornOilPrecursor.jobString>正在制取半成品玉米油。</Make_FRMT_CornOilPrecursor.jobString>
+  <Make_FRMT_OliveOilPrecursor.label>制取半成品橄榄油</Make_FRMT_OliveOilPrecursor.label>
+  <Make_FRMT_OliveOilPrecursor.description>用橄榄和溶剂制取半成品橄榄油。</Make_FRMT_OliveOilPrecursor.description>
+  <Make_FRMT_OliveOilPrecursor.jobString>正在制取半成品橄榄油。</Make_FRMT_OliveOilPrecursor.jobString>
+  <Make_FRMT_SesameOilPrecursor.label>制取半成品芝麻油</Make_FRMT_SesameOilPrecursor.label>
+  <Make_FRMT_SesameOilPrecursor.description>用芝麻籽和溶剂制取半成品芝麻油。</Make_FRMT_SesameOilPrecursor.description>
+  <Make_FRMT_SesameOilPrecursor.jobString>正在制取半成品芝麻油。</Make_FRMT_SesameOilPrecursor.jobString>
+  <Make_FRMT_SunflowerOilPrecursor.label>制取半成品葵花籽油</Make_FRMT_SunflowerOilPrecursor.label>
+  <Make_FRMT_SunflowerOilPrecursor.description>用向日葵子和溶剂制取半成品葵花籽油。</Make_FRMT_SunflowerOilPrecursor.description>
+  <Make_FRMT_SunflowerOilPrecursor.jobString>正在制取半成品葵花籽油。</Make_FRMT_SunflowerOilPrecursor.jobString>
+  <!-- Hexane -->
+  <MakeRPHexane.label>制取己烷</MakeRPHexane.label>
+  <MakeRPHexane.description>制取25份己烷</MakeRPHexane.description>
+  <MakeRPHexane.jobString>正在制取己烷</MakeRPHexane.jobString>
+</LanguageData>

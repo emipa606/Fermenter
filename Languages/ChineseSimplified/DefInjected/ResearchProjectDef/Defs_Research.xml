@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Fermentation Buildings -->
+  <FermenterVat.label>发酵缸</FermenterVat.label>
+  <FermenterVat.description>允许你建造使用发酵缸。一个大型的木制容器。</FermenterVat.description>
+  <Fermenter.label>发酵器</Fermenter.label>
+  <Fermenter.description>允许你建造使用发酵器。一个用以加工粮食的自动化设备。</Fermenter.description>
+  <!-- Oil plants and trees -->
+  <FRMT_OilPlants.label>产油作物</FRMT_OilPlants.label>
+  <FRMT_OilPlants.description>解锁并允许你种植产油作物。</FRMT_OilPlants.description>
+  <FRMT_OilTrees.label>油果树</FRMT_OilTrees.label>
+  <FRMT_OilTrees.description>解锁并允许你种植油果树。</FRMT_OilTrees.description>
+</LanguageData>

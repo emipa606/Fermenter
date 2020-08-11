@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_FRMT_PrecursorYoghurt.label>ヨーグルトの元を作る</Make_FRMT_PrecursorYoghurt.label>
+  <Make_FRMT_PrecursorYoghurt.description>ミルクと乳酸菌からヨーグルトの元を作る。</Make_FRMT_PrecursorYoghurt.description>
+  <Make_FRMT_PrecursorYoghurt.jobString>ヨーグルトの元を製造中</Make_FRMT_PrecursorYoghurt.jobString>
+  <Make_FRMT_FruitYoghurt.label>フルーツヨーグルトを作る</Make_FRMT_FruitYoghurt.label>
+  <Make_FRMT_FruitYoghurt.description>ナチュラルヨーグルトとフルーツからフルーツヨーグルトを作る。</Make_FRMT_FruitYoghurt.description>
+  <Make_FRMT_FruitYoghurt.jobString>フルーツヨーグルトを製造中</Make_FRMT_FruitYoghurt.jobString>
+</LanguageData>

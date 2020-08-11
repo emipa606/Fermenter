@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FRMT_OilBase">
+    <defName>FRMT_InsectButter</defName>
+    <label>Insect Butter</label>
+    <description>Insect Butter is a dairy product with high butterfat content which is solid when chilled and at room temperature. It is generally used as a spread on plain or toasted bread products and a condiment on cooked vegetables, as well as in cooking, such as baking, sauce making, and pan frying. This product also utilises insect jelly as part of its ingredients whose aroma whilst cooking can confer some joy to the cook.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_InsectButter/FRMT_InsectButter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15.0</MarketValue>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>50</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_PrecursorInsectButter</defName>
+    <label>Insect Butter Precursor</label>
+    <description>A mix of milk, insect jelly and vegetable oil to be used in a fermentation vessel to make insect butter.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorInsectButter/FRMT_PrecursorInsectButter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>13.92</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_FRMT_InsectButterPrecursor</defName>
+    <label>make insect butter precursor</label>
+    <description>Make insect butter precursor from milk, insect jelly and vegetable oil.</description>
+    <jobString>Making insect butter precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+            <li>FRMT_PastMilk</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_CornOil</li>
+            <li>FRMT_OliveOil</li>
+            <li>FRMT_SesameOil</li>
+            <li>FRMT_SunflowerOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>InsectJelly</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+        <li>FRMT_PastMilk</li>
+        <li>FRMT_CornOil</li>
+        <li>FRMT_OliveOil</li>
+        <li>FRMT_SesameOil</li>
+        <li>FRMT_SunflowerOil</li>
+        <li>InsectJelly</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorInsectButter>10</FRMT_PrecursorInsectButter>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+</Defs>

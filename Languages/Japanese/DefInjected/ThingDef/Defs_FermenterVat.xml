@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FermenterVat.label>発酵桶</FermenterVat.label>
+  <FermenterVat.description>大きな発酵用の木桶です。この桶での発酵は、周囲の温度が摂氏7℃から32℃の間で安定されない場合、その中身が傷んで使い物にならなくなる可能性があります。</FermenterVat.description>
+  <Blueprint_FermenterVat.label>発酵桶 (設計)</Blueprint_FermenterVat.label>
+  <Blueprint_Install_FermenterVat.label>発酵桶 (移動先)</Blueprint_Install_FermenterVat.label>
+  <Frame_FermenterVat.label>発酵桶 (施工)</Frame_FermenterVat.label>
+  <Frame_FermenterVat.description>大きな発酵用の木桶です。この桶での発酵は、周囲の温度が摂氏7℃から32℃の間で安定されない場合、その中身が傷んで使い物にならなくなる可能性があります。</Frame_FermenterVat.description>
+</LanguageData>

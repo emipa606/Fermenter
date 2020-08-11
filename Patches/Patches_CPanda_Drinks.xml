@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>CuproPanda's Drinks</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_CPD_Whiskey</defName>
+              <Product>CPD_Whiskey</Product>
+              <Resource>CPD_CornWort</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>72.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_CPD_VodkaPrecursor</defName>
+              <Product>CPD_VodkaPrecursor</Product>
+              <Resource>RawPotatoes</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>96.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_CPD_Wine</defName>
+              <Product>CPD_Wine</Product>
+              <Resource>CPD_WineMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>120.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_CPD_GreenDragon</defName>
+              <Product>CPD_GreenDragon</Product>
+              <Resource>CPD_GreenDragonPrecursor</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>120.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_CPD_Nigori</defName>
+              <Product>CPD_Nigori</Product>
+              <Resource>CPD_RiceMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>96.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_CPD_Stout</defName>
+              <Product>CPD_Stout</Product>
+              <Resource>CPD_StoutWort</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>96.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/categories</xpath>
+            <value>
+              <li>CPD_Alcohol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <categories>
+                <li>CPD_Alcohol</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>CPD_Alcohol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>CPD_Alcohol</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

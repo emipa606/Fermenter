@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pickled Veg -->
+
+  <Make_FRMT_VegPickled.label>pickle veg</Make_FRMT_VegPickled.label>
+  <Make_FRMT_VegPickled.description>Prepare vegetables in vinegar.</Make_FRMT_VegPickled.description>
+  <Make_FRMT_VegPickled.jobString>Preparing vegetables in vinegar.</Make_FRMT_VegPickled.jobString>
+
+
+  <!-- Pickled Fruit -->
+
+  <Make_FRMT_FruitPickled.label>pickle fruits</Make_FRMT_FruitPickled.label>
+  <Make_FRMT_FruitPickled.description>Prepare fruit in vinegar.</Make_FRMT_FruitPickled.description>
+  <Make_FRMT_FruitPickled.jobString>Preparing fruit in vinegar.</Make_FRMT_FruitPickled.jobString>
+
+
+  <!-- Pickled Fungi -->
+
+  <Make_FRMT_FungiPickled.label>pickle fungi</Make_FRMT_FungiPickled.label>
+  <Make_FRMT_FungiPickled.description>Prepare fungi in vinegar.</Make_FRMT_FungiPickled.description>
+  <Make_FRMT_FungiPickled.jobString>Preparing fungi in vinegar.</Make_FRMT_FungiPickled.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Churn -->
+  <FRMT_Churn.label>Rührfass</FRMT_Churn.label>
+  <FRMT_Churn.description>Ein manuelles Gerät zum Rühren von Flüssigkeiten in andere Produkte.</FRMT_Churn.description>
+</LanguageData>

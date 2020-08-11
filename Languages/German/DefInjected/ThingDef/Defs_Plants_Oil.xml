@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Olives -->
+  <Plant_FRMT_OliveTree.label>Olivenbaum</Plant_FRMT_OliveTree.label>
+  <Plant_FRMT_OliveTree.description>Der Olivenbaum, bekannt unter dem botanischen Namen Olea europaea, ist eine Baumart aus der Familie der Oleaceae.</Plant_FRMT_OliveTree.description>
+  <FRMT_Olives.label>Oliven</FRMT_Olives.label>
+  <FRMT_Olives.description>Die Olivenfrüchte, auch Oliven genannt, sind als Olivenölquelle von großer landwirtschaftlicher Bedeutung. Der Baum und seine Früchte geben der Pflanzenfamilie ihren Namen, zu der auch Arten wie Flieder, Jasmin, Forsythien und die echten Eschen (Fraxinus) gehören.</FRMT_Olives.description>
+  <!-- Sesame -->
+  <Plant_FRMT_Sesame.label>Sesampflanze</Plant_FRMT_Sesame.label>
+  <Plant_FRMT_Sesame.description>Die Sesampflanze ist eine Blütenpflanze der Gattung Sesamum, auch Benne genannt. Es ist in tropischen Regionen weit verbreitet und wird wegen seiner essbaren Samen angebaut.</Plant_FRMT_Sesame.description>
+  <FRMT_SesameSeeds.label>Sesamsamen</FRMT_SesameSeeds.label>
+  <FRMT_SesameSeeds.description>Sesamsamen sind eine der ältesten bekannten Ölsaaten und vertragen dürreähnliche Bedingungen. Sie wachsen dort, wo andere Kulturen versagen. Es hat einen reichen, nussigen Geschmack und ist eine häufige Zutat in der Küche.</FRMT_SesameSeeds.description>
+  <!-- Sunflower -->
+  <Plant_FRMT_Sunflower.label>Sonnenblume</Plant_FRMT_Sunflower.label>
+  <Plant_FRMT_Sunflower.description>Helianthus ist eine Pflanzengattung mit etwa 70 Arten. Die gebräuchlichen Bezeichnungen "Sonnenblume" und "gemeinsame Sonnenblume" beziehen sich typischerweise auf die beliebte einjährige Art Helianthus annuus, deren runde Blütenköpfe in Kombination mit den Ligulen wie die Sonne aussehen.</Plant_FRMT_Sunflower.description>
+  <FRMT_SunflowerSeeds.label>Sonnenblumenkerne</FRMT_SunflowerSeeds.label>
+  <FRMT_SunflowerSeeds.description>Sonnenblumenkerne sind die Früchte der Sonnenblume (Helianthus annuus). Der Begriff "Sonnenblumenkern" ist tatsächlich eine Fehlbezeichnung, wenn er auf den Samen in seiner Fruchtwand (Hülle) angewendet wird. Botanisch gesehen ist es eine Cypsela. Im geschälten Zustand wird der essbare Rest als Sonnenblumenkern oder Herz bezeichnet.</FRMT_SunflowerSeeds.description>
+</LanguageData>

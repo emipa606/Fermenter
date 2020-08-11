@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FRMT_InsectButter.label>Insect Butter</FRMT_InsectButter.label>
+  <FRMT_InsectButter.description>Insect Butter is a dairy product with high butterfat content which is solid when chilled and at room temperature. It is generally used as a spread on plain or toasted bread products and a condiment on cooked vegetables, as well as in cooking, such as baking, sauce making, and pan frying. This product also utilises insect jelly as part of its ingredients whose aroma whilst cooking can confer some joy to the cook.</FRMT_InsectButter.description>
+  <FRMT_InsectButter.ingestible.ingestCommandString>Consume {0}</FRMT_InsectButter.ingestible.ingestCommandString>
+  <FRMT_InsectButter.ingestible.ingestReportString>Consuming {0}.</FRMT_InsectButter.ingestible.ingestReportString>
+
+  <FRMT_PrecursorInsectButter.label>Insect Butter Precursor</FRMT_PrecursorInsectButter.label>
+  <FRMT_PrecursorInsectButter.description>A mix of milk, insect jelly and vegetable oil to be used in a fermentation vessel to make insect butter.</FRMT_PrecursorInsectButter.description>
+
+
+</LanguageData>

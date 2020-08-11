@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>FermenterVat</defName>
+    <label>Fermenting Vat</label>
+    <description>A large fermentation vat. This vat is susceptable to spoil its contents if the ambient temperature is not maintained between 7 and 32 degrees celcius.</description>
+    <graphicData>
+      <texPath>Things/Building/FermenterVat/FermenterVat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <size>(3,3)</size>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.85</fillPercent>
+    <blockWind>false</blockWind>
+    <pathCost>85</pathCost>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>150</Mass>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costList>
+      <WoodLog>300</WoodLog>
+      <Steel>40</Steel>
+    </costList>
+    <comps>
+      <li Class="Fermenter.CompProperties_Ferment">
+        <totalSpoilTicks>65000</totalSpoilTicks>
+        <cleanHours>2.0</cleanHours>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <thingClass>Fermenter.Building_FermenterVat</thingClass>
+    <tickerType>Normal</tickerType>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <interactionCellOffset>(0,0,3)</interactionCellOffset>
+    <hasInteractionCell>false</hasInteractionCell>
+    <canOverlapZones>false</canOverlapZones>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <constructEffect>ConstructWood</constructEffect>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>FermenterVat</li>
+    </researchPrerequisites>
+    <techLevel>Medieval</techLevel>
+  </ThingDef>
+</Defs>

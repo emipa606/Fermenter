@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[RF] Fertile Fields [1.0]</li>
+      <li>Fertile Fields [1.1]</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeCompost" or defName="MakeCompost5"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <value>
+            <li>SpoilMash</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeCompost" or defName="MakeCompost5"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>SpoilMash</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeCompost" or defName="MakeCompost5"]/defaultIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>SpoilMash</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

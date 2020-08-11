@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FRMT_NaturalYoghurt.label>Natural Yoghurt</FRMT_NaturalYoghurt.label>
+  <FRMT_NaturalYoghurt.description>Yoghurt, also spelled yogurt, yogourt or yoghourt, is a food produced by bacterial fermentation of milk. The bacteria used to make yoghurt are known as yoghurt cultures. The fermentation of lactose by these bacteria produces lactic acid, which acts on milk protein to give yoghurt its texture and characteristic tart flavor.</FRMT_NaturalYoghurt.description>
+
+  <FRMT_FruitYoghurt.label>Fruit Yoghurt</FRMT_FruitYoghurt.label>
+  <FRMT_FruitYoghurt.description>Fruit Yoghurt, a mix of natural Yoghurt and fruits.</FRMT_FruitYoghurt.description>
+
+  <FRMT_PrecursorYoghurt.label>Yoghurt Precursor</FRMT_PrecursorYoghurt.label>
+  <FRMT_PrecursorYoghurt.description>A preperation made from natural animal milk and lactose bacteria. Used to ferment into natural yoghurt</FRMT_PrecursorYoghurt.description>
+
+
+</LanguageData>

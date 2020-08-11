@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase" Name="SpoilMashBase" Abstract="True">
+    <thingCategories>
+      <li>Manufactured</li>
+      <li>Foods</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <DeteriorationRate>6</DeteriorationRate>
+      <Mass>0.03</Mass>
+      <Flammability>1.3</Flammability>
+      <Nutrition>0.04</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+      <Beauty>-6</Beauty>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>22</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="SpoilMashBase">
+    <defName>SpoilMash</defName>
+    <label>Spoiled Mash</label>
+    <description>Spoiled residue resulting from partially fermented vegetable matter. Can be used as an animal feed.</description>
+    <graphicData>
+      <texPath>Things/Item/SpoilMash/SpoilMash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.3</Flammability>
+    </statBases>
+    <ingestible>
+      <optimalityOffsetFeedingAnimals>9</optimalityOffsetFeedingAnimals>
+    </ingestible>
+  </ThingDef>
+</Defs>

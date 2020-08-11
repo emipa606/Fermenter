@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Corn -->
+  <Press_FRMT_CornOil.label>コーン油を搾る</Press_FRMT_CornOil.label>
+  <Press_FRMT_CornOil.description>オイル圧搾機を使ってコーン油を25個を搾って作ります。</Press_FRMT_CornOil.description>
+  <Press_FRMT_CornOil.jobString>コーン油を圧搾中</Press_FRMT_CornOil.jobString>
+  <!-- Olive -->
+  <Press_FRMT_OliveOil.label>オリーブ油を搾る</Press_FRMT_OliveOil.label>
+  <Press_FRMT_OliveOil.description>オイル圧搾機を使ってオリーブ油を25個を搾って作ります。</Press_FRMT_OliveOil.description>
+  <Press_FRMT_OliveOil.jobString>オリーブ油を圧搾中</Press_FRMT_OliveOil.jobString>
+  <!-- Sesame -->
+  <Press_FRMT_SesameOil.label>ゴマ油を搾る</Press_FRMT_SesameOil.label>
+  <Press_FRMT_SesameOil.description>オイル圧搾機を使ってゴマ油を25個を搾って作ります。</Press_FRMT_SesameOil.description>
+  <Press_FRMT_SesameOil.jobString>ゴマ油を圧搾中</Press_FRMT_SesameOil.jobString>
+  <!-- Sunflower -->
+  <Press_FRMT_SunflowerOil.label>ヒマワリ油を搾る</Press_FRMT_SunflowerOil.label>
+  <Press_FRMT_SunflowerOil.description>オイル圧搾機を使ってヒマワリ油を25個を搾って作ります。</Press_FRMT_SunflowerOil.description>
+  <Press_FRMT_SunflowerOil.jobString>ヒマワリ油を圧搾中</Press_FRMT_SunflowerOil.jobString>
+  <!-- Butter -->
+  <Churn_FRMT_Butter.label>バターを撹拌する</Churn_FRMT_Butter.label>
+  <Churn_FRMT_Butter.description>かくはん器を使ってバターを10個作ります。</Churn_FRMT_Butter.description>
+  <Churn_FRMT_Butter.jobString>バターを撹拌中</Churn_FRMT_Butter.jobString>
+  <Churn_FRMT_InsectButter.label>インセクトバターを撹拌する</Churn_FRMT_InsectButter.label>
+  <Churn_FRMT_InsectButter.description>かくはん器を使ってインセクトバターを10個作ります</Churn_FRMT_InsectButter.description>
+  <Churn_FRMT_InsectButter.jobString>インセクトバターを撹拌中</Churn_FRMT_InsectButter.jobString>
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pickled Veg -->
+  <FRMT_VegPickled.label>泡菜</FRMT_VegPickled.label>
+  <FRMT_VegPickled.description>经醋腌制后能长时间保存的蔬菜。</FRMT_VegPickled.description>
+  <!-- Pickled Fruit -->
+  <FRMT_FruitPickled.label>果脯</FRMT_FruitPickled.label>
+  <FRMT_FruitPickled.description>经醋腌制后能长时间保存的水果。</FRMT_FruitPickled.description>
+  <!-- Pickled Fungi -->
+  <FRMT_FungiPickled.label>醋泡菌菇</FRMT_FungiPickled.label>
+  <FRMT_FungiPickled.description>经醋腌制后能长时间保存的菌菇。</FRMT_FungiPickled.description>
+</LanguageData>

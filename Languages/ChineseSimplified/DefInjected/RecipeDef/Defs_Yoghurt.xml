@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_FRMT_PrecursorYoghurt.label>制作半成品酸奶</Make_FRMT_PrecursorYoghurt.label>
+  <Make_FRMT_PrecursorYoghurt.description>用鲜奶和乳糖发酵菌制作半成品酸奶</Make_FRMT_PrecursorYoghurt.description>
+  <Make_FRMT_PrecursorYoghurt.jobString>正在制作半成品酸奶。</Make_FRMT_PrecursorYoghurt.jobString>
+  <Make_FRMT_FruitYoghurt.label>制作果味酸奶</Make_FRMT_FruitYoghurt.label>
+  <Make_FRMT_FruitYoghurt.description>用天然酸奶和水果制作果味酸奶</Make_FRMT_FruitYoghurt.description>
+  <Make_FRMT_FruitYoghurt.jobString>正在制作果味酸奶。</Make_FRMT_FruitYoghurt.jobString>
+</LanguageData>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsFRMTOilPress</defName>
+    <label>Oil Press</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>25</priorityInType>
+    <fixedBillGiverDefs>
+      <li>FRMT_OilPress</li>
+    </fixedBillGiverDefs>
+    <verb>produce oils</verb>
+    <gerund>producing oils at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <!-- Oil Press -->
+  <ThingDef ParentName="BenchBase">
+    <defName>FRMT_OilPress</defName>
+    <label>Oil Press</label>
+    <description>A manual mechanical press used in the preperation of oils.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Things/Building/OilPress/FRMT_OilPress</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--<shaderType>CutoutComplex</shaderType>-->
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories Inherit="false">
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <fillPercent>0.75</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <Mass>10</Mass>
+      <WorkToBuild>5000</WorkToBuild>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>75</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>FRMT_OilPlants</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

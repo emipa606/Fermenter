@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[RF] Fishing [1.0]</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]</xpath>
+          <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+              <li Class="PatchOperationConditional">
+                <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+                <match Class="PatchOperationAdd">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+                  <value>
+                    <li>RawFishMeat</li>
+                    <li>RawSquidMeat</li>
+                    <li>RawEelMeat</li>
+                    <li>JellyfishMeat</li>
+                    <li>SeaCucumberMeat</li>
+                    <li>RawShellfishMeat</li>
+                    <li>RawSnailMeat</li>
+                    <li>RawShrimpMeat</li>
+                  </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter</xpath>
+                  <value>
+                    <thingDefs>
+                      <li>RawFishMeat</li>
+                      <li>RawSquidMeat</li>
+                      <li>RawEelMeat</li>
+                      <li>JellyfishMeat</li>
+                      <li>SeaCucumberMeat</li>
+                      <li>RawShellfishMeat</li>
+                      <li>RawSnailMeat</li>
+                      <li>RawShrimpMeat</li>
+                    </thingDefs>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+                <match Class="PatchOperationConditional">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/disallowedThingDefs/li[text()="FRMT_FishPickled"]</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/disallowedThingDefs/li[text()="FRMT_FishPickled"]</xpath>
+                    <value>
+                      <li>FRMT_FishPickled</li>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+                    <value>
+                      <li>FRMT_FishPickled</li>
+                    </value>
+                  </nomatch>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter</xpath>
+                  <value>
+                    <disallowedThingDefs>
+                      <li>FRMT_FishPickled</li>
+                    </disallowedThingDefs>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+                <match Class="PatchOperationConditional">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/disallowedThingDefs/li[text()="FRMT_FishPaste"]</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/disallowedThingDefs/li[text()="FRMT_FishPaste"]</xpath>
+                    <value>
+                      <li>FRMT_FishPaste</li>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+                    <value>
+                      <li>FRMT_FishPaste</li>
+                    </value>
+                  </nomatch>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/ingredients/li[1]/filter</xpath>
+                  <value>
+                    <disallowedThingDefs>
+                      <li>FRMT_FishPaste</li>
+                    </disallowedThingDefs>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/thingDefs</xpath>
+                <match Class="PatchOperationAdd">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/thingDefs</xpath>
+                  <value>
+                    <li>RawFishMeat</li>
+                    <li>RawSquidMeat</li>
+                    <li>RawEelMeat</li>
+                    <li>JellyfishMeat</li>
+                    <li>SeaCucumberMeat</li>
+                    <li>RawShellfishMeat</li>
+                    <li>RawSnailMeat</li>
+                    <li>RawShrimpMeat</li>
+                  </value>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter</xpath>
+                  <value>
+                    <thingDefs>
+                      <li>RawFishMeat</li>
+                      <li>RawSquidMeat</li>
+                      <li>RawEelMeat</li>
+                      <li>JellyfishMeat</li>
+                      <li>SeaCucumberMeat</li>
+                      <li>RawShellfishMeat</li>
+                      <li>RawSnailMeat</li>
+                      <li>RawShrimpMeat</li>
+                    </thingDefs>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+                <match Class="PatchOperationConditional">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/disallowedThingDefs/li[text()="FRMT_FishPickled"]</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/disallowedThingDefs/li[text()="FRMT_FishPickled"]</xpath>
+                    <value>
+                      <li>FRMT_FishPickled</li>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+                    <value>
+                      <li>FRMT_FishPickled</li>
+                    </value>
+                  </nomatch>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter</xpath>
+                  <value>
+                    <disallowedThingDefs>
+                      <li>FRMT_FishPickled</li>
+                    </disallowedThingDefs>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+                <match Class="PatchOperationConditional">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/disallowedThingDefs/li[text()="FRMT_FishPaste"]</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/disallowedThingDefs/li[text()="FRMT_FishPaste"]</xpath>
+                    <value>
+                      <li>FRMT_FishPaste</li>
+                    </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+                    <value>
+                      <li>FRMT_FishPaste</li>
+                    </value>
+                  </nomatch>
+                </match>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/fixedIngredientFilter</xpath>
+                  <value>
+                    <disallowedThingDefs>
+                      <li>FRMT_FishPaste</li>
+                    </disallowedThingDefs>
+                  </value>
+                </nomatch>
+              </li>
+            </operations>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <RecipeDef>
+                <defName>Make_FRMT_FishPickled</defName>
+                <label>pickle fish</label>
+                <description>Prepare fish in vinegar.</description>
+                <jobString>Preparing fish in vinegar.</jobString>
+                <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+                <workSkill>Cooking</workSkill>
+                <effectWorking>Cook</effectWorking>
+                <soundWorking>Recipe_Brewing</soundWorking>
+                <allowMixingIngredients>true</allowMixingIngredients>
+                <workAmount>1500</workAmount>
+                <targetCountAdjustment>25</targetCountAdjustment>
+                <ingredientValueGetterClass>Fermenter.IngredientValueGetter_Pickling</ingredientValueGetterClass>
+                <ingredients>
+                  <li>
+                    <filter>
+                      <thingDefs>
+                        <li>RawFishMeat</li>
+                        <li>RawSquidMeat</li>
+                        <li>RawEelMeat</li>
+                        <li>JellyfishMeat</li>
+                        <li>SeaCucumberMeat</li>
+                        <li>RawShellfishMeat</li>
+                        <li>RawSnailMeat</li>
+                        <li>RawShrimpMeat</li>
+                      </thingDefs>
+                      <disallowedThingDefs>
+                        <li>FRMT_FishPickled</li>
+                        <li>FRMT_FishPaste</li>
+                      </disallowedThingDefs>
+                    </filter>
+                    <count>1.25</count>
+                  </li>
+                  <li>
+                    <filter>
+                      <thingDefs>
+                        <li>FRMT_Vinegar</li>
+                      </thingDefs>
+                    </filter>
+                    <count>12</count>
+                  </li>
+                </ingredients>
+                <fixedIngredientFilter>
+                  <thingDefs>
+                    <li>RawFishMeat</li>
+                    <li>RawSquidMeat</li>
+                    <li>RawEelMeat</li>
+                    <li>JellyfishMeat</li>
+                    <li>SeaCucumberMeat</li>
+                    <li>RawShellfishMeat</li>
+                    <li>RawSnailMeat</li>
+                    <li>RawShrimpMeat</li>
+                    <li>FRMT_Vinegar</li>
+                  </thingDefs>
+                  <disallowedThingDefs>
+                    <li>FRMT_FishPickled</li>
+                    <li>FRMT_FishPaste</li>
+                  </disallowedThingDefs>
+                </fixedIngredientFilter>
+                <products>
+                  <FRMT_FishPickled>25</FRMT_FishPickled>
+                </products>
+                <recipeUsers>
+                  <li>Brewery</li>
+                </recipeUsers>
+              </RecipeDef>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[RF] Fishing [1.0]</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>[1.0] RimCuisine 2: Bottling and Booze Expansion</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationTest">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/recipeUsers/li[text()="RC2_ElectricBrewery"]</xpath>
+            <success>Invert</success>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FishPickled"]/recipeUsers</xpath>
+            <value>
+              <li>RC2_ElectricBrewery</li>
+              <li>RC2_BrewingSpot</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WG_TakeProductFermenter.label>从发酵器中取出产物</WG_TakeProductFermenter.label>
+  <WG_TakeProductFermenter.verb>取出产物</WG_TakeProductFermenter.verb>
+  <WG_TakeProductFermenter.gerund>取出产物，从</WG_TakeProductFermenter.gerund>
+  <WG_FillFermenter.label>装填发酵器</WG_FillFermenter.label>
+  <WG_FillFermenter.verb>装填</WG_FillFermenter.verb>
+  <WG_FillFermenter.gerund>装填</WG_FillFermenter.gerund>
+</LanguageData>

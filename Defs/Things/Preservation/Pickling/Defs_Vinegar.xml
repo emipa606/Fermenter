@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_Vinegar</defName>
+    <label>Vinegar</label>
+    <description>Vinegar is an aqueous solution of acetic acid and trace chemicals that may include flavorings. Usually the acetic acid is produced by the fermentation of alcohol or sugars by acetic acid bacteria.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_Vinegar</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>7.5</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>0.4</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Resources</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_PrecursorVinegar</defName>
+    <label>Vinegar Precursor</label>
+    <description>A mix of alcohol and acetic acid bacteria used to ferment into vinegar.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorVinegar/FRMT_PrecursorVinegar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>6.43</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>0.7</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_FRMT_VinegarPrecursor</defName>
+    <label>make vinegar precursor</label>
+    <description>Make vinegar precursor from alcohol and acetic acid bacteria.</description>
+    <jobString>Making vinegar precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Beer</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_AceticAcidBacteria</li>
+          </thingDefs>
+        </filter>
+        <count>13</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Beer</li>
+        <li>FRMT_AceticAcidBacteria</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorVinegar>25</FRMT_PrecursorVinegar>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!--  Acetic Acid Bacteria -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_AceticAcidBacteria</defName>
+    <label>Acetic Acid Bacteria</label>
+    <description>Acetic acid bacteria are airborne and are ubiquitous in nature. They are actively present in environments where alcohol is being formed as a product of the fermentation of sugars. They can be isolated from the nectar of flowers and from damaged fruit.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_AceticAcidBacteria</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1.3</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>FRMT_Resources</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>FRMT_DamagedFruitMash</defName>
+    <label>Damaged Fruit Mash</label>
+    <description>Fruit that has been crudely chopped and bruised into a mash. Can be fermented into acetic acid bacteria.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_DamagedFruitMash/FRMT_DamagedFruitMash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0.75</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>5.0</DeteriorationRate>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>12</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_FRMT_DMGFruitMash</defName>
+    <label>make damaged fruit mash</label>
+    <description>Make damaged fruit mash from fruits.</description>
+    <jobString>Making damaged fruit mash.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBerries</li>
+            <li>RawAgave</li>
+          </thingDefs>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawBerries</li>
+        <li>RawAgave</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_DamagedFruitMash>25</FRMT_DamagedFruitMash>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+      <li>FRMT_OilPress</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

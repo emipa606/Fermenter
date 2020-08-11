@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FermenterVat.label>Gärfass</FermenterVat.label>
+  <FermenterVat.description>Ein großer Gärbehälter. Dieser Behälter kann seinen Inhalt verderben, wenn die Umgebungstemperatur nicht zwischen 7 und 32 Grad Celsius gehalten wird.</FermenterVat.description>
+  <FermenterVat_Blueprint.label>Gärfass (Entwurf)</FermenterVat_Blueprint.label>
+  <FermenterVat_Blueprint_Install.label>Gärfass (Entwurf)</FermenterVat_Blueprint_Install.label>
+  <FermenterVat_Frame.label>Gärfass (im Bau)</FermenterVat_Frame.label>
+  <FermenterVat_Frame.description>Ein großer Gärbehälter. Dieser Behälter kann seinen Inhalt verderben, wenn die Umgebungstemperatur nicht zwischen 7 und 32 Grad Celsius gehalten wird.</FermenterVat_Frame.description>
+</LanguageData>

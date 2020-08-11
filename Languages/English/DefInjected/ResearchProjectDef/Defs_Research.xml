@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fermentation Buildings -->
+
+  <FermenterVat.label>Fermenter Vat</FermenterVat.label>
+  <FermenterVat.description>Grants the ability to build the fermenter vat. A large wooden fermentation vessel.</FermenterVat.description>
+
+  <Fermenter.label>Fermenter</Fermenter.label>
+  <Fermenter.description>Grants the ability to build the fermenter. An automated machine to make processed food products.</Fermenter.description>
+
+
+  <!-- Oil plants and trees -->
+
+  <FRMT_OilPlants.label>Oil plants</FRMT_OilPlants.label>
+  <FRMT_OilPlants.description>Grants the ability to grow plants with oil producing products.</FRMT_OilPlants.description>
+
+  <FRMT_OilTrees.label>Oil trees</FRMT_OilTrees.label>
+  <FRMT_OilTrees.description>Grants the ability to grow trees with oil producing products.</FRMT_OilTrees.description>
+
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_Butter.label>Butter</FRMT_Butter.label>
+  <FRMT_Butter.description>Butter ist ein Milchprodukt mit hohem Butterfettgehalt, das im gekühlten Zustand und bei Raumtemperatur fest ist. Es wird im Allgemeinen als Brotaufstrich auf einfachen oder gerösteten Brotprodukten und als Zutat auf gekochtem Gemüse sowie beim Kochen wie Backen, Soßenherstellung und Braten in der Pfanne verwendet.</FRMT_Butter.description>
+  <FRMT_Butter.ingestible.ingestCommandString>Verzehr {0}</FRMT_Butter.ingestible.ingestCommandString>
+  <FRMT_Butter.ingestible.ingestReportString>verzehre {0}.</FRMT_Butter.ingestible.ingestReportString>
+  <FRMT_PrecursorButter.label>Buttervorstufe</FRMT_PrecursorButter.label>
+  <FRMT_PrecursorButter.description>Eine Mischung aus Milch und Pflanzenöl, die in einem Fermentationsgefäß zur Herstellung von Butter verwendet wird.</FRMT_PrecursorButter.description>
+</LanguageData>

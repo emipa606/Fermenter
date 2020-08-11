@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Oils -->
+  <FRMT_CornOil.label>Maisöl</FRMT_CornOil.label>
+  <FRMT_CornOil.description>Maisöl wird aus Mais gewonnenes. Seine Hauptanwendung ist das Kochen, wo sein hoher Rauchpunkt raffiniertes Maisöl zu einem wertvollen Bratöl macht. Maisöl ist im Allgemeinen billiger als die meisten anderen Arten von Pflanzenölen.</FRMT_CornOil.description>
+  <FRMT_CornOil.ingestible.ingestCommandString>Verzehre {0}</FRMT_CornOil.ingestible.ingestCommandString>
+  <FRMT_CornOil.ingestible.ingestReportString>verzehre {0}.</FRMT_CornOil.ingestible.ingestReportString>
+  <FRMT_OliveOil.label>Olivenöl</FRMT_OliveOil.label>
+  <FRMT_OliveOil.description>Olivenöl ist eine aus Oliven gewonnene Flüssigkeit. Es wird häufig beim Kochen verwendet, sei es zum Braten oder als Salatdressing.</FRMT_OliveOil.description>
+  <FRMT_OliveOil.ingestible.ingestCommandString>Verzehre {0}</FRMT_OliveOil.ingestible.ingestCommandString>
+  <FRMT_OliveOil.ingestible.ingestReportString>verzehre {0}.</FRMT_OliveOil.ingestible.ingestReportString>
+  <FRMT_SesameOil.label>Sesamöl</FRMT_SesameOil.label>
+  <FRMT_SesameOil.description>Sesamöl ist ein essbares Pflanzenöl, das aus Sesamsamen gewonnen wird. Es wird nicht nur als Speiseöl, sondern auch als Geschmacksverstärker in vielen Küchen verwendet und hat ein unverwechselbares nussiges Aroma und einen unverwechselbaren Geschmack.</FRMT_SesameOil.description>
+  <FRMT_SesameOil.ingestible.ingestCommandString>Verzehre {0}</FRMT_SesameOil.ingestible.ingestCommandString>
+  <FRMT_SesameOil.ingestible.ingestReportString>verzehre {0}.</FRMT_SesameOil.ingestible.ingestReportString>
+  <FRMT_SunflowerOil.label>Sonnenblumenöl</FRMT_SunflowerOil.label>
+  <FRMT_SunflowerOil.description>Sonnenblumenöl ist das nichtflüchtige Öl, das aus den Samen der Sonnenblume gepresst wird. Sonnenblumenöl wird häufig in Küchen als Bratöl verwendet.</FRMT_SunflowerOil.description>
+  <FRMT_SunflowerOil.ingestible.ingestCommandString>Verzehre {0}</FRMT_SunflowerOil.ingestible.ingestCommandString>
+  <FRMT_SunflowerOil.ingestible.ingestReportString>verzehre {0}.</FRMT_SunflowerOil.ingestible.ingestReportString>
+  <!-- Oil Precursors -->
+  <FRMT_PrecursorCornOil.label>Maisölvorstufe</FRMT_PrecursorCornOil.label>
+  <FRMT_PrecursorCornOil.description>Eine Mischung aus Mais und Lösungsmittel, die in einem Fermentationsgefäß verwendet wird, um das zugehörige Pflanzenöl herzustellen.</FRMT_PrecursorCornOil.description>
+  <FRMT_PrecursorOliveOil.label>Olivenölvorstufe</FRMT_PrecursorOliveOil.label>
+  <FRMT_PrecursorOliveOil.description>Eine Mischung aus Oliven und Lösungsmittel, die in einem Fermentationsgefäß verwendet wird, um das zugehörige Pflanzenöl herzustellen.</FRMT_PrecursorOliveOil.description>
+  <FRMT_PrecursorSesameOil.label>Sesamölvorstufe</FRMT_PrecursorSesameOil.label>
+  <FRMT_PrecursorSesameOil.description>Eine Mischung aus Sesamsamen und Lösungsmittel, die in einem Fermentationsgefäß verwendet wird, um das zugehörige Pflanzenöl herzustellen.</FRMT_PrecursorSesameOil.description>
+  <FRMT_PrecursorSunflowerOil.label>Sonnenblumenölvorstufe</FRMT_PrecursorSunflowerOil.label>
+  <FRMT_PrecursorSunflowerOil.description>Eine Mischung aus Sonnenblumenkernen und Lösungsmittel, die in einem Fermentationsgefäß verwendet wird, um das zugehörige Pflanzenöl herzustellen.</FRMT_PrecursorSunflowerOil.description>
+  <!-- Hexane -->
+  <RPHexane.label>Hexan</RPHexane.label>
+  <RPHexane.description>Hexan ist ein Alkan mit sechs Kohlenstoffatomen mit der chemischen Formel C6H14. Eine farblose Flüssigkeit, die im reinen Zustand geruchlos ist und einen Siedepunkte zwischen 50 und 70 ° C aufweist. Sie werden häufig als billige, relativ sichere, weitgehend unreaktive und leicht verdampfbare unpolare Lösungsmittel eingesetzt.</RPHexane.description>
+</LanguageData>

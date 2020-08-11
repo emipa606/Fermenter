@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_InsectButter.label>Insektenbutter</FRMT_InsectButter.label>
+  <FRMT_InsectButter.description>Insektenbutter ist ein Milchprodukt mit hohem Butterfettgehalt, das im gekühlten Zustand und bei Raumtemperatur fest ist. Es wird im Allgemeinen als Brotaufstrich auf einfachen oder gerösteten Brotprodukten und als Zutat auf gekochtem Gemüse sowie beim Kochen wie Backen, Soßenherstellung und Braten in der Pfanne verwendet. Dieses Produkt verwendet auch Insektengelee als Bestandteil seiner Zutaten, deren Aroma während des Kochens dem Koch etwas Freude bereiten kann.</FRMT_InsectButter.description>
+  <FRMT_InsectButter.ingestible.ingestCommandString>Verzehre {0}</FRMT_InsectButter.ingestible.ingestCommandString>
+  <FRMT_InsectButter.ingestible.ingestReportString>verzehre {0}.</FRMT_InsectButter.ingestible.ingestReportString>
+  <FRMT_PrecursorInsectButter.label>Insektenbuttervorstufe</FRMT_PrecursorInsectButter.label>
+  <FRMT_PrecursorInsectButter.description>Eine Mischung aus Milch, Insektengelee und Pflanzenöl, die in einem Fermentationsgefäß zur Herstellung von Insektenbutter verwendet wird.</FRMT_PrecursorInsectButter.description>
+</LanguageData>

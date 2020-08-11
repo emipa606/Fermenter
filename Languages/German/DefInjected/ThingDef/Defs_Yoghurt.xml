@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_NaturalYoghurt.label>Naturjoghurt</FRMT_NaturalYoghurt.label>
+  <FRMT_NaturalYoghurt.description>Yoghurt, auch Dinkeljoghurt oder Joghurt, ist ein Lebensmittel, das durch bakterielle Fermentation von Milch hergestellt wird. Die zur Herstellung von Joghurt verwendeten Bakterien werden als Joghurtkulturen bezeichnet. Durch die Fermentation von Laktose durch diese Bakterien entsteht Milchsäure, die auf Milcheiweiß einwirkt, um Joghurt seine Textur und seinen charakteristischen säuerlichen Geschmack zu verleihen.</FRMT_NaturalYoghurt.description>
+  <FRMT_FruitYoghurt.label>Fruchtjoghurt</FRMT_FruitYoghurt.label>
+  <FRMT_FruitYoghurt.description>Fruchtjoghurt, eine Mischung aus Naturjoghurt und Früchten.</FRMT_FruitYoghurt.description>
+  <FRMT_PrecursorYoghurt.label>Joghurtvorstufe</FRMT_PrecursorYoghurt.label>
+  <FRMT_PrecursorYoghurt.description>Eine Zubereitung aus natürlicher Tiermilch und Laktosebakterien. Wird zur Gärung von Naturjoghurt verwendet.</FRMT_PrecursorYoghurt.description>
+</LanguageData>

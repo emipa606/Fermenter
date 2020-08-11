@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>FRMT_PrecursorBioFuel</defName>
+    <label>Biofuel Precursor</label>
+    <description>A mix of organic matter to be broken down in a fermentation vessel to make chemfuel.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PrecursorBioFuel/FRMT_PrecursorBioFuel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1.36</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.9</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>FRMT_Precursors</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>Make_FRMT_BioFuelPrecursor</defName>
+    <label>make biofuel precursor</label>
+    <description>Make biofuel precursor from organics.</description>
+    <jobString>Making biofuel precursor.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredientValueGetterClass>Fermenter.IngredientValueGetter_Acidic</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Foods</li>
+            <li>PlantMatter</li>
+          </categories>
+          <disallowedCategories>
+            <li>FoodMeals</li>
+            <!--<li>MeatRaw</li>-->
+            <li>AnimalProductRaw</li>
+          </disallowedCategories>
+        </filter>
+        <count>1.25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_AceticAcidBacteria</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FRMT_AceticAcidBacteria</li>
+      </thingDefs>
+      <categories>
+        <li>Foods</li>
+        <li>PlantMatter</li>
+      </categories>
+      <disallowedCategories>
+        <li>FoodMeals</li>
+        <!--<li>MeatRaw</li>-->
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_PrecursorBioFuel>25</FRMT_PrecursorBioFuel>
+    </products>
+    <recipeUsers>
+      <li>Brewery</li>
+    </recipeUsers>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
+  </RecipeDef>
+</Defs>

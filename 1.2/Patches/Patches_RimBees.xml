@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>RimBees</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>RB_FillMeadFermentingBarrelJob</defName>
+              <Product>RB_Mead</Product>
+              <Resource>RB_Must</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>48.0</FermentHours>
+              <ResearchProject>RB_MeadBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

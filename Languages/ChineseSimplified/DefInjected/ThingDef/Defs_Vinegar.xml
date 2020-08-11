@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_Vinegar.label>醋</FRMT_Vinegar.label>
+  <FRMT_Vinegar.description>醋是含乙酸与少量化合剂的水溶液，可能含有调味剂。一般情况下，乙酸是由乙醇或糖类经醋酸杆菌发酵得到的。</FRMT_Vinegar.description>
+  <FRMT_PrecursorVinegar.label>半成品醋</FRMT_PrecursorVinegar.label>
+  <FRMT_PrecursorVinegar.description>能酿造成醋的酒精和醋酸菌混合物。</FRMT_PrecursorVinegar.description>
+  <!-- Acetic Acid Bacteria -->
+  <FRMT_AceticAcidBacteria.label>醋酸杆菌</FRMT_AceticAcidBacteria.label>
+  <FRMT_AceticAcidBacteria.description>醋酸杆菌在自然界中以空气途径传播，几乎无处不在。它们活跃在以糖类物质发酵为酒精的环境中。可从花蜜和果泥中提取。</FRMT_AceticAcidBacteria.description>
+  <FRMT_DamagedFruitMash.label>果泥</FRMT_DamagedFruitMash.label>
+  <FRMT_DamagedFruitMash.description>水果经切碎捣烂后形成的泥状物。经发酵可得醋酸杆菌。</FRMT_DamagedFruitMash.description>
+</LanguageData>

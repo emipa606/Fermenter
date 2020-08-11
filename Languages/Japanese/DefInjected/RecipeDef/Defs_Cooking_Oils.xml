@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Oil precursor recipes -->
+  <Make_FRMT_CornOilPrecursor.label>コーン植物油脂の元を作る</Make_FRMT_CornOilPrecursor.label>
+  <Make_FRMT_CornOilPrecursor.description>トウモロコシの実と有機溶媒でコーン植物油脂を作る。</Make_FRMT_CornOilPrecursor.description>
+  <Make_FRMT_CornOilPrecursor.jobString>コーン植物油脂を製造中</Make_FRMT_CornOilPrecursor.jobString>
+  <Make_FRMT_OliveOilPrecursor.label>オリーブ植物油脂を作る</Make_FRMT_OliveOilPrecursor.label>
+  <Make_FRMT_OliveOilPrecursor.description>オリーブの実と有機溶媒でオリーブ植物油脂を作る。</Make_FRMT_OliveOilPrecursor.description>
+  <Make_FRMT_OliveOilPrecursor.jobString>オリーブ植物油脂を製造中</Make_FRMT_OliveOilPrecursor.jobString>
+  <Make_FRMT_SesameOilPrecursor.label>ゴマ植物油脂を作る</Make_FRMT_SesameOilPrecursor.label>
+  <Make_FRMT_SesameOilPrecursor.description>ゴマの種子と有機溶媒でゴマ植物油脂を作る。</Make_FRMT_SesameOilPrecursor.description>
+  <Make_FRMT_SesameOilPrecursor.jobString>ゴマ植物油脂を製造中</Make_FRMT_SesameOilPrecursor.jobString>
+  <Make_FRMT_SunflowerOilPrecursor.label>ヒマワリ植物油脂</Make_FRMT_SunflowerOilPrecursor.label>
+  <Make_FRMT_SunflowerOilPrecursor.description>ヒマワリの種子と有機溶媒でヒマワリ植物油脂を作る。</Make_FRMT_SunflowerOilPrecursor.description>
+  <Make_FRMT_SunflowerOilPrecursor.jobString>ヒマワリ植物油脂を製造中</Make_FRMT_SunflowerOilPrecursor.jobString>
+  <!-- Hexane -->
+  <MakeRPHexane.label>有機溶媒を精製する</MakeRPHexane.label>
+  <MakeRPHexane.description>有機溶媒(ヘキサン)を25個精製する。</MakeRPHexane.description>
+  <MakeRPHexane.jobString>有機溶媒を精製中</MakeRPHexane.jobString>
+</LanguageData>

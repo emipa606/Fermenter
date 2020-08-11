@@ -1,0 +1,1039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.0] RimCuisine 2: Bottling and Booze Expansion</li>
+      <li>RimCuisine 2: Bottling and Booze Expansion (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_Ale</defName>
+              <Product>RC2_Ale</Product>
+              <Resource>RC2_WheatWort</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>72.0</FermentHours>
+              <ResearchProject>RC2_IntermediateBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_Stout</defName>
+              <Product>RC2_Stout</Product>
+              <Resource>RC2_OatWort</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>72.0</FermentHours>
+              <ResearchProject>RC2_IntermediateBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_Cider</defName>
+              <Product>RC2_Cider</Product>
+              <Resource>RC2_AppleMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>180.0</FermentHours>
+              <ResearchProject>RC2_IntermediateBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_Mead</defName>
+              <Product>RC2_Mead</Product>
+              <Resource>RC2_HoneyMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>180.0</FermentHours>
+              <ResearchProject>RC2_IntermediateBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_FruitWine</defName>
+              <Product>RC2_FruitWine</Product>
+              <Resource>RC2_FruitMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>360.0</FermentHours>
+              <ResearchProject>RC2_IntermediateBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_Sake</defName>
+              <Product>RC2_Sake</Product>
+              <Resource>RC2_RiceMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>360.0</FermentHours>
+              <ResearchProject>RC2_IntermediateBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_AgaveMosto</defName>
+              <Product>RC2_AgaveMosto</Product>
+              <Resource>RawAgave</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>84.0</FermentHours>
+              <ResearchProject>RC2_AdvancedBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_PotatoMash</defName>
+              <Product>RC2_PotatoMash</Product>
+              <Resource>RawPotatoes</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>60.0</FermentHours>
+              <ResearchProject>RC2_AdvancedBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_SugarcaneWort</defName>
+              <Product>RC2_SugarcaneWort</Product>
+              <Resource>RC2_RawSugarcane</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>84.0</FermentHours>
+              <ResearchProject>RC2_AdvancedBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_Gin</defName>
+              <Product>RC2_Gin</Product>
+              <Resource>RC2_GinPrecursor</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>24.0</FermentHours>
+              <ResearchProject>RC2_AdvancedBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_CornMash</defName>
+              <Product>RC2_CornMash</Product>
+              <Resource>RawCorn</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>120.0</FermentHours>
+              <ResearchProject>RC2_AdvancedBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_AmbrosiaNectar</defName>
+              <Product>RC2_AmbrosiaNectar</Product>
+              <Resource>RC2_AmbrosiaMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>720.0</FermentHours>
+              <ResearchProject>RC2_AdvancedBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_Kumis</defName>
+              <Product>RC2_Kumis</Product>
+              <Resource>RC2_KumisMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>24.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_RC2_CoconutWort</defName>
+              <Product>RC2_CoconutWort</Product>
+              <Resource>RC2_RawCoconut</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>96.0</FermentHours>
+              <ResearchProject>RC2_AdvancedBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/categories</xpath>
+            <value>
+              <li>RC2_Alcohol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <categories>
+                <li>RC2_Alcohol</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>RC2_Alcohol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>RC2_Alcohol</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor" or defName="Make_FRMT_DMGFruitMash"]/recipeUsers</xpath>
+          <value>
+            <li>RC2_ElectricBrewery</li>
+            <li>RC2_BrewingSpot</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/recipeUsers</xpath>
+          <value>
+            <li>RC2_ElectricBrewery</li>
+            <li>RC2_BrewingSpot</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_PrecursorYoghurt" or defName="Make_FRMT_PrecursorCheese"]/recipeUsers</xpath>
+          <value>
+            <li>RC2_ElectricBrewery</li>
+            <li>RC2_BrewingSpot</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_CornOilPrecursor" or defName="Make_FRMT_OliveOilPrecursor"]/recipeUsers</xpath>
+          <value>
+            <li>RC2_ElectricBrewery</li>
+            <li>RC2_BrewingSpot</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_SesameOilPrecursor" or defName="Make_FRMT_SunflowerOilPrecursor"]/recipeUsers</xpath>
+          <value>
+            <li>RC2_ElectricBrewery</li>
+            <li>RC2_BrewingSpot</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor" or defName="Make_FRMT_InsectButterPrecursor"]/recipeUsers</xpath>
+          <value>
+            <li>RC2_ElectricBrewery</li>
+            <li>RC2_BrewingSpot</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled" or defName="Make_FRMT_FruitPickled" or defName="Make_FRMT_FungiPickled"]/recipeUsers</xpath>
+          <value>
+            <li>RC2_ElectricBrewery</li>
+            <li>RC2_BrewingSpot</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_BioFuelPrecursor"]/recipeUsers</xpath>
+          <value>
+            <li>RC2_ElectricBrewery</li>
+            <li>RC2_BrewingSpot</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.0] RimCuisine 2 Core</li>
+      <li>[1.0, 1.1] RimCuisine 2 Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!--  Starch Mash -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>RC2_RawBeets</li>
+              <li>RC2_RawYams</li>
+              <li>RC2_RawSugarBeets</li>
+              <li>RC2_RawSugarcane</li>
+              <li>RC2_RawBanana</li>
+              <li>RC2_RawQuinoa</li>
+              <li>RC2_RawSorghum</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>RC2_RawBeets</li>
+                <li>RC2_RawYams</li>
+                <li>RC2_RawSugarBeets</li>
+                <li>RC2_RawSugarcane</li>
+                <li>RC2_RawBanana</li>
+                <li>RC2_RawQuinoa</li>
+                <li>RC2_RawSorghum</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RC2_RawBeets</li>
+              <li>RC2_RawYams</li>
+              <li>RC2_RawSugarBeets</li>
+              <li>RC2_RawSugarcane</li>
+              <li>RC2_RawBanana</li>
+              <li>RC2_RawQuinoa</li>
+              <li>RC2_RawSorghum</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>RC2_RawBeets</li>
+                <li>RC2_RawYams</li>
+                <li>RC2_RawSugarBeets</li>
+                <li>RC2_RawSugarcane</li>
+                <li>RC2_RawBanana</li>
+                <li>RC2_RawQuinoa</li>
+                <li>RC2_RawSorghum</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Damaged Fruit Mash -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+              <li>RC2_FruitProcessed</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+                <li>RC2_FruitProcessed</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+              <li>RC2_FruitProcessed</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+                <li>RC2_FruitProcessed</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <!-- Fruit Yoghurt -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+              <li>RC2_FruitProcessed</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+                <li>RC2_FruitProcessed</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+              <li>RC2_FruitProcessed</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+                <li>RC2_FruitProcessed</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Corn -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_RC2QFRMT_CornOil</defName>
+              <label>make corn oil</label>
+              <description>Make 5 corn oil using quernstone.</description>
+              <jobString>Making corn oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawCorn</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>RawCorn</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_CornOil>5</FRMT_CornOil>
+              </products>
+              <recipeUsers>
+                <li>RC2_Quernstone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Olive -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_RC2QFRMT_OliveOil</defName>
+              <label>make olive oil</label>
+              <description>Make 5 olive oil using quernstone.</description>
+              <jobString>Making olive oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_Olives</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_Olives</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_OliveOil>5</FRMT_OliveOil>
+              </products>
+              <recipeUsers>
+                <li>RC2_Quernstone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilTrees</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sesame -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_RC2QFRMT_SesameOil</defName>
+              <label>make sesame oil</label>
+              <description>Make 5 sesame oil using quernstone.</description>
+              <jobString>Making sesame oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SesameSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SesameSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SesameOil>5</FRMT_SesameOil>
+              </products>
+              <recipeUsers>
+                <li>RC2_Quernstone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sunflower -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_RC2QFRMT_SunflowerOil</defName>
+              <label>make sunflower oil</label>
+              <description>Make 5 sunflower oil using quernstone.</description>
+              <jobString>Making sunflower oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SunflowerSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SunflowerSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SunflowerOil>5</FRMT_SunflowerOil>
+              </products>
+              <recipeUsers>
+                <li>RC2_Quernstone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!--  Corn -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_RC2RMFRMT_CornOil</defName>
+              <label>make corn oil</label>
+              <description>Make 5 corn oil using roller mill.</description>
+              <jobString>Making corn oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawCorn</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>RawCorn</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_CornOil>5</FRMT_CornOil>
+              </products>
+              <recipeUsers>
+                <li>RC2_RollerMill</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Olive -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_RC2RMFRMT_OliveOil</defName>
+              <label>make olive oil</label>
+              <description>Make 5 olive oil using roller mill.</description>
+              <jobString>Making olive oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_Olives</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_Olives</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_OliveOil>5</FRMT_OliveOil>
+              </products>
+              <recipeUsers>
+                <li>RC2_RollerMill</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilTrees</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sesame -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_RC2RMFRMT_SesameOil</defName>
+              <label>make sesame oil</label>
+              <description>Make 5 sesame oil using roller mill.</description>
+              <jobString>Making sesame oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SesameSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SesameSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SesameOil>5</FRMT_SesameOil>
+              </products>
+              <recipeUsers>
+                <li>RC2_RollerMill</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sunflower -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_RC2RMFRMT_SunflowerOil</defName>
+              <label>make sunflower oil</label>
+              <description>Make 5 sunflower oil using roller mill.</description>
+              <jobString>Making sunflower oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SunflowerSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SunflowerSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SunflowerOil>5</FRMT_SunflowerOil>
+              </products>
+              <recipeUsers>
+                <li>RC2_RollerMill</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!--  Veg Pickles -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/categories</xpath>
+            <value>
+              <li>RC2_VegetablesRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <categories>
+                <li>RC2_VegetablesRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>RC2_VegetablesRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>RC2_VegetablesRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+            <value>
+              <li>RC2_RawTruffles</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>RC2_RawTruffles</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+            <value>
+              <li>RC2_RawTruffles</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>RC2_RawTruffles</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>RC2_FruitsRaw</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedCategories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>RC2_FruitsRaw</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Fruit Pickles -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Fungi Pickles -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>RC2_RawTruffles</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>RC2_RawTruffles</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RC2_RawTruffles</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>RC2_RawTruffles</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Biofuel -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_BioFuelPrecursor"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_BioFuelPrecursor"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+            <value>
+              <li>RC2_FoodProcessed</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_BioFuelPrecursor"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>RC2_FoodProcessed</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_BioFuelPrecursor"]/fixedIngredientFilter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_BioFuelPrecursor"]/fixedIngredientFilter/disallowedCategories</xpath>
+            <value>
+              <li>RC2_FoodProcessed</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_BioFuelPrecursor"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>RC2_FoodProcessed</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.0] RimCuisine 2 Core</li>
+      <li>[1.0, 1.1] RimCuisine 2 Core</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>VGP Vegetable Garden</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_RC2QFRMT_OliveOil"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>RawOlive</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_RC2QFRMT_OliveOil"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RawOlive</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_RC2RMFRMT_OliveOil"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>RawOlive</li>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_RC2RMFRMT_OliveOil"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RawOlive</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.0] RimCuisine 2: Bottling and Booze Expansion</li>
+      <li>RimCuisine 2: Bottling and Booze Expansion (Continued)</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Factions Expanded - Medieval</li>
+      </mods>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <Fermenter.FermentDef>
+                <defName>Ferment_RC2_Wine</defName>
+                <Product>RC2_Wine</Product>
+                <Resource>RC2_GrapeMust</Resource>
+                <SpoilProduct>SpoilMash</SpoilProduct>
+                <FermentHours>360.0</FermentHours>
+                <ResearchProject>Brewing</ResearchProject>
+              </Fermenter.FermentDef>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
+    </match>
+  </Operation>
+</Patch>

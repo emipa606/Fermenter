@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_CheeseMozzarella.label>Mozzarella</FRMT_CheeseMozzarella.label>
+  <FRMT_CheeseMozzarella.description>Ein zerkleinerter Mozzarella mit geringer Feuchtigkeit. Frischer Mozzarella ist im Allgemeinen weiß, kann aber je nach Tierfutter saisonal bis leicht gelblich variieren.</FRMT_CheeseMozzarella.description>
+  <FRMT_CheeseCottage.label>Hüttenkäse</FRMT_CheeseCottage.label>
+  <FRMT_CheeseCottage.description>Hüttenkäse ist ein Frischkäse-Quarkprodukt mit einem milden Geschmack. In der Vergangenheit war es als "Quark und Molke" bekannt. Er wird nicht gealtert, sondern durch Fermentation schneller produziert.</FRMT_CheeseCottage.description>
+  <FRMT_PrecursorCheese.label>Käsevorstufe</FRMT_PrecursorCheese.label>
+  <FRMT_PrecursorCheese.description>Eine Zubereitung aus natürlicher Tiermilch, Laktose und Essigsäurebakterien. Wird verwendet, um Käse herzustellen.</FRMT_PrecursorCheese.description>
+</LanguageData>

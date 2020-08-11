@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_InsectButter.label>虫胶黄油</FRMT_InsectButter.label>
+  <FRMT_InsectButter.description>虫胶黄油是一种在冷藏和室温下为固体的高脂量乳制品。一般涂抹在普通面包或烤面包的表面，当做蔬菜的调味品，也用于烹饪佐料，例如烘培，酱汁调制，煎炸。该产品的原料中含有虫胶，虫胶在烹饪时飘出的香味会令厨师感到心情愉悦。</FRMT_InsectButter.description>
+  <FRMT_InsectButter.ingestible.ingestCommandString>享用 {0}</FRMT_InsectButter.ingestible.ingestCommandString>
+  <FRMT_InsectButter.ingestible.ingestReportString>正在享用 {0}.</FRMT_InsectButter.ingestible.ingestReportString>
+  <FRMT_PrecursorInsectButter.label>半成品虫胶黄油</FRMT_PrecursorInsectButter.label>
+  <FRMT_PrecursorInsectButter.description>牛奶，虫胶和植物油的混合物，能在发酵容器中制取虫胶黄油。</FRMT_PrecursorInsectButter.description>
+</LanguageData>

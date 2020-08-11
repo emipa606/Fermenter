@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--  Corn -->
+  <RecipeDef>
+    <defName>Press_FRMT_CornOil</defName>
+    <label>press corn oil</label>
+    <description>Press 25 corn oil using oil press.</description>
+    <jobString>Pressing corn oil.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3000</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCorn</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawCorn</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_CornOil>25</FRMT_CornOil>
+    </products>
+    <recipeUsers>
+      <li>FRMT_OilPress</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+  <!-- Olive -->
+  <RecipeDef>
+    <defName>Press_FRMT_OliveOil</defName>
+    <label>press olive oil</label>
+    <description>Press 25 olive oil using oil press.</description>
+    <jobString>pressing olive oil.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3000</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_Olives</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FRMT_Olives</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_OliveOil>25</FRMT_OliveOil>
+    </products>
+    <recipeUsers>
+      <li>FRMT_OilPress</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilTrees</researchPrerequisite>
+  </RecipeDef>
+  <!-- Sesame -->
+  <RecipeDef>
+    <defName>Press_FRMT_SesameOil</defName>
+    <label>press sesame oil</label>
+    <description>press 25 sesame oil using oil press.</description>
+    <jobString>pressing sesame oil.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_SesameSeeds</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FRMT_SesameSeeds</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_SesameOil>25</FRMT_SesameOil>
+    </products>
+    <recipeUsers>
+      <li>FRMT_OilPress</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+  <!--  Sunflower -->
+  <RecipeDef>
+    <defName>Press_FRMT_SunflowerOil</defName>
+    <label>press sunflower oil</label>
+    <description>press 25 sunflower oil using oil press.</description>
+    <jobString>Pressing sunflower oil.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_SunflowerSeeds</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>FRMT_SunflowerSeeds</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_SunflowerOil>25</FRMT_SunflowerOil>
+    </products>
+    <recipeUsers>
+      <li>FRMT_OilPress</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+  <!--  Butter -->
+  <RecipeDef>
+    <defName>Churn_FRMT_Butter</defName>
+    <label>churn butter</label>
+    <description>churn 10 butter using a churn.</description>
+    <jobString>churning butter</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2500</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+            <li>FRMT_PastMilk</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_CornOil</li>
+            <li>FRMT_OliveOil</li>
+            <li>FRMT_SesameOil</li>
+            <li>FRMT_SunflowerOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+        <li>FRMT_PastMilk</li>
+        <li>FRMT_CornOil</li>
+        <li>FRMT_OliveOil</li>
+        <li>FRMT_SesameOil</li>
+        <li>FRMT_SunflowerOil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_Butter>10</FRMT_Butter>
+    </products>
+    <recipeUsers>
+      <li>FRMT_Churn</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Churn_FRMT_InsectButter</defName>
+    <label>churn insect butter</label>
+    <description>churn 10 insect butter using a churn.</description>
+    <jobString>churning insect butter</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2500</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Milk</li>
+            <li>FRMT_PastMilk</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FRMT_CornOil</li>
+            <li>FRMT_OliveOil</li>
+            <li>FRMT_SesameOil</li>
+            <li>FRMT_SunflowerOil</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>InsectJelly</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Milk</li>
+        <li>FRMT_PastMilk</li>
+        <li>FRMT_CornOil</li>
+        <li>FRMT_OliveOil</li>
+        <li>FRMT_SesameOil</li>
+        <li>FRMT_SunflowerOil</li>
+        <li>InsectJelly</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FRMT_InsectButter>10</FRMT_InsectButter>
+    </products>
+    <recipeUsers>
+      <li>FRMT_Churn</li>
+    </recipeUsers>
+    <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+  </RecipeDef>
+</Defs>

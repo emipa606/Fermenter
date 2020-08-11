@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_NaturalYoghurt.label>天然酸奶</FRMT_NaturalYoghurt.label>
+  <FRMT_NaturalYoghurt.description>酸奶，是一种由鲜奶经乳酸菌发酵制成的乳制品。用于制作酸奶的细菌因此称为酸奶发酵剂。在发酵过程中，乳糖在发酵菌的作用下生成乳酸，乳酸再作用于乳蛋白，因而酸奶拥有其独特的酸性口感和外观。</FRMT_NaturalYoghurt.description>
+  <FRMT_FruitYoghurt.label>果味酸奶</FRMT_FruitYoghurt.label>
+  <FRMT_FruitYoghurt.description>果味酸奶，由天然酸奶和水果混合制成。</FRMT_FruitYoghurt.description>
+  <FRMT_PrecursorYoghurt.label>半成品酸奶</FRMT_PrecursorYoghurt.label>
+  <FRMT_PrecursorYoghurt.description>由天然动物乳汁和乳糖发酵菌制成的酸奶前体。可在发酵器皿制成天然酸奶。</FRMT_PrecursorYoghurt.description>
+</LanguageData>

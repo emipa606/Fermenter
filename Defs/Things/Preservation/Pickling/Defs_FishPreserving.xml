@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="FRMT_RawFishBase" ParentName="OrganicProductBase" Abstract="True">
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+      <Flammability>0.2</Flammability>
+      <Mass>0.035</Mass>
+      <FoodPoisonChanceFixedHuman>0.1</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <stackLimit>75</stackLimit>
+    <ingestible>
+      <foodType>Meat</foodType>
+      <preferability>RawTasty</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AtePickledFish</tasteThought>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories Inherit="false">
+      <li>MeatRaw</li>
+      <li>FRMT_Resources</li>
+    </thingCategories>
+    <generateCommonality>0</generateCommonality>
+  </ThingDef>
+  <ThoughtDef>
+    <defName>AtePickledFish</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate pickled fish</label>
+        <description>There's something zingy about eating pickled fish</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThingDef ParentName="FRMT_RawFishBase">
+    <defName>FRMT_FishPickled</defName>
+    <label>Pickled Fish</label>
+    <description>Fish that has been prepared in vinegar for preserving</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_FishPickled</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>6.6</MarketValue>
+      <DeteriorationRate>0.02</DeteriorationRate>
+      <Nutrition>0.04</Nutrition>
+    </statBases>
+    <generateCommonality>0.5</generateCommonality>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories Inherit="false">
+      <li>MeatRaw</li>
+      <li>FRMT_Pickles</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="FRMT_RawFishBase">
+    <defName>FRMT_FishPaste</defName>
+    <label>Fish Paste</label>
+    <description>Pickled fish that has been fermented into a paste.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_FishPaste</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+      <Flammability>0.3</Flammability>
+      <DeteriorationRate>0.75</DeteriorationRate>
+    </statBases>
+    <generateCommonality>0.2</generateCommonality>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

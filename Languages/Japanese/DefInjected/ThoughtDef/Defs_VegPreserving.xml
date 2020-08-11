@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AtePickledVeg.stages.ate_pickled_veg.label>野菜の酢漬けを食べた</AtePickledVeg.stages.ate_pickled_veg.label>
+  <AtePickledVeg.stages.ate_pickled_veg.description>酢漬けした野菜の漬物を食べることは素晴らしい。</AtePickledVeg.stages.ate_pickled_veg.description>
+  <AtePickledFruit.stages.ate_pickled_fruit.label>果物の酢漬けを食べた</AtePickledFruit.stages.ate_pickled_fruit.label>
+  <AtePickledFruit.stages.ate_pickled_fruit.description>酢漬けした果物の漬物を食べることは素晴らしい。</AtePickledFruit.stages.ate_pickled_fruit.description>
+  <AtePickledFungi.stages.ate_pickled_fungi.label>キノコの酢漬けを食べた</AtePickledFungi.stages.ate_pickled_fungi.label>
+  <AtePickledFungi.stages.ate_pickled_fungi.description>酢漬けしたキノコの漬物を食べることは素晴らしい。</AtePickledFungi.stages.ate_pickled_fungi.description>
+</LanguageData>

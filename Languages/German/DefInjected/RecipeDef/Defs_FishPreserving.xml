@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_FRMT_FishPickled.label>Stelle Eingelegter Fisch her</Make_FRMT_FishPickled.label>
+  <Make_FRMT_FishPickled.description>Fisch der in Essig eingelegt wurde.</Make_FRMT_FishPickled.description>
+  <Make_FRMT_FishPickled.jobString> Eingelegten Fisch herstellen.</Make_FRMT_FishPickled.jobString>
+  <Make_FRMT_FishPaste.label>Stelle Fischpaste her</Make_FRMT_FishPaste.label>
+  <Make_FRMT_FishPaste.description>Eingelegter Fisch der zu einer Paste fermentiert wurde.</Make_FRMT_FishPaste.description>
+  <Make_FRMT_FishPaste.jobString> Fischpaste herstellen.</Make_FRMT_FishPaste.jobString>
+</LanguageData>

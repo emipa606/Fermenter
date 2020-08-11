@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_InsectButter.label>インセクトバター</FRMT_InsectButter.label>
+  <FRMT_InsectButter.description>インセクトバターは乳脂肪分の多い乳製品で、冷やして常温で固めます。一般的には、食べ物と一緒に焼いたり、バターソースを作ったり、フライパンで焼いたりする料理のほか、パンを焼いたりトーストしたパン製品のスフレや調理した野菜の味付けとして用いられます。このバターは調理中に香りを与えて料理に風味を与える隠し味としてインセクトゼリーを利用しています。</FRMT_InsectButter.description>
+  <FRMT_InsectButter.ingestible.ingestCommandString>{0}を消費</FRMT_InsectButter.ingestible.ingestCommandString>
+  <FRMT_InsectButter.ingestible.ingestReportString>{0}を消費している</FRMT_InsectButter.ingestible.ingestReportString>
+  <FRMT_PrecursorInsectButter.label>インセクトバター用乳脂肪</FRMT_PrecursorInsectButter.label>
+  <FRMT_PrecursorInsectButter.description>インセクトバターを作るために発酵槽で使用するミルクとインセクトゼリーと植物油の混合物です。</FRMT_PrecursorInsectButter.description>
+</LanguageData>

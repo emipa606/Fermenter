@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Olives -->
+
+  <Plant_FRMT_OliveTree.label>Olive tree</Plant_FRMT_OliveTree.label>
+  <Plant_FRMT_OliveTree.description>The Olive tree, known by the botanical name Olea europaea is a species of tree in the family Oleaceae,</Plant_FRMT_OliveTree.description>
+
+  <FRMT_Olives.label>Olives</FRMT_Olives.label>
+  <FRMT_Olives.description>The olive's fruit, also called the olive, is of major agricultural importance as a source of olive oil; The tree and its fruit give their name to the plant family, which also includes species such as lilacs, jasmine, Forsythia, and the true ash trees (Fraxinus)</FRMT_Olives.description>
+
+
+  <!-- Sesame -->
+
+  <Plant_FRMT_Sesame.label>Sesame plant</Plant_FRMT_Sesame.label>
+  <Plant_FRMT_Sesame.description>The sesame plant is a flowering plant in the genus Sesamum, also called benne. It is widely naturalized in tropical regions and is cultivated for its edible seeds.</Plant_FRMT_Sesame.description>
+
+  <FRMT_SesameSeeds.label>Sesame Seeds</FRMT_SesameSeeds.label>
+  <FRMT_SesameSeeds.description>Sesame seed is one of the oldest oilseed crops known, and is tolerant to drought-like conditions, growing where other crops fail. It has a rich, nutty flavor and is a common ingredient in cuisines.</FRMT_SesameSeeds.description>
+
+
+  <!-- Sunflower -->
+
+  <Plant_FRMT_Sunflower.label>Sunflower</Plant_FRMT_Sunflower.label>
+  <Plant_FRMT_Sunflower.description>Helianthus is a genus of plants comprising about 70 species. The common names "sunflower" and "common sunflower" typically refer to the popular annual species Helianthus annuus, whose round flower heads in combination with the ligules look like the sun.</Plant_FRMT_Sunflower.description>
+
+  <FRMT_SunflowerSeeds.label>Sunflower Seeds</FRMT_SunflowerSeeds.label>
+  <FRMT_SunflowerSeeds.description>Sunflower seeds are the fruit of the sunflower (Helianthus annuus). The term "sunflower seed" is actually a misnomer when applied to the seed in its pericarp (hull). Botanically speaking, it is a cypsela. When dehulled, the edible remainder is called the sunflower kernel or heart.</FRMT_SunflowerSeeds.description>
+
+
+</LanguageData>

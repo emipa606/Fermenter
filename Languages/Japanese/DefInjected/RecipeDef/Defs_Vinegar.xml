@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_FRMT_VinegarPrecursor.label>原料モロミを作る</Make_FRMT_VinegarPrecursor.label>
+  <Make_FRMT_VinegarPrecursor.description>酒から原料モロミと酢酸菌を作る。</Make_FRMT_VinegarPrecursor.description>
+  <Make_FRMT_VinegarPrecursor.jobString>原料モロミを製造中</Make_FRMT_VinegarPrecursor.jobString>
+  <!-- Acetic Acid Bacteria -->
+  <Make_FRMT_DMGFruitMash.label>破砕果実発酵物を作る</Make_FRMT_DMGFruitMash.label>
+  <Make_FRMT_DMGFruitMash.description>果物から破砕果実発酵物を作る。</Make_FRMT_DMGFruitMash.description>
+  <Make_FRMT_DMGFruitMash.jobString>破砕果実発酵物を製造中</Make_FRMT_DMGFruitMash.jobString>
+</LanguageData>

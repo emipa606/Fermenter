@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pickled Veg -->
+  <Make_FRMT_VegPickled.label>Stelle Eingelegtes Gemüse her</Make_FRMT_VegPickled.label>
+  <Make_FRMT_VegPickled.description>Gemüse in Essig einlegen.</Make_FRMT_VegPickled.description>
+  <Make_FRMT_VegPickled.jobString>Gemüse in Essig einlegen.</Make_FRMT_VegPickled.jobString>
+  <!-- Pickled Fruit -->
+  <Make_FRMT_FruitPickled.label>Stelle Eingelegte Früchte her</Make_FRMT_FruitPickled.label>
+  <Make_FRMT_FruitPickled.description>Obst in Essig einlegen.</Make_FRMT_FruitPickled.description>
+  <Make_FRMT_FruitPickled.jobString>Obst in Essig einlegen.</Make_FRMT_FruitPickled.jobString>
+  <!-- Pickled Fungi -->
+  <Make_FRMT_FungiPickled.label>Stelle Eingelegte Pilze her</Make_FRMT_FungiPickled.label>
+  <Make_FRMT_FungiPickled.description>Pilze in Essig einlegen.</Make_FRMT_FungiPickled.description>
+  <Make_FRMT_FungiPickled.jobString>Pilze in Essig einlegen.</Make_FRMT_FungiPickled.jobString>
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Pickled Veg -->
+  <Make_FRMT_VegPickled.label>泡菜</Make_FRMT_VegPickled.label>
+  <Make_FRMT_VegPickled.description>将蔬菜放入醋中。</Make_FRMT_VegPickled.description>
+  <Make_FRMT_VegPickled.jobString>正在制作泡菜。</Make_FRMT_VegPickled.jobString>
+  <!-- Pickled Fruit -->
+  <Make_FRMT_FruitPickled.label>果脯</Make_FRMT_FruitPickled.label>
+  <Make_FRMT_FruitPickled.description>将水果浸入醋中。</Make_FRMT_FruitPickled.description>
+  <Make_FRMT_FruitPickled.jobString>正在制作果脯</Make_FRMT_FruitPickled.jobString>
+  <!-- Pickled Fungi -->
+  <Make_FRMT_FungiPickled.label>醋泡菌菇</Make_FRMT_FungiPickled.label>
+  <Make_FRMT_FungiPickled.description>将菌菇浸入醋中。</Make_FRMT_FungiPickled.description>
+  <Make_FRMT_FungiPickled.jobString>正在腌制菌菇。</Make_FRMT_FungiPickled.jobString>
+</LanguageData>

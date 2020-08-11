@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_Vinegar.label>酢</FRMT_Vinegar.label>
+  <FRMT_Vinegar.description>酢は、酢酸と香料などを少しだけ含んでいる微量な化学物質の水溶液です。通常は酢酸は酢酸菌によってアルコールまたは糖分の発酵によって生成されます。</FRMT_Vinegar.description>
+  <FRMT_PrecursorVinegar.label>種酢モロミ</FRMT_PrecursorVinegar.label>
+  <FRMT_PrecursorVinegar.description>酢に発酵するために使うアルコール成分と酢酸菌の混合物(もろみ麹)です。</FRMT_PrecursorVinegar.description>
+  <!-- Acetic Acid Bacteria -->
+  <FRMT_AceticAcidBacteria.label>酢酸菌</FRMT_AceticAcidBacteria.label>
+  <FRMT_AceticAcidBacteria.description>酢酸菌は空中を漂う細菌で自然界に多く存在しています。それらは、糖分を発酵させた産物としてアルコールを醸造する環境で特に活性化します。それらは蜂蜜や細かく潰した果実の発酵物などから分離することが可能です。</FRMT_AceticAcidBacteria.description>
+  <FRMT_DamagedFruitMash.label>破砕果実発酵物</FRMT_DamagedFruitMash.label>
+  <FRMT_DamagedFruitMash.description>粗く切り刻まれ、細かくすり潰した果物です。酢酸菌を発酵させるのに使えます。</FRMT_DamagedFruitMash.description>
+</LanguageData>

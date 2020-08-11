@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_LacticAcidBacteria.label>Milchsäurebakterien</FRMT_LacticAcidBacteria.label>
+  <FRMT_LacticAcidBacteria.description>Milchsäurebakterium aus der Fermentation von Kohlenhydraten.</FRMT_LacticAcidBacteria.description>
+  <FRMT_StarchMash.label>Stärkebrei</FRMT_StarchMash.label>
+  <FRMT_StarchMash.description>Stärkehaltiges Gemüse, das grob zerkleinert wurde. Kann zu Milchsäurebakterien fermentiert werden.</FRMT_StarchMash.description>
+</LanguageData>

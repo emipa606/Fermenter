@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>FRMT_PastMilk</defName>
+    <label>Pasteurised milk</label>
+    <description>Milk that has been heated to remove bacterial cultures and unwanted enzymes. This also helps to improve the shelf life of milk.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/FRMT_PastMilk</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>4.0</MarketValue>
+      <Mass>0.045</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <foodType>AnimalProduct, Fluid</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

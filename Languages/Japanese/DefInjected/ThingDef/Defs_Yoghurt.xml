@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FRMT_NaturalYoghurt.label>ナチュラルヨーグルト</FRMT_NaturalYoghurt.label>
+  <FRMT_NaturalYoghurt.description>ヨーグルトは、様々な呼び方のあるミルクを乳酸菌発酵させて作る発酵食品です。ヨーグルトを作るのに細菌を使う事はヨーグルト文化として広く知られています。これらの乳酸菌がラクトースを発酵させると乳酸が生成され、これが乳タンパク質に作用してヨーグルトの食感と独特の酸味を与えます。</FRMT_NaturalYoghurt.description>
+  <FRMT_FruitYoghurt.label>フルーツヨーグルト</FRMT_FruitYoghurt.label>
+  <FRMT_FruitYoghurt.description>フルーツヨーグルトは、ナチュラルヨーグルトとフルーツを混ぜたものです。</FRMT_FruitYoghurt.description>
+  <FRMT_PrecursorYoghurt.label>ヨーグルトの元</FRMT_PrecursorYoghurt.label>
+  <FRMT_PrecursorYoghurt.description>天然の動物性ミルクと乳酸菌から作られたヨーグルトの原材料です。発酵させるとナチュラルヨーグルトになります。</FRMT_PrecursorYoghurt.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FermenterVat.label>发酵缸</FermenterVat.label>
+  <FermenterVat.description>大型发酵缸。依赖室温，如果室内温度没有维持在7到32摄氏度这个范围，很容易导致缸内材料变质。</FermenterVat.description>
+  <FermenterVat_Blueprint.label>发酵缸(蓝图)</FermenterVat_Blueprint.label>
+  <FermenterVat_Blueprint_Install.label>发酵缸(蓝图)</FermenterVat_Blueprint_Install.label>
+  <FermenterVat_Frame.label>发酵缸(建造中)</FermenterVat_Frame.label>
+  <FermenterVat_Frame.description>大型发酵缸。依赖室温，如果室内温度没有维持在7到32摄氏度这个范围，很容易导致缸内材料变质。</FermenterVat_Frame.description>
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_FRMT_AceticAcidBacteria.label>Stelle Essigsäurebakterien her</Make_FRMT_AceticAcidBacteria.label>
+  <Make_FRMT_AceticAcidBacteria.description>Essigsäurebakterien sind in der Luft und in der Natur allgegenwärtig. Sie sind in Umgebungen aktiv, in denen Alkohol als Produkt der Fermentation von Zuckern gebildet wird. Sie können aus dem Blütennektar und aus geschädigten Früchten isoliert werden.</Make_FRMT_AceticAcidBacteria.description>
+  <Make_FRMT_AceticAcidBacteria.jobString>Essigsäurebakterien herstellen.</Make_FRMT_AceticAcidBacteria.jobString>
+  <Make_FRMT_VinegarPrecursor.label>Stelle Essigvorstufe her</Make_FRMT_VinegarPrecursor.label>
+  <Make_FRMT_VinegarPrecursor.description>Stelle Essigvorstufe aus Alkohol und Essigsäurebakterien her.</Make_FRMT_VinegarPrecursor.description>
+  <Make_FRMT_VinegarPrecursor.jobString>Essigvorstufe herstellen.</Make_FRMT_VinegarPrecursor.jobString>
+  <Make_FRMT_DMGFruitMash.label>Stelle Fruchtbrei aus Früchten her</Make_FRMT_DMGFruitMash.label>
+  <Make_FRMT_DMGFruitMash.description>Stelle Fruchtbrei Früchten her.</Make_FRMT_DMGFruitMash.description>
+  <Make_FRMT_DMGFruitMash.jobString>Fruchtbrei aus Früchten herstellen.</Make_FRMT_DMGFruitMash.jobString>
+</LanguageData>

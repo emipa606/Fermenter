@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- オイル圧搾機 -->
+  <FRMT_OilPress.label>オイル圧搾機</FRMT_OilPress.label>
+  <FRMT_OilPress.description>オイル製造に用いられる古い手動式の機械圧搾機です。</FRMT_OilPress.description>
+  <Blueprint_FRMT_OilPress.label>オイル圧搾機 (設計)</Blueprint_FRMT_OilPress.label>
+  <Blueprint_Install_FRMT_OilPress.label>オイル圧搾機 (移動先)</Blueprint_Install_FRMT_OilPress.label>
+  <Frame_FRMT_OilPress.label>オイル圧搾機 (施工)</Frame_FRMT_OilPress.label>
+  <Frame_FRMT_OilPress.description>オイル製造に用いられる古い手動式の機械圧搾機です。</Frame_FRMT_OilPress.description>
+</LanguageData>

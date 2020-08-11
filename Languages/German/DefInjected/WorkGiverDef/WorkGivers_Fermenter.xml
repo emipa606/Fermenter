@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WG_TakeProductFermenter.label>Produkt aus dem Fermenter nehmen</WG_TakeProductFermenter.label>
+  <WG_TakeProductFermenter.verb>entnehme Produkt</WG_TakeProductFermenter.verb>
+  <WG_TakeProductFermenter.gerund>Produkt entnehmen aus</WG_TakeProductFermenter.gerund>
+  <WG_FillFermenter.label>Fermenter füllen</WG_FillFermenter.label>
+  <WG_FillFermenter.verb>füllen</WG_FillFermenter.verb>
+  <WG_FillFermenter.gerund>Fülle Fermenter</WG_FillFermenter.gerund>
+</LanguageData>
