@@ -18,28 +18,6 @@
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
-    <li>dismarzero.VGP.VGPVegetableGarden</li>
-    <li>dismarzero.VGP.CuproPandasDrinks</li>
-    <li>Dubwise.DubsBadHygiene</li>
-    <li>Rikiki.FishIndustry</li>
-    <li>GT.Sam.FishingNets</li>
-    <li>rwmt.Multiplayer</li>
-    <li>Crustypeanut.RC2.Core</li>
-    <li>Crustypeanut.RC2.BaBE</li>
-    <li>sarg.rimbees</li>
-    <li>jamaicancastle.RF.fertilefields</li>
-    <li>firefoxpdm.RainbeausFishing</li>
-    <li>bishop.smokeleafindustryreborn</li>
-    <li>notfood.SeedsPlease</li>
-    <li>syrchalis.blueberries</li>
-    <li>pyrce.thanks.for.all.the.fish</li>
-    <li>dismarzero.VGP.VGPGardenTools</li>
-    <li>dismarzero.VGP.VGPGardenDrinks</li>
-    <li>dismarzero.VGP.VGPGardenGourmet</li>
-    <li>VanillaExpanded.VCEF</li>
-    <li>OskarPotocki.VanillaFactionsExpanded.SettlersModule</li>
-    <li>OskarPotocki.VanillaFactionsExpanded.MedievalModule</li>
-    <li>VanillaExpanded.VPlantsE</li>
   </loadAfter>
   <description>Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2001398514
