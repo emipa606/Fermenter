@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Brewing Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VBE_AmbrandyMush</defName>
+              <Product>VBE_AmbrandyMust</Product>
+              <Resource>VBE_AmbrandyMush</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>72.0</FermentHours>
+              <ResearchProject>VBE_MixologyResearch</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VBE_WhiskeyMash</defName>
+              <Product>VBE_Whiskey</Product>
+              <Resource>VBE_WhiskeyMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>288.0</FermentHours>
+              <ResearchProject>VBE_LiquorBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VBE_TequilaMust</defName>
+              <Product>VBE_Tequila</Product>
+              <Resource>VBE_TequilaMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>240.0</FermentHours>
+              <ResearchProject>VBE_LiquorBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VBE_VodkaMash</defName>
+              <Product>VBE_Vodka</Product>
+              <Resource>VBE_VodkaMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>120.0</FermentHours>
+              <ResearchProject>VBE_LiquorBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VBE_GinMush</defName>
+              <Product>VBE_Gin</Product>
+              <Resource>VBE_GinMush</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>360.0</FermentHours>
+              <ResearchProject>VBE_LiquorBrewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
