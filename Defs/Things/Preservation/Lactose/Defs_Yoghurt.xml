@@ -3,7 +3,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>FRMT_NaturalYoghurt</defName>
     <label>Natural Yoghurt</label>
-    <description>Yoghurt, also spelled yogurt, yogourt or yoghourt, is a food produced by bacterial fermentation of milk. The bacteria used to make yoghurt are known as yoghurt cultures. The fermentation of lactose by these bacteria produces lactic acid, which acts on milk protein to give yoghurt its texture and characteristic tart flavor.</description>
+    <description>Yoghurt, also spelled yogurt, yogourt or yoghourt, is a food produced by bacterial fermentation of milk. The bacteria used to make yoghurt are known as yoghurt cultures. The fermentation of lactose by these bacteria produces lactic acid, which acts on milk protein to give yoghurt its texture and characteristic tart flavor. This is mainly consumed for its health-qualities and not really for nutrition.</description>
     <graphicData>
       <texPath>Things/Item/Resource/FRMT_NaturalYoghurt/FRMT_NaturalYoghurt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -42,7 +42,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>FRMT_FruitYoghurt</defName>
     <label>Fruit Yoghurt</label>
-    <description>Fruit Yoghurt, a mix of natural Yoghurt and fruits.</description>
+    <description>Fruit Yoghurt, a mix of natural Yoghurt and fruits. This is mainly consumed for its health-qualities and not really for nutrition.</description>
     <graphicData>
       <texPath>Things/Item/Resource/FRMT_FruitYoghurt/FRMT_FruitYoghurt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
