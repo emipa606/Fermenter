@@ -1,20 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <FRMT_Vinegar.label>Vinegar</FRMT_Vinegar.label>
   <FRMT_Vinegar.description>Vinegar is an aqueous solution of acetic acid and trace chemicals that may include flavorings. Usually the acetic acid is produced by the fermentation of alcohol or sugars by acetic acid bacteria.</FRMT_Vinegar.description>
-
   <FRMT_PrecursorVinegar.label>Vinegar Precursor</FRMT_PrecursorVinegar.label>
   <FRMT_PrecursorVinegar.description>A mix of alcohol and acetic acid bacteria used to ferment into vinegar.</FRMT_PrecursorVinegar.description>
-
-
   <!-- Acetic Acid Bacteria -->
-
   <FRMT_AceticAcidBacteria.label>Acetic Acid Bacteria</FRMT_AceticAcidBacteria.label>
   <FRMT_AceticAcidBacteria.description>Acetic acid bacteria are airborne and are ubiquitous in nature. They are actively present in environments where alcohol is being formed as a product of the fermentation of sugars. They can be isolated from the nectar of flowers and from damaged fruit.</FRMT_AceticAcidBacteria.description>
-
   <FRMT_DamagedFruitMash.label>Damaged Fruit Mash</FRMT_DamagedFruitMash.label>
   <FRMT_DamagedFruitMash.description>Fruit that has been crudely chopped and bruised into a mash. Can be fermented into acetic acid bacteria.</FRMT_DamagedFruitMash.description>
-
-
 </LanguageData>

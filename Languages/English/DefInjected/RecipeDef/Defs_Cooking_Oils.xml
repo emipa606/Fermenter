@@ -1,30 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Oil precursor recipes -->
-
   <Make_FRMT_CornOilPrecursor.label>make corn oil precursor</Make_FRMT_CornOilPrecursor.label>
   <Make_FRMT_CornOilPrecursor.description>Make corn oil precursor from corn and solvent.</Make_FRMT_CornOilPrecursor.description>
   <Make_FRMT_CornOilPrecursor.jobString>Making corn oil precursor.</Make_FRMT_CornOilPrecursor.jobString>
-
   <Make_FRMT_OliveOilPrecursor.label>make olive oil precursor</Make_FRMT_OliveOilPrecursor.label>
   <Make_FRMT_OliveOilPrecursor.description>Make olive oil precursor from olives and solvent.</Make_FRMT_OliveOilPrecursor.description>
   <Make_FRMT_OliveOilPrecursor.jobString>Making olive oil precursor.</Make_FRMT_OliveOilPrecursor.jobString>
-
   <Make_FRMT_SesameOilPrecursor.label>make sesame oil precursor</Make_FRMT_SesameOilPrecursor.label>
   <Make_FRMT_SesameOilPrecursor.description>Make sesame oil precursor from sesame seeds and solvent.</Make_FRMT_SesameOilPrecursor.description>
   <Make_FRMT_SesameOilPrecursor.jobString>Making sesame oil precursor.</Make_FRMT_SesameOilPrecursor.jobString>
-
   <Make_FRMT_SunflowerOilPrecursor.label>make sunflower oil precursor</Make_FRMT_SunflowerOilPrecursor.label>
   <Make_FRMT_SunflowerOilPrecursor.description>Make sunflower oil precursor from sunflower seeds and solvent.</Make_FRMT_SunflowerOilPrecursor.description>
   <Make_FRMT_SunflowerOilPrecursor.jobString>Making sunflower oil precursor.</Make_FRMT_SunflowerOilPrecursor.jobString>
-
-
   <!-- Hexane -->
-
   <MakeRPHexane.label>Make Hexane</MakeRPHexane.label>
   <MakeRPHexane.description>Make 25 Hexane</MakeRPHexane.description>
   <MakeRPHexane.jobString>Making Hexane</MakeRPHexane.jobString>
-
-
 </LanguageData>

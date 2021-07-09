@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AtePickledVeg.stages.0.label>ate pickled veg</AtePickledVeg.stages.0.label>
   <AtePickledVeg.stages.0.description>There's something zingy about eating pickles</AtePickledVeg.stages.0.description>
-
   <AtePickledFruit.stages.0.label>ate pickled fruit</AtePickledFruit.stages.0.label>
   <AtePickledFruit.stages.0.description>There's something zingy about eating preserved fruit</AtePickledFruit.stages.0.description>
-
   <AtePickledFungi.stages.0.label>ate pickled fungi</AtePickledFungi.stages.0.label>
   <AtePickledFungi.stages.0.description>There's something zingy about eating pickles</AtePickledFungi.stages.0.description>
-
-
 </LanguageData>

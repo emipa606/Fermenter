@@ -1,21 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <WG_TakeProductFermenter.label>take product out of fermenter</WG_TakeProductFermenter.label>
   <WG_TakeProductFermenter.verb>take product</WG_TakeProductFermenter.verb>
   <WG_TakeProductFermenter.gerund>taking product from</WG_TakeProductFermenter.gerund>
-
   <WG_TakeProductFermenterVat.label>take product out of fermenter vat</WG_TakeProductFermenterVat.label>
   <WG_TakeProductFermenterVat.verb>take product</WG_TakeProductFermenterVat.verb>
   <WG_TakeProductFermenterVat.gerund>taking product from</WG_TakeProductFermenterVat.gerund>
-
   <WG_FillFermenter.label>fill fermenter</WG_FillFermenter.label>
   <WG_FillFermenter.verb>fill</WG_FillFermenter.verb>
   <WG_FillFermenter.gerund>filling</WG_FillFermenter.gerund>
-
   <WG_FillFermenterVat.label>fill fermenter vat</WG_FillFermenterVat.label>
   <WG_FillFermenterVat.verb>fill</WG_FillFermenterVat.verb>
   <WG_FillFermenterVat.gerund>filling</WG_FillFermenterVat.gerund>
-
-
 </LanguageData>

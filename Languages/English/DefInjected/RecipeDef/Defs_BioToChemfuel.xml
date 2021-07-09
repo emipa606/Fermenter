@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Make_FRMT_BioFuelPrecursor.label>make biofuel precursor</Make_FRMT_BioFuelPrecursor.label>
   <Make_FRMT_BioFuelPrecursor.description>Make biofuel precursor from organics.</Make_FRMT_BioFuelPrecursor.description>
   <Make_FRMT_BioFuelPrecursor.jobString>Making biofuel precursor.</Make_FRMT_BioFuelPrecursor.jobString>
-
-
 </LanguageData>

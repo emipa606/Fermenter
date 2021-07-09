@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Churn -->
-
   <FRMT_Churn.label>Churn</FRMT_Churn.label>
   <FRMT_Churn.description>A manual device used to agitate liquids into other products.</FRMT_Churn.description>
-
-
 </LanguageData>

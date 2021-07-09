@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Make_FRMT_PrecursorYoghurt.label>make Yoghurt Precursor</Make_FRMT_PrecursorYoghurt.label>
   <Make_FRMT_PrecursorYoghurt.description>Make Yoghurt precursor from milk and lactose bacteria.</Make_FRMT_PrecursorYoghurt.description>
   <Make_FRMT_PrecursorYoghurt.jobString>Making yoghurt precursor.</Make_FRMT_PrecursorYoghurt.jobString>
-
   <Make_FRMT_FruitYoghurt.label>make fruit yoghurt</Make_FRMT_FruitYoghurt.label>
   <Make_FRMT_FruitYoghurt.description>Make fruit yoghurt from natural yoghurt and fruits</Make_FRMT_FruitYoghurt.description>
   <Make_FRMT_FruitYoghurt.jobString>Making fruit yoghurt.</Make_FRMT_FruitYoghurt.jobString>
-
-
 </LanguageData>

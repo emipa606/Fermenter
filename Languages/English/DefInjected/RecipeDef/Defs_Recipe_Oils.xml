@@ -1,43 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Corn -->
-
   <Press_FRMT_CornOil.label>press corn oil</Press_FRMT_CornOil.label>
   <Press_FRMT_CornOil.description>Press 25 corn oil using oil press.</Press_FRMT_CornOil.description>
   <Press_FRMT_CornOil.jobString>Pressing corn oil.</Press_FRMT_CornOil.jobString>
-
-
   <!-- Olive -->
-
   <Press_FRMT_OliveOil.label>press olive oil</Press_FRMT_OliveOil.label>
   <Press_FRMT_OliveOil.description>Press 25 olive oil using oil press.</Press_FRMT_OliveOil.description>
   <Press_FRMT_OliveOil.jobString>pressing olive oil.</Press_FRMT_OliveOil.jobString>
-
-
   <!-- Sesame -->
-
   <Press_FRMT_SesameOil.label>press sesame oil</Press_FRMT_SesameOil.label>
   <Press_FRMT_SesameOil.description>press 25 sesame oil using oil press.</Press_FRMT_SesameOil.description>
   <Press_FRMT_SesameOil.jobString>pressing sesame oil.</Press_FRMT_SesameOil.jobString>
-
-
   <!-- Sunflower -->
-
   <Press_FRMT_SunflowerOil.label>press sunflower oil</Press_FRMT_SunflowerOil.label>
   <Press_FRMT_SunflowerOil.description>press 25 sunflower oil using oil press.</Press_FRMT_SunflowerOil.description>
   <Press_FRMT_SunflowerOil.jobString>Pressing sunflower oil.</Press_FRMT_SunflowerOil.jobString>
-
-
   <!-- Butter -->
-
   <Churn_FRMT_Butter.label>churn butter</Churn_FRMT_Butter.label>
   <Churn_FRMT_Butter.description>churn 10 butter using a churn.</Churn_FRMT_Butter.description>
   <Churn_FRMT_Butter.jobString>churning butter</Churn_FRMT_Butter.jobString>
-
   <Churn_FRMT_InsectButter.label>churn insect butter</Churn_FRMT_InsectButter.label>
   <Churn_FRMT_InsectButter.description>churn 10 insect butter using a churn.</Churn_FRMT_InsectButter.description>
   <Churn_FRMT_InsectButter.jobString>churning insect butter</Churn_FRMT_InsectButter.jobString>
-
-
 </LanguageData>

@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <AteFRMTCheese.stages.0.label>ate cheese</AteFRMTCheese.stages.0.label>
   <AteFRMTCheese.stages.0.description>Hmm, cheese is so tangy.</AteFRMTCheese.stages.0.description>
-
   <AteFRMTCheeseGood.stages.0.label>ate mozzarella cheese</AteFRMTCheeseGood.stages.0.label>
   <AteFRMTCheeseGood.stages.0.description>Hmm, cheese is so creamy and tangy.</AteFRMTCheeseGood.stages.0.description>
-
   <AteFRMTCheeseSpecial.stages.0.label>ate matured cheese</AteFRMTCheeseSpecial.stages.0.label>
   <AteFRMTCheeseSpecial.stages.0.description>Hmm, cheese is so rich, creamy and tangy.</AteFRMTCheeseSpecial.stages.0.description>
-
-
 </LanguageData>

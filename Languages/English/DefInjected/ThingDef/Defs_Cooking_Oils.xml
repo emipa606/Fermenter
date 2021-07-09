@@ -1,48 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Oils -->
-
   <FRMT_CornOil.label>Corn Oil</FRMT_CornOil.label>
   <FRMT_CornOil.description>Corn oil (maize oil) is oil extracted from the germ of corn (maize). Its main use is in cooking, where its high smoke point makes refined corn oil a valuable frying oil. Corn oil is generally less expensive than most other types of vegetable oils.</FRMT_CornOil.description>
   <FRMT_CornOil.ingestible.ingestCommandString>Consume {0}</FRMT_CornOil.ingestible.ingestCommandString>
   <FRMT_CornOil.ingestible.ingestReportString>Consuming {0}.</FRMT_CornOil.ingestible.ingestReportString>
-
   <FRMT_OliveOil.label>Olive Oil</FRMT_OliveOil.label>
   <FRMT_OliveOil.description>Olive oil is a liquid obtained from olives (the fruit of Olea europaea; family Oleaceae), a traditional tree crop. It is commonly used in cooking, whether for frying or as a salad dressing.</FRMT_OliveOil.description>
   <FRMT_OliveOil.ingestible.ingestCommandString>Consume {0}</FRMT_OliveOil.ingestible.ingestCommandString>
   <FRMT_OliveOil.ingestible.ingestReportString>Consuming {0}.</FRMT_OliveOil.ingestible.ingestReportString>
-
   <FRMT_SesameOil.label>Sesame Oil</FRMT_SesameOil.label>
   <FRMT_SesameOil.description>Sesame oil is an edible vegetable oil derived from sesame seeds. Besides being used as a cooking oil, it is used as a flavor enhancer in many cuisines, having a distinctive nutty aroma and taste.</FRMT_SesameOil.description>
   <FRMT_SesameOil.ingestible.ingestCommandString>Consume {0}</FRMT_SesameOil.ingestible.ingestCommandString>
   <FRMT_SesameOil.ingestible.ingestReportString>Consuming {0}.</FRMT_SesameOil.ingestible.ingestReportString>
-
   <FRMT_SunflowerOil.label>Sunflower Oil</FRMT_SunflowerOil.label>
   <FRMT_SunflowerOil.description>Sunflower oil is the non-volatile oil pressed from the seeds of sunflower (Helianthus annuus). Sunflower oil is commonly used in food as a frying oil.</FRMT_SunflowerOil.description>
   <FRMT_SunflowerOil.ingestible.ingestCommandString>Consume {0}</FRMT_SunflowerOil.ingestible.ingestCommandString>
   <FRMT_SunflowerOil.ingestible.ingestReportString>Consuming {0}.</FRMT_SunflowerOil.ingestible.ingestReportString>
-
-
   <!-- Oil Precursors -->
-
   <FRMT_PrecursorCornOil.label>Corn Oil Precursor</FRMT_PrecursorCornOil.label>
   <FRMT_PrecursorCornOil.description>A mixture of corn and solvent to be used in a fermentation vessel to derive the associated vegetable oil.</FRMT_PrecursorCornOil.description>
-
   <FRMT_PrecursorOliveOil.label>Olive Oil Precursor</FRMT_PrecursorOliveOil.label>
   <FRMT_PrecursorOliveOil.description>A mixture of olives and solvent to be used in a fermentation vessel to derive the associated vegetable oil.</FRMT_PrecursorOliveOil.description>
-
   <FRMT_PrecursorSesameOil.label>Sesame Oil Precursor</FRMT_PrecursorSesameOil.label>
   <FRMT_PrecursorSesameOil.description>A mixture of sesame seeds and solvent to be used in a fermentation vessel to derive the associated vegetable oil.</FRMT_PrecursorSesameOil.description>
-
   <FRMT_PrecursorSunflowerOil.label>Sunflower Oil Precursor</FRMT_PrecursorSunflowerOil.label>
   <FRMT_PrecursorSunflowerOil.description>A mixture of sunflower seeds and solvent to be used in a fermentation vessel to derive the associated vegetable oil.</FRMT_PrecursorSunflowerOil.description>
-
-
   <!-- Hexane -->
-
   <RPHexane.label>Hexane</RPHexane.label>
   <RPHexane.description>Hexane is an alkane of six carbon atoms, with the chemical formula C6H14. A colorless liquid, odorless when pure, with boiling points between 50 and 70 °C (122 and 158 °F). They are widely used as cheap, relatively safe, largely unreactive, and easily evaporated non-polar solvents.</RPHexane.description>
-
-
 </LanguageData>

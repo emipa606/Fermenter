@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <FRMT_LacticAcidBacteria.label>Lactic Acid Bacteria</FRMT_LacticAcidBacteria.label>
   <FRMT_LacticAcidBacteria.description>Lactic acid bacterium sourced from the fermentation of carbohydrates.</FRMT_LacticAcidBacteria.description>
-
   <FRMT_StarchMash.label>Starch Mash</FRMT_StarchMash.label>
   <FRMT_StarchMash.description>Starchy vegetables that has been crudely chopped into a mash. Can be fermented into lactic acid bacteria.</FRMT_StarchMash.description>
-
-
 </LanguageData>
