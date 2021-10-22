@@ -13,7 +13,7 @@
             <Fermenter.FermentDef>
               <defName>Ferment_BlueberryWine</defName>
               <Product>BlueberryWine</Product>
-              <Resource>Mash</Resource>
+              <Resource>BlueberryMash</Resource>
               <SpoilProduct>SpoilMash</SpoilProduct>
               <FermentHours>180.0</FermentHours>
               <ResearchProject>Brewing</ResearchProject>

@@ -1,25 +1,16 @@
 # Fermenter
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2001398514
 
 - Added support for Vanilla Brewing Expanded
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/Fermenter]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 # Overview
@@ -38,7 +29,7 @@ The mod also includes a medieval tech option of the Fermentation Vat which opera
 
 The mod also includes a rudimentary process of making Vinegar, which can be further used to pickle food related items and also provide other products through additional fermentation. (The PDF below explains the additional content).
 
-Also included is the ability to make oils from plants through fermentation processes using solvents. These can then be used as cooking aids to reduce cooking times. There are also  some fermentation processes to make dairy products. And when the fermenter isn&apos;t fermenting food, it can be used to break down organics into bio-fuel (chemfuel).
+Also included is the ability to make oils from plants through fermentation processes using solvents. These can then be used as cooking aids to reduce cooking times. There are also  some fermentation processes to make dairy products. And when the fermenter isn't fermenting food, it can be used to break down organics into bio-fuel (chemfuel).
 
 The fermenter is also extremely easy to add recipes to as a result of it using its own fermentation def to add additional recipe options.
 
@@ -47,7 +38,7 @@ Further details can be found in the following PDF: https://1drv.ms/b/s!Au3GsmKyQ
 # Mod Notes
 
 
-Safe to add to any save game, for removal you&apos;d have to remove buildings and content from the game first.
+Safe to add to any save game, for removal you'd have to remove buildings and content from the game first.
 
 Research projects added in own tab. Modded content may require their own research for activation.
 
@@ -81,7 +72,7 @@ In addition to vanilla beer:
 **VG - Garden Gourmet** - can make oils manually at grindstone and use cheeses in recipes as applicable.
 **VCE - Fishing** - can preserve fish from this mod.
 **VCE/VPE** - Fruits and other plants will be used in various recipes.
-**VFE - Medieval** - fermentation of wine but only at &quot;normal quality&quot;.
+**VFE - Medieval** - fermentation of wine but only at "normal quality".
 **VFE - Settlers** - distillation of Chemshine.
 
 
@@ -98,7 +89,7 @@ German translation - Erdnussbrot.
 (CC BY-NC-SA 4.0)
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
