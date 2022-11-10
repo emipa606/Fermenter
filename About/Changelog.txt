@@ -1,5 +1,8 @@
 # Changelog for Fermenter
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.0.7.0 - Fixed the blueberry patch for SYR Brueberries, thanks Chrispy
 
 

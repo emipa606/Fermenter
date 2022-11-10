@@ -1,0 +1,938 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Tools</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeCompostStarter"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeCompostStarter"]/ingredients/li[2]/filter/thingDefs</xpath>
+            <value>
+              <li>SpoilMash</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeCompostStarter"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>SpoilMash</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeCompostStarter"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>SpoilMash</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- Fruit Yoghurt -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Damaged fruit mash -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Starch Mash -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>Rawsnowbeet</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>Rawsnowbeet</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>Rawsnowbeet</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_StarchMash"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>Rawsnowbeet</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Olive Oil -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_OliveOilPrecursor"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <value>
+            <li>RawOlive</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_OliveOilPrecursor"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>RawOlive</li>
+          </value>
+        </li>
+        <!--  Veg Pickles -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>FruitFoodRaw</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedCategories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>FruitFoodRaw</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+            <value>
+              <li>Rawmushroom</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>Rawmushroom</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+            <value>
+              <li>Rawmushroom</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>Rawmushroom</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedCategories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>FruitFoodRaw</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedCategories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedCategories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedCategories>
+                <li>FruitFoodRaw</li>
+              </disallowedCategories>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Fruit Pickles -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Fungi Pickles -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>Rawmushroom</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>Rawmushroom</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>Rawmushroom</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FungiPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>Rawmushroom</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Gourmet</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!--  Corn -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_VGFRMT_CornOil</defName>
+              <label>make corn oil</label>
+              <description>Make 5 corn oil using grindstone.</description>
+              <jobString>Making corn oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawCorn</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>RawCorn</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_CornOil>5</FRMT_CornOil>
+              </products>
+              <recipeUsers>
+                <li>GrindStone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Olive -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_VGFRMT_OliveOil</defName>
+              <label>make olive oil</label>
+              <description>Make 5 olive oil using grindstone.</description>
+              <jobString>Making olive oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_Olives</li>
+                      <li>RawOlive</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_Olives</li>
+                  <li>RawOlive</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_OliveOil>5</FRMT_OliveOil>
+              </products>
+              <recipeUsers>
+                <li>GrindStone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilTrees</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sesame -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_VGFRMT_SesameOil</defName>
+              <label>make sesame oil</label>
+              <description>Make 5 sesame oil using grindstone.</description>
+              <jobString>Making sesame oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SesameSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SesameSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SesameOil>5</FRMT_SesameOil>
+              </products>
+              <recipeUsers>
+                <li>GrindStone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sunflower -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_VGFRMT_SunflowerOil</defName>
+              <label>make sunflower oil</label>
+              <description>Make 5 sunflower oil using grindstone.</description>
+              <jobString>Making sunflower oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SunflowerSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SunflowerSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SunflowerOil>5</FRMT_SunflowerOil>
+              </products>
+              <recipeUsers>
+                <li>GrindStone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!--  Corn -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_VGRMFRMT_CornOil</defName>
+              <label>make corn oil</label>
+              <description>Make 5 corn oil using roller mill.</description>
+              <jobString>Making corn oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>RawCorn</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>RawCorn</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_CornOil>5</FRMT_CornOil>
+              </products>
+              <recipeUsers>
+                <li>ElectricGrindStone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Olive -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_VGRMFRMT_OliveOil</defName>
+              <label>make olive oil</label>
+              <description>Make 5 olive oil using roller mill.</description>
+              <jobString>Making olive oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_Olives</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_Olives</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_OliveOil>5</FRMT_OliveOil>
+              </products>
+              <recipeUsers>
+                <li>ElectricGrindStone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilTrees</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sesame -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_VGRMFRMT_SesameOil</defName>
+              <label>make sesame oil</label>
+              <description>Make 5 sesame oil using roller mill.</description>
+              <jobString>Making sesame oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SesameSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SesameSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SesameOil>5</FRMT_SesameOil>
+              </products>
+              <recipeUsers>
+                <li>ElectricGrindStone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+        <!-- Sunflower -->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef>
+              <defName>Make_VGRMFRMT_SunflowerOil</defName>
+              <label>make sunflower oil</label>
+              <description>Make 5 sunflower oil using roller mill.</description>
+              <jobString>Making sunflower oil.</jobString>
+              <workSpeedStat>CookSpeed</workSpeedStat>
+              <workSkill>Cooking</workSkill>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Brewing</soundWorking>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <workAmount>1000</workAmount>
+              <targetCountAdjustment>5</targetCountAdjustment>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>FRMT_SunflowerSeeds</li>
+                    </thingDefs>
+                  </filter>
+                  <count>15</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>FRMT_SunflowerSeeds</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <FRMT_SunflowerOil>5</FRMT_SunflowerOil>
+              </products>
+              <recipeUsers>
+                <li>ElectricGrindStone</li>
+              </recipeUsers>
+              <researchPrerequisite>FRMT_OilPlants</researchPrerequisite>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Drinks</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_rum</defName>
+              <Product>rum</Product>
+              <Resource>VG_CaneMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>96.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_strawberrywine</defName>
+              <Product>strawberrywine</Product>
+              <Resource>CPD_WineMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>120.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_VG_AmbrosiaWine</defName>
+              <Product>VG_AmbrosiaWine</Product>
+              <Resource>VG_AmbrosiaMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>120.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_saki</defName>
+              <Product>saki</Product>
+              <Resource>CPD_RiceMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>84.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_CPD_VodkaPrecursor</defName>
+              <Product>CPD_VodkaPrecursor</Product>
+              <Resource>RawPotatoes</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>72.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_tequila</defName>
+              <Product>tequila</Product>
+              <Resource>VG_AgaveMust</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>108.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_whisky</defName>
+              <Product>whisky</Product>
+              <Resource>CPD_CornWort</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>84.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_Fruitshine</defName>
+              <Product>Fruitshine</Product>
+              <Resource>VG_FruitMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>84.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_VG_FruitKvass</defName>
+              <Product>FruitKvass</Product>
+              <Resource>VG_FruitKvassWort</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>60.0</FermentHours>
+              <ResearchProject>VG_industrialfermenting</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/categories</xpath>
+            <value>
+              <li>VG_Drinks</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <categories>
+                <li>VG_Drinks</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>VG_Drinks</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>VG_Drinks</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Drinks</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>VGP Vegetable Garden</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <Fermenter.FermentDef>
+                <defName>Ferment_VG_cider</defName>
+                <Product>cider</Product>
+                <Resource>VG_CiderMust</Resource>
+                <SpoilProduct>SpoilMash</SpoilProduct>
+                <FermentHours>72.0</FermentHours>
+                <ResearchProject>VG_industrialfermenting</ResearchProject>
+              </Fermenter.FermentDef>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <Fermenter.FermentDef>
+                <defName>Ferment_VG_BrownAle</defName>
+                <Product>BrownAle</Product>
+                <Resource>VG_BrownMalt</Resource>
+                <SpoilProduct>SpoilMash</SpoilProduct>
+                <FermentHours>72.0</FermentHours>
+                <ResearchProject>VG_industrialfermenting</ResearchProject>
+              </Fermenter.FermentDef>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <Fermenter.FermentDef>
+                <defName>Ferment_VG_KvassSoda</defName>
+                <Product>KvassSoda</Product>
+                <Resource>VG_KvassSodaWort</Resource>
+                <SpoilProduct>SpoilMash</SpoilProduct>
+                <FermentHours>60.0</FermentHours>
+                <ResearchProject>VG_industrialfermenting</ResearchProject>
+              </Fermenter.FermentDef>
+            </value>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <Fermenter.FermentDef>
+                <defName>Ferment_VG_VegetableKvass</defName>
+                <Product>VegetableKvass</Product>
+                <Resource>VG_VegKvassWort</Resource>
+                <SpoilProduct>SpoilMash</SpoilProduct>
+                <FermentHours>60.0</FermentHours>
+                <ResearchProject>VG_industrialfermenting</ResearchProject>
+              </Fermenter.FermentDef>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Drinks</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>VGP Vegetable Garden</li>
+      </mods>
+      <match Class="PatchOperationFindMod">
+        <mods>
+          <li>Vanilla Factions Expanded - Medieval</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+          <success>Always</success>
+          <operations>
+            <li Class="PatchOperationAdd">
+              <xpath>/Defs</xpath>
+              <value>
+                <Fermenter.FermentDef>
+                  <defName>Ferment_VG_Wine</defName>
+                  <Product>Wine</Product>
+                  <Resource>VG_GrapeMust</Resource>
+                  <SpoilProduct>SpoilMash</SpoilProduct>
+                  <FermentHours>120.0</FermentHours>
+                  <ResearchProject>VG_industrialfermenting</ResearchProject>
+                </Fermenter.FermentDef>
+              </value>
+            </li>
+          </operations>
+        </nomatch>
+      </match>
+    </match>
+  </Operation>
+</Patch>
