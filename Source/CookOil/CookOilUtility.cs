@@ -16,8 +16,8 @@ public class CookOilUtility
 
     public static List<string> OilDefNames()
     {
-        return new List<string>
-        {
+        return
+        [
             "FRMT_CornOil",
             "FRMT_OliveOil",
             "FRMT_SesameOil",
@@ -27,7 +27,7 @@ public class CookOilUtility
             "SmokeleafButter",
             "SmokeleafSeedOil",
             "VCE_SmokeleafButter"
-        };
+        ];
     }
 
     public static bool ProductsHaveMeals(Bill bill)
@@ -104,7 +104,7 @@ public class CookOilUtility
     {
         oil = null;
         var candidates = new List<Thing>();
-        if (p is { Map: { }, Spawned: true })
+        if (p is { Map: not null, Spawned: true })
         {
             var map = p.Map;
             var cells = GenAdj.CellsAdjacent8Way(p).ToList();
@@ -194,6 +194,6 @@ public class CookOilUtility
 
     public static float GetOilReduction(Thing oil)
     {
-        return Mathf.Lerp(20f, 80f, Math.Max(0f, Math.Min(1f, oil.MarketValue / 12f)));
+        return Mathf.Lerp(20f, 80f, Math.Max(0f, Math.Min(1f, oil.MarketValue / OilValueMax)));
     }
 }

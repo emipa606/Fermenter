@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[SYR] Blueberries</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <Fermenter.FermentDef>
+              <defName>Ferment_BlueberryWine</defName>
+              <Product>BlueberryWine</Product>
+              <Resource>BlueberryMash</Resource>
+              <SpoilProduct>SpoilMash</SpoilProduct>
+              <FermentHours>180.0</FermentHours>
+              <ResearchProject>Brewing</ResearchProject>
+            </Fermenter.FermentDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>RawBlueberries</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>RawBlueberries</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RawBlueberries</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>RawBlueberries</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <!-- Fruit Yoghurt -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter/thingDefs</xpath>
+            <value>
+              <li>RawBlueberries</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>RawBlueberries</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RawBlueberries</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_FruitYoghurt"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>RawBlueberries</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <!--  Damaged fruit mash -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>RawBlueberries</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>RawBlueberries</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RawBlueberries</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_DMGFruitMash"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>RawBlueberries</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

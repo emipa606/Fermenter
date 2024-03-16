@@ -4,15 +4,14 @@ namespace Fermenter;
 
 public class FermentDef : Def
 {
+    public readonly float FermentHours = 48f;
+
+    public readonly string Product = "";
+
+    public readonly string ResearchProject = "";
+
+    public readonly string Resource = "";
+
+    public readonly string SpoilProduct = "";
     public bool FermenterNeeded;
-
-    public float FermentHours = 48f;
-
-    public string Product = "";
-
-    public string ResearchProject = "";
-
-    public string Resource = "";
-
-    public string SpoilProduct = "";
 }

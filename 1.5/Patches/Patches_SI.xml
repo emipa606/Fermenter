@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Smokeleaf Industry</li>
+      <li>Smokeleaf Industry Reborn</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>HempMilk</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>HempMilk</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/ingredients/li[2]/filter/thingDefs</xpath>
+            <value>
+              <li>SmokeleafSeedOil</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>SmokeleafSeedOil</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>HempMilk</li>
+              <li>SmokeleafSeedOil</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_ButterPrecursor"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>HempMilk</li>
+                <li>SmokeleafSeedOil</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+            <value>
+              <li>HempFlour</li>
+              <li>SmokeleafSeedOil</li>
+              <li>SmokeleafButter</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>HempFlour</li>
+                <li>SmokeleafSeedOil</li>
+                <li>SmokeleafButter</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+            <value>
+              <li>HempFlour</li>
+              <li>SmokeleafSeedOil</li>
+              <li>SmokeleafButter</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>HempFlour</li>
+                <li>SmokeleafSeedOil</li>
+                <li>SmokeleafButter</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

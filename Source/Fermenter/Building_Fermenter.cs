@@ -8,11 +8,10 @@ namespace Fermenter;
 
 public class Building_Fermenter : Building
 {
+    public readonly List<FermentDef> fermentList = DefDatabase<FermentDef>.AllDefsListForReading;
     public int BatchLimit = 250;
 
     public float FermentHours = 168f;
-
-    public List<FermentDef> fermentList = DefDatabase<FermentDef>.AllDefsListForReading;
 
     public string FermentProduct = "";
 
@@ -216,11 +215,7 @@ public class Building_Fermenter : Building
                 var ProdDef = ThingDef.Named(ChoiceProdDef.Product);
                 var ResDef = ThingDef.Named(ChoiceProdDef.Resource);
                 var key = "Fermenter.MakeProcess";
-                var array = new object[2];
-                var num = 0;
-                array[num] = ProdDef?.LabelCap;
-                array[1] = ResDef?.LabelCap;
-                text = key.Translate(array);
+                text = key.Translate(ProdDef?.LabelCap.RawText, ResDef?.LabelCap.RawText);
                 list.Add(new FloatMenuOption(text, delegate { SetProdValues(ChoiceProdDef, true); },
                     MenuOptionPriority.Default, null, null, 29f,
                     rect => Widgets.InfoCardButton(rect.x + 5f, rect.y + ((rect.height - 24f) / 2f), ProdDef)));
@@ -313,12 +308,12 @@ public class Building_Fermenter : Building
 
     public static List<int> GetBatches()
     {
-        return new List<int>
-        {
+        return
+        [
             150,
             200,
             250
-        };
+        ];
     }
 
     public void SetBatchLimits(int aBatchvalue)
@@ -355,8 +350,8 @@ public class Building_Fermenter : Building
 
     public static List<int> GetMaxStock()
     {
-        return new List<int>
-        {
+        return
+        [
             50,
             100,
             150,
@@ -376,7 +371,7 @@ public class Building_Fermenter : Building
             7500,
             10000,
             0
-        };
+        ];
     }
 
     public void SetStockLimits(int aStockLim)
@@ -393,20 +388,17 @@ public class Building_Fermenter : Building
         }
 
         var StockListing = b.Map.listerThings.ThingsOfDef(ThingDef.Named(stockThing));
-        if (StockListing.Count > 0)
+        if (StockListing.Count <= 0)
         {
-            foreach (var thing in StockListing)
-            {
-                ActualStockNum += thing.stackCount;
-            }
+            return ActualStockNum >= stockLim;
         }
 
-        if (ActualStockNum >= stockLim)
+        foreach (var thing in StockListing)
         {
-            return true;
+            ActualStockNum += thing.stackCount;
         }
 
-        return false;
+        return ActualStockNum >= stockLim;
     }
 
     public void ToggleProducing(bool flag)

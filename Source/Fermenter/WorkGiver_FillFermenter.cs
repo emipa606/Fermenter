@@ -102,12 +102,12 @@ public class WorkGiver_FillFermenter : WorkGiver_Scanner
         var filter = new ThingFilter();
         filter.SetAllow(ingredientdef, true);
 
+        return GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, filter.BestThingRequest,
+            PathEndMode.ClosestTouch, TraverseParms.For(pawn), 9999f, Validator);
+
         bool Validator(Thing x)
         {
             return !x.IsForbidden(pawn) && pawn.CanReserve(x) && filter.Allows(x);
         }
-
-        return GenClosest.ClosestThingReachable(pawn.Position, pawn.Map, filter.BestThingRequest,
-            PathEndMode.ClosestTouch, TraverseParms.For(pawn), 9999f, Validator);
     }
 }
