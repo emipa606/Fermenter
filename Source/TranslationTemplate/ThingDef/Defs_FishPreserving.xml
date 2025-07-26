@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Fish Paste -->
+  <FRMT_FishPaste.label>Fish Paste</FRMT_FishPaste.label>
+  <!-- EN: Pickled fish that has been fermented into a paste. -->
+  <FRMT_FishPaste.description>Pickled fish that has been fermented into a paste.</FRMT_FishPaste.description>
+  <!-- EN: Pickled Fish -->
+  <FRMT_FishPickled.label>Pickled Fish</FRMT_FishPickled.label>
+  <!-- EN: Fish that has been prepared in vinegar for preserving -->
+  <FRMT_FishPickled.description>Fish that has been prepared in vinegar for preserving</FRMT_FishPickled.description>
+</LanguageData>

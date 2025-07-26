@@ -14,7 +14,7 @@ public class CompFerment : ThingComp
 
     public int ingredients;
 
-    public int prevStatus;
+    private int prevStatus;
 
     public bool producing;
 
@@ -24,19 +24,19 @@ public class CompFerment : ThingComp
 
     public int spaceLeft = 240;
 
-    public int spoilTicks;
+    private int spoilTicks;
 
     public int status;
 
     public bool stockLimit;
 
-    public bool stopDueToStock;
+    private bool stopDueToStock;
 
-    public CompProperties_Ferment Props => (CompProperties_Ferment)props;
+    private CompProperties_Ferment Props => (CompProperties_Ferment)props;
 
-    public Thing Fermenter => parent;
+    private Thing Fermenter => parent;
 
-    public bool Idling => status == 0;
+    private bool Idling => status == 0;
 
     public bool Fermenting => status == 2;
 
@@ -46,9 +46,9 @@ public class CompFerment : ThingComp
 
     public bool Removing => status == 3;
 
-    public bool Cleaning => status == 4;
+    private bool Cleaning => status == 4;
 
-    public bool Resetting => status == 7;
+    private bool Resetting => status == 7;
 
     public bool Spoiled => status == 6;
 
@@ -141,7 +141,7 @@ public class CompFerment : ThingComp
         switch (Prefs.TemperatureMode)
         {
             case TemperatureDisplayMode.Celsius:
-                return "Fermenter.tempmsg".Translate(temp.ToString(), warning, tempscale);
+                break;
             case TemperatureDisplayMode.Fahrenheit:
                 tempscale = "Fermenter.TmpFahrenheit".Translate();
                 temp = (int)GenTemperature.CelsiusTo(temp, TemperatureDisplayMode.Fahrenheit);
@@ -315,7 +315,7 @@ public class CompFerment : ThingComp
     }
 
 
-    public void DoFermentation()
+    private void DoFermentation()
     {
         if (fermentTicks > 0)
         {
@@ -342,7 +342,7 @@ public class CompFerment : ThingComp
         DoReset();
     }
 
-    public void DoReset()
+    private void DoReset()
     {
         cleanTicks = 0;
         ChangeStatus(7);
@@ -385,7 +385,7 @@ public class CompFerment : ThingComp
         ChangeStatus(8);
     }
 
-    public void ChangeStatus(int newStatus)
+    private void ChangeStatus(int newStatus)
     {
         prevStatus = status;
         status = newStatus;
@@ -402,7 +402,7 @@ public class CompFerment : ThingComp
         return Math.Min(cleaning, 5f);
     }
 
-    public int GetSpoiling()
+    private int GetSpoiling()
     {
         var totSpoil = Props.totalSpoilTicks;
         if (totSpoil < 2500)
@@ -413,17 +413,17 @@ public class CompFerment : ThingComp
         return Math.Min(totSpoil, 180000);
     }
 
-    public bool CheckIsFull()
+    private bool CheckIsFull()
     {
         return spaceLeft <= 0;
     }
 
-    public bool isFunctional(Thing fermenter)
+    private bool isFunctional(Thing fermenter)
     {
         switch (fermenter)
         {
             case null:
-                return true;
+                break;
             case Building_Fermenter when fermenter.IsBrokenDown():
                 return false;
             case Building_Fermenter:

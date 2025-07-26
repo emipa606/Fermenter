@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ate pickled fruit -->
+  <AtePickledFruit.stages.ate_pickled_fruit.label>ate pickled fruit</AtePickledFruit.stages.ate_pickled_fruit.label>
+  <!-- EN: There's something zingy about eating preserved fruit -->
+  <AtePickledFruit.stages.ate_pickled_fruit.description>There's something zingy about eating preserved fruit</AtePickledFruit.stages.ate_pickled_fruit.description>
+  <!-- EN: ate pickled fungi -->
+  <AtePickledFungi.stages.ate_pickled_fungi.label>ate pickled fungi</AtePickledFungi.stages.ate_pickled_fungi.label>
+  <!-- EN: There's something zingy about eating pickles -->
+  <AtePickledFungi.stages.ate_pickled_fungi.description>There's something zingy about eating pickles</AtePickledFungi.stages.ate_pickled_fungi.description>
+  <!-- EN: ate pickled veg -->
+  <AtePickledVeg.stages.ate_pickled_veg.label>ate pickled veg</AtePickledVeg.stages.ate_pickled_veg.label>
+  <!-- EN: There's something zingy about eating pickles -->
+  <AtePickledVeg.stages.ate_pickled_veg.description>There's something zingy about eating pickles</AtePickledVeg.stages.ate_pickled_veg.description>
+</LanguageData>

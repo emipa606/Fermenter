@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make Cheese Precursor -->
+  <Make_FRMT_PrecursorCheese.label>make Cheese Precursor</Make_FRMT_PrecursorCheese.label>
+  <!-- EN: Make cheese precursor from milk, lactose and acetic bacterium. -->
+  <Make_FRMT_PrecursorCheese.description>Make cheese precursor from milk, lactose and acetic bacterium.</Make_FRMT_PrecursorCheese.description>
+  <!-- EN: Making cheese precursor. -->
+  <Make_FRMT_PrecursorCheese.jobString>Making cheese precursor.</Make_FRMT_PrecursorCheese.jobString>
+</LanguageData>

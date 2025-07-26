@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make damaged fruit mash -->
+  <Make_FRMT_DMGFruitMash.label>make damaged fruit mash</Make_FRMT_DMGFruitMash.label>
+  <!-- EN: Make damaged fruit mash from fruits. -->
+  <Make_FRMT_DMGFruitMash.description>Make damaged fruit mash from fruits.</Make_FRMT_DMGFruitMash.description>
+  <!-- EN: Making damaged fruit mash. -->
+  <Make_FRMT_DMGFruitMash.jobString>Making damaged fruit mash.</Make_FRMT_DMGFruitMash.jobString>
+  <!-- EN: make vinegar precursor -->
+  <Make_FRMT_VinegarPrecursor.label>make vinegar precursor</Make_FRMT_VinegarPrecursor.label>
+  <!-- EN: Make vinegar precursor from alcohol and acetic acid bacteria. -->
+  <Make_FRMT_VinegarPrecursor.description>Make vinegar precursor from alcohol and acetic acid bacteria.</Make_FRMT_VinegarPrecursor.description>
+  <!-- EN: Making vinegar precursor. -->
+  <Make_FRMT_VinegarPrecursor.jobString>Making vinegar precursor.</Make_FRMT_VinegarPrecursor.jobString>
+</LanguageData>

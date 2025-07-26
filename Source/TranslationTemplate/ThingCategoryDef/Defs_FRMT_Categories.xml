@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Fermenter Oils -->
+  <FRMT_Oils.label>Fermenter Oils</FRMT_Oils.label>
+  <!-- EN: Fermenter Pickles -->
+  <FRMT_Pickles.label>Fermenter Pickles</FRMT_Pickles.label>
+  <!-- EN: Fermenter Precursors -->
+  <FRMT_Precursors.label>Fermenter Precursors</FRMT_Precursors.label>
+  <!-- EN: Fermenter Resources -->
+  <FRMT_Resources.label>Fermenter Resources</FRMT_Resources.label>
+</LanguageData>

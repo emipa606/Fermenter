@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="CookOil/CookOil.csproj" />
+  <Project Path="Fermenter/Fermenter.csproj" />
+</Solution>

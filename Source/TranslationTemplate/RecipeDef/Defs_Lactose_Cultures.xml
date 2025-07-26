@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make starch mash -->
+  <Make_FRMT_StarchMash.label>make starch mash</Make_FRMT_StarchMash.label>
+  <!-- EN: Make starch mash from vegetables. -->
+  <Make_FRMT_StarchMash.description>Make starch mash from vegetables.</Make_FRMT_StarchMash.description>
+  <!-- EN: Making starch mash. -->
+  <Make_FRMT_StarchMash.jobString>Making starch mash.</Make_FRMT_StarchMash.jobString>
+</LanguageData>

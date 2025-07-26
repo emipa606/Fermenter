@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Fermenting Vat -->
+  <FermenterVat.label>Fermenting Vat</FermenterVat.label>
+  <!-- EN: A large fermentation vat. This vat is susceptable to spoil its contents if the ambient temperature is not maintained between 7 and 32 degrees celcius. -->
+  <FermenterVat.description>A large fermentation vat. This vat is susceptable to spoil its contents if the ambient temperature is not maintained between 7 and 32 degrees celcius.</FermenterVat.description>
+</LanguageData>

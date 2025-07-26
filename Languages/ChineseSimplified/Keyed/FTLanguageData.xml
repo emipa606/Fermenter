@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Fermenter.Name>发酵器</Fermenter.Name>
   <Fermenter.NoIngredients>{0} 无法作为发酵器的原料</Fermenter.NoIngredients>

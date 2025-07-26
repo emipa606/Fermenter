@@ -8,7 +8,7 @@ namespace Fermenter;
 
 public class Building_FermenterVat : Building
 {
-    public readonly List<FermentDef> fermentList = DefDatabase<FermentDef>.AllDefsListForReading;
+    private readonly List<FermentDef> fermentList = DefDatabase<FermentDef>.AllDefsListForReading;
     public int BatchLimit = 250;
 
     public float FermentHours = 168f;
@@ -19,11 +19,11 @@ public class Building_FermenterVat : Building
 
     public string SpoilProduct = "";
 
-    public int StockLimit;
+    private int StockLimit;
 
-    public CompFerment FermentComp => GetComp<CompFerment>();
+    private CompFerment FermentComp => GetComp<CompFerment>();
 
-    public bool producing
+    private bool producing
     {
         get => FermentComp.producing;
         set => FermentComp.producing = value;
@@ -40,7 +40,7 @@ public class Building_FermenterVat : Building
         Scribe_Values.Look(ref BatchLimit, "BatchLimit", 250);
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         if (!Spawned)
@@ -195,7 +195,7 @@ public class Building_FermenterVat : Building
         };
     }
 
-    public void FermenterSelectProd()
+    private void FermenterSelectProd()
     {
         var list = new List<FloatMenuOption>();
         string text = "Fermenter.SelNone".Translate();
@@ -228,7 +228,7 @@ public class Building_FermenterVat : Building
         Find.WindowStack.Add(new FloatMenu(sortedlist));
     }
 
-    public void SetProdValues(FermentDef fdef, bool process)
+    private void SetProdValues(FermentDef fdef, bool process)
     {
         string Msg = "Fermenter.WaitChange".Translate();
         if (!FermentComp.Fermented && !FermentComp.producing)
@@ -269,7 +269,7 @@ public class Building_FermenterVat : Building
         Messages.Message(Msg, MessageTypeDefOf.RejectInput, false);
     }
 
-    public List<string> GetProdList()
+    private List<string> GetProdList()
     {
         var list = new List<string>();
         foreach (var ferment in fermentList)
@@ -283,7 +283,7 @@ public class Building_FermenterVat : Building
         return list;
     }
 
-    public void FermenterSelectBatch()
+    private void FermenterSelectBatch()
     {
         var list = new List<FloatMenuOption>();
         var Choices = GetBatches();
@@ -306,7 +306,7 @@ public class Building_FermenterVat : Building
         Find.WindowStack.Add(new FloatMenu(list));
     }
 
-    public static List<int> GetBatches()
+    private static List<int> GetBatches()
     {
         return
         [
@@ -319,12 +319,12 @@ public class Building_FermenterVat : Building
         ];
     }
 
-    public void SetBatchLimits(int aBatchvalue)
+    private void SetBatchLimits(int aBatchvalue)
     {
         BatchLimit = aBatchvalue;
     }
 
-    public void FermenterSelectLimit()
+    private void FermenterSelectLimit()
     {
         var list = new List<FloatMenuOption>();
         var Choices = GetMaxStock();
@@ -351,7 +351,7 @@ public class Building_FermenterVat : Building
         Find.WindowStack.Add(new FloatMenu(list));
     }
 
-    public static List<int> GetMaxStock()
+    private static List<int> GetMaxStock()
     {
         return
         [
@@ -377,12 +377,12 @@ public class Building_FermenterVat : Building
         ];
     }
 
-    public void SetStockLimits(int aStockLim)
+    private void SetStockLimits(int aStockLim)
     {
         StockLimit = aStockLim;
     }
 
-    public static bool StockLimitReached(Building b, string stockThing, int stockLim, out int ActualStockNum)
+    private static bool StockLimitReached(Building b, string stockThing, int stockLim, out int ActualStockNum)
     {
         ActualStockNum = 0;
         if (stockLim <= 0 || stockThing == "")
@@ -404,24 +404,24 @@ public class Building_FermenterVat : Building
         return ActualStockNum >= stockLim;
     }
 
-    public void ToggleProducing(bool flag)
+    private void ToggleProducing(bool flag)
     {
         producing = !flag;
     }
 
-    public void FermenterCancelBatch()
+    private void FermenterCancelBatch()
     {
         var list = new List<FloatMenuOption>();
         string text = "Fermenter.DoNothing".Translate();
-        list.Add(new FloatMenuOption(text, delegate { SetCancelBatch(this, false); }, MenuOptionPriority.Default,
+        list.Add(new FloatMenuOption(text, delegate { SetCancelBatch(false); }, MenuOptionPriority.Default,
             null, null, 29f));
         text = "Fermenter.Cancel".Translate();
-        list.Add(new FloatMenuOption(text, delegate { SetCancelBatch(this, true); }, MenuOptionPriority.Default,
+        list.Add(new FloatMenuOption(text, delegate { SetCancelBatch(true); }, MenuOptionPriority.Default,
             null, null, 29f));
         Find.WindowStack.Add(new FloatMenu(list));
     }
 
-    public void SetCancelBatch(Building b, bool cancel)
+    private void SetCancelBatch(bool cancel)
     {
         if (!cancel || FermentComp == null)
         {
@@ -444,7 +444,7 @@ public class Building_FermenterVat : Building
         }
     }
 
-    public bool HaveAnyResource(Building b, ThingDef thingDef)
+    private bool HaveAnyResource(Building b, ThingDef thingDef)
     {
         return thingDef != null && b.Map.listerThings.ThingsOfDef(thingDef).Count > 0;
     }

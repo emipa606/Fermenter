@@ -5,8 +5,8 @@ using Verse.AI;
 
 namespace CookOil;
 
-[HarmonyPatch(typeof(Bill), "Notify_PawnDidWork")]
-public class Notify_PawnDidWork_Patch
+[HarmonyPatch(typeof(Bill), nameof(Bill.Notify_PawnDidWork))]
+public class Bill_Notify_PawnDidWork
 {
     [HarmonyPostfix]
     [HarmonyPriority(800)]

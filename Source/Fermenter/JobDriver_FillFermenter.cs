@@ -12,9 +12,9 @@ public class JobDriver_FillFermenter : JobDriver
 
     private const int Duration = 200;
 
-    protected Thing Fermenter => job.GetTarget(TargetIndex.A).Thing;
+    private Thing Fermenter => job.GetTarget(TargetIndex.A).Thing;
 
-    protected Thing Ingredient => job.GetTarget(TargetIndex.B).Thing;
+    private Thing Ingredient => job.GetTarget(TargetIndex.B).Thing;
 
     public override bool TryMakePreToilReservations(bool errorOnFailed)
     {

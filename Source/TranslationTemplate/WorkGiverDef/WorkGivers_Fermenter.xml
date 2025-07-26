@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fill fermenter -->
+  <WG_FillFermenter.label>fill fermenter</WG_FillFermenter.label>
+  <!-- EN: filling -->
+  <WG_FillFermenter.gerund>filling</WG_FillFermenter.gerund>
+  <!-- EN: fill -->
+  <WG_FillFermenter.verb>fill</WG_FillFermenter.verb>
+  <!-- EN: fill fermenter vat -->
+  <WG_FillFermenterVat.label>fill fermenter vat</WG_FillFermenterVat.label>
+  <!-- EN: filling -->
+  <WG_FillFermenterVat.gerund>filling</WG_FillFermenterVat.gerund>
+  <!-- EN: fill -->
+  <WG_FillFermenterVat.verb>fill</WG_FillFermenterVat.verb>
+  <!-- EN: take product out of fermenter -->
+  <WG_TakeProductFermenter.label>take product out of fermenter</WG_TakeProductFermenter.label>
+  <!-- EN: taking product from -->
+  <WG_TakeProductFermenter.gerund>taking product from</WG_TakeProductFermenter.gerund>
+  <!-- EN: take product -->
+  <WG_TakeProductFermenter.verb>take product</WG_TakeProductFermenter.verb>
+  <!-- EN: take product out of fermenter vat -->
+  <WG_TakeProductFermenterVat.label>take product out of fermenter vat</WG_TakeProductFermenterVat.label>
+  <!-- EN: taking product from -->
+  <WG_TakeProductFermenterVat.gerund>taking product from</WG_TakeProductFermenterVat.gerund>
+  <!-- EN: take product -->
+  <WG_TakeProductFermenterVat.verb>take product</WG_TakeProductFermenterVat.verb>
+</LanguageData>

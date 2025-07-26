@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Pickled Fruit -->
+  <FRMT_FruitPickled.label>Pickled Fruit</FRMT_FruitPickled.label>
+  <!-- EN: Fruit that has been prepared in vinegar for preserving. -->
+  <FRMT_FruitPickled.description>Fruit that has been prepared in vinegar for preserving.</FRMT_FruitPickled.description>
+  <!-- EN: Pickled Fungi -->
+  <FRMT_FungiPickled.label>Pickled Fungi</FRMT_FungiPickled.label>
+  <!-- EN: Fungus that has been prepared in vinegar for preserving. -->
+  <FRMT_FungiPickled.description>Fungus that has been prepared in vinegar for preserving.</FRMT_FungiPickled.description>
+  <!-- EN: Pickled Vegetables -->
+  <FRMT_VegPickled.label>Pickled Vegetables</FRMT_VegPickled.label>
+  <!-- EN: Vegetables that has been prepared in vinegar for preserving -->
+  <FRMT_VegPickled.description>Vegetables that has been prepared in vinegar for preserving</FRMT_VegPickled.description>
+</LanguageData>

@@ -1,4 +1,4 @@
-# Fermenter
+# [Fermenter (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2194522312)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -6,13 +6,11 @@ Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2001398514
 
 - Added support for Vanilla Brewing Expanded
-- For detailed description, download the https://github.com/emipa606/Fermenter/raw/main/Source/FermenterNotes.pdf]PDF
+- For detailed description, download the [PDF](https://github.com/emipa606/Fermenter/raw/main/Source/FermenterNotes.pdf)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 # Overview
  V1.1
@@ -34,7 +32,7 @@ Also included is the ability to make oils from plants through fermentation proce
 
 The fermenter is also extremely easy to add recipes to as a result of it using its own fermentation def to add additional recipe options.
 
-Further details can be found in the following PDF: https://1drv.ms/b/s!Au3GsmKyQkDYiv53f144UZOFHpXhbQ?e=wdeMrC]Fermenter Notes
+Further details can be found in the following PDF: [Fermenter Notes](https://1drv.ms/b/s!Au3GsmKyQkDYiv53f144UZOFHpXhbQ?e=wdeMrC)
 
 # Mod Notes
 
@@ -43,7 +41,7 @@ Safe to add to any save game, for removal you'd have to remove buildings and con
 
 Research projects added in own tab. Modded content may require their own research for activation.
 
-For linux OS please apply the following: https://steamcommunity.com/sharedfiles/filedetails/?id=2149016328]Harmony fix for penguins
+For linux OS please apply the following: [Harmony fix for penguins](https://steamcommunity.com/sharedfiles/filedetails/?id=2149016328)
 
 # Compatibility
  *** Subject to conversion ***
@@ -96,13 +94,12 @@ German translation - Erdnussbrot.
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2194522312]![Image](https://img.shields.io/github/v/release/emipa606/Fermenter?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/Fermenter?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2194522312) | tags:  industrial,  processing

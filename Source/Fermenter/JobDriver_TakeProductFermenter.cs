@@ -15,7 +15,7 @@ public class JobDriver_TakeProductFermenter : JobDriver
 
     private const int Duration = 200;
 
-    protected Thing Fermenter => job.GetTarget(TargetIndex.A).Thing;
+    private Thing Fermenter => job.GetTarget(TargetIndex.A).Thing;
 
     protected Thing Product => job.GetTarget(TargetIndex.B).Thing;
 

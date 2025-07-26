@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Biofuel Precursor -->
+  <FRMT_PrecursorBioFuel.label>Biofuel Precursor</FRMT_PrecursorBioFuel.label>
+  <!-- EN: A mix of organic matter to be broken down in a fermentation vessel to make chemfuel. -->
+  <FRMT_PrecursorBioFuel.description>A mix of organic matter to be broken down in a fermentation vessel to make chemfuel.</FRMT_PrecursorBioFuel.description>
+</LanguageData>

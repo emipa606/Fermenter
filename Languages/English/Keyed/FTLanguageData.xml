@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Fermenter.Name>Fermenter</Fermenter.Name>
   <Fermenter.NoIngredients>Cannot locate ingredient {0} for the fermenter</Fermenter.NoIngredients>

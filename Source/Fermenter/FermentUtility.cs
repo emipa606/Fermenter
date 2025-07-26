@@ -19,7 +19,7 @@ public class FermentUtility
 
     [NoTranslate] public static readonly string CancelTexPath = "Special/Cancel_Icon";
 
-    public static string statusDesc(int status)
+    private static string statusDesc(int status)
     {
         string desc;
         switch (status)

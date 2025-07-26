@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ate cheese -->
+  <AteFRMTCheese.stages.ate_cheese.label>ate cheese</AteFRMTCheese.stages.ate_cheese.label>
+  <!-- EN: Hmm, cheese is so tangy. -->
+  <AteFRMTCheese.stages.ate_cheese.description>Hmm, cheese is so tangy.</AteFRMTCheese.stages.ate_cheese.description>
+  <!-- EN: ate mozzarella cheese -->
+  <AteFRMTCheeseGood.stages.ate_mozzarella_cheese.label>ate mozzarella cheese</AteFRMTCheeseGood.stages.ate_mozzarella_cheese.label>
+  <!-- EN: Hmm, cheese is so creamy and tangy. -->
+  <AteFRMTCheeseGood.stages.ate_mozzarella_cheese.description>Hmm, cheese is so creamy and tangy.</AteFRMTCheeseGood.stages.ate_mozzarella_cheese.description>
+  <!-- EN: ate matured cheese -->
+  <AteFRMTCheeseSpecial.stages.ate_matured_cheese.label>ate matured cheese</AteFRMTCheeseSpecial.stages.ate_matured_cheese.label>
+  <!-- EN: Hmm, cheese is so rich, creamy and tangy. -->
+  <AteFRMTCheeseSpecial.stages.ate_matured_cheese.description>Hmm, cheese is so rich, creamy and tangy.</AteFRMTCheeseSpecial.stages.ate_matured_cheese.description>
+</LanguageData>

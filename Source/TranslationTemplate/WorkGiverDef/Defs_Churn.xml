@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Churn -->
+  <DoBillsFRMTChurn.label>Churn</DoBillsFRMTChurn.label>
+  <!-- EN: churning products at -->
+  <DoBillsFRMTChurn.gerund>churning products at</DoBillsFRMTChurn.gerund>
+  <!-- EN: churn products -->
+  <DoBillsFRMTChurn.verb>churn products</DoBillsFRMTChurn.verb>
+</LanguageData>

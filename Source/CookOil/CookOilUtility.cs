@@ -12,9 +12,9 @@ public class CookOilUtility
 {
     public const int OilTicks = 120;
 
-    public const float OilValueMax = 12f;
+    private const float OilValueMax = 12f;
 
-    public static List<string> OilDefNames()
+    private static List<string> OilDefNames()
     {
         return
         [
@@ -51,7 +51,7 @@ public class CookOilUtility
 
         foreach (var tdcc in list)
         {
-            if (tdcc?.thingDef == null || !tdcc.thingDef.IsIngestible)
+            if (tdcc?.thingDef is not { IsIngestible: true })
             {
                 continue;
             }
@@ -192,7 +192,7 @@ public class CookOilUtility
         oil.Destroy();
     }
 
-    public static float GetOilReduction(Thing oil)
+    private static float GetOilReduction(Thing oil)
     {
         return Mathf.Lerp(20f, 80f, Math.Max(0f, Math.Min(1f, oil.MarketValue / OilValueMax)));
     }

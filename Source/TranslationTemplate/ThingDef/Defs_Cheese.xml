@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Cottage Cheese -->
+  <FRMT_CheeseCottage.label>Cottage Cheese</FRMT_CheeseCottage.label>
+  <!-- EN: Cottage cheese is a fresh cheese curd product with a mild flavor. In the past, it was known as "curds and whey." It is not aged, but produced more quickly through fermentation. -->
+  <FRMT_CheeseCottage.description>Cottage cheese is a fresh cheese curd product with a mild flavor. In the past, it was known as "curds and whey." It is not aged, but produced more quickly through fermentation.</FRMT_CheeseCottage.description>
+  <!-- EN: Mozzarella Cheese -->
+  <FRMT_CheeseMozzarella.label>Mozzarella Cheese</FRMT_CheeseMozzarella.label>
+  <!-- EN: A shredded, low moisture mozzarella. Fresh mozzarella is generally white but may vary seasonally to slightly yellow depending on the animal's diet. -->
+  <FRMT_CheeseMozzarella.description>A shredded, low moisture mozzarella. Fresh mozzarella is generally white but may vary seasonally to slightly yellow depending on the animal's diet.</FRMT_CheeseMozzarella.description>
+  <!-- EN: Cheese Precursor -->
+  <FRMT_PrecursorCheese.label>Cheese Precursor</FRMT_PrecursorCheese.label>
+  <!-- EN: A preperation made from natural animal milk, lactose and acetic bacteria. Used to ferment into cheese. -->
+  <FRMT_PrecursorCheese.description>A preperation made from natural animal milk, lactose and acetic bacteria. Used to ferment into cheese.</FRMT_PrecursorCheese.description>
+</LanguageData>

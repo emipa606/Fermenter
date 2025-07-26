@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Oil Press -->
+  <DoBillsFRMTOilPress.label>Oil Press</DoBillsFRMTOilPress.label>
+  <!-- EN: producing oils at -->
+  <DoBillsFRMTOilPress.gerund>producing oils at</DoBillsFRMTOilPress.gerund>
+  <!-- EN: produce oils -->
+  <DoBillsFRMTOilPress.verb>produce oils</DoBillsFRMTOilPress.verb>
+</LanguageData>
