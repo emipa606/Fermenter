@@ -674,10 +674,8 @@
       </operations>
     </match>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>VGP Garden Drinks</li>
-    </mods>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="VG_CaneMash"]</xpath>
     <match Class="PatchOperationSequence">
       <success>Always</success>
       <operations>
@@ -699,7 +697,7 @@
           <value>
             <Fermenter.FermentDef>
               <defName>Ferment_VG_strawberrywine</defName>
-              <Product>strawberrywine</Product>
+              <Product>VGP_BerryWine</Product>
               <Resource>CPD_WineMust</Resource>
               <SpoilProduct>SpoilMash</SpoilProduct>
               <FermentHours>120.0</FermentHours>
@@ -764,7 +762,7 @@
           <value>
             <Fermenter.FermentDef>
               <defName>Ferment_VG_whisky</defName>
-              <Product>whisky</Product>
+              <Product>CPD_Whiskey</Product>
               <Resource>CPD_CornWort</Resource>
               <SpoilProduct>SpoilMash</SpoilProduct>
               <FermentHours>84.0</FermentHours>
@@ -835,10 +833,8 @@
       </operations>
     </match>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>VGP Garden Drinks</li>
-    </mods>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="VG_CiderMust"]</xpath>
     <match Class="PatchOperationFindMod">
       <mods>
         <li>VGP Vegetable Garden</li>
@@ -902,37 +898,30 @@
       </match>
     </match>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>VGP Garden Drinks</li>
-    </mods>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="VG_GrapeMust"]</xpath>
     <match Class="PatchOperationFindMod">
       <mods>
-        <li>VGP Vegetable Garden</li>
+        <li>Vanilla Factions Expanded - Medieval</li>
       </mods>
-      <match Class="PatchOperationFindMod">
-        <mods>
-          <li>Vanilla Factions Expanded - Medieval</li>
-        </mods>
-        <nomatch Class="PatchOperationSequence">
-          <success>Always</success>
-          <operations>
-            <li Class="PatchOperationAdd">
-              <xpath>/Defs</xpath>
-              <value>
-                <Fermenter.FermentDef>
-                  <defName>Ferment_VG_Wine</defName>
-                  <Product>Wine</Product>
-                  <Resource>VG_GrapeMust</Resource>
-                  <SpoilProduct>SpoilMash</SpoilProduct>
-                  <FermentHours>120.0</FermentHours>
-                  <ResearchProject>VG_industrialfermenting</ResearchProject>
-                </Fermenter.FermentDef>
-              </value>
-            </li>
-          </operations>
-        </nomatch>
-      </match>
+      <nomatch Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+              <Fermenter.FermentDef>
+                <defName>Ferment_VG_Wine</defName>
+                <Product>Wine</Product>
+                <Resource>VG_GrapeMust</Resource>
+                <SpoilProduct>SpoilMash</SpoilProduct>
+                <FermentHours>120.0</FermentHours>
+                <ResearchProject>VG_industrialfermenting</ResearchProject>
+              </Fermenter.FermentDef>
+            </value>
+          </li>
+        </operations>
+      </nomatch>
     </match>
   </Operation>
 </Patch>

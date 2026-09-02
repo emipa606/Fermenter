@@ -1,6 +1,6 @@
 # [Fermenter (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2194522312)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2001398514
@@ -8,9 +8,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2001398514
 - Added support for Vanilla Brewing Expanded
 - For detailed description, download the [PDF](https://github.com/emipa606/Fermenter/raw/main/Source/FermenterNotes.pdf)
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # Overview
  V1.1
@@ -88,13 +88,13 @@ German translation - Erdnussbrot.
 (CC BY-NC-SA 4.0)
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -102,4 +102,4 @@ German translation - Erdnussbrot.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/Fermenter?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2194522312) | tags:  industrial,  processing
+[![Image](https://img.shields.io/github/v/release/emipa606/Fermenter?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2194522312) | fermentation machine, vinegar production
