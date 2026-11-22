@@ -272,12 +272,10 @@ public class Building_Fermenter : Building
     private List<string> GetProdList()
     {
         var list = new List<string>();
-        foreach (var ferment in fermentList)
+        foreach (var ferment in fermentList.Where(f =>
+                     ThingDef.Named(f.Product) != null && FermentUtility.IsResearched(f.ResearchProject)))
         {
-            if (ThingDef.Named(ferment.Product) != null && FermentUtility.IsResearched(ferment.ResearchProject))
-            {
-                list.AddDistinct(ferment.defName);
-            }
+            list.AddDistinct(ferment.defName);
         }
 
         return list;
@@ -441,7 +439,7 @@ public class Building_Fermenter : Building
         }
     }
 
-    private bool HaveAnyResource(Building b, ThingDef thingDef)
+    private static bool HaveAnyResource(Building b, ThingDef thingDef)
     {
         return thingDef != null && b.Map.listerThings.ThingsOfDef(thingDef).Count > 0;
     }

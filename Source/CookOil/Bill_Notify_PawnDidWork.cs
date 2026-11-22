@@ -6,11 +6,10 @@ using Verse.AI;
 namespace CookOil;
 
 [HarmonyPatch(typeof(Bill), nameof(Bill.Notify_PawnDidWork))]
-public class Bill_Notify_PawnDidWork
+public static class Bill_Notify_PawnDidWork
 {
-    [HarmonyPostfix]
     [HarmonyPriority(800)]
-    public static void PostFix(ref Bill __instance, Pawn p)
+    public static void Postfix(ref Bill __instance, Pawn p)
     {
         if (!p.IsHashIntervalTick(120) || !CookOilUtility.ProductsHaveMeals(__instance))
         {
@@ -40,7 +39,7 @@ public class Bill_Notify_PawnDidWork
             return;
         }
 
-        var jobs2 = p.jobs;
+        var jobs2 = p?.jobs;
         var jobDriver = jobs2?.curDriver;
 
         if (jobDriver is JobDriver_DoBill bill && CookOilUtility.OilIsHandy(p, out var Oil) && bill.workLeft > 0f)

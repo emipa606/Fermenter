@@ -1,6 +1,6 @@
 namespace Fermenter;
 
-public class FixedValues
+public static class FixedValues
 {
     public const int Space = 240;
 

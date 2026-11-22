@@ -418,7 +418,7 @@ public class CompFerment : ThingComp
         return spaceLeft <= 0;
     }
 
-    private bool isFunctional(Thing fermenter)
+    private static bool isFunctional(Thing fermenter)
     {
         switch (fermenter)
         {

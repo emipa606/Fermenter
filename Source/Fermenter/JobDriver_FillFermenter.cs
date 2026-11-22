@@ -12,9 +12,9 @@ public class JobDriver_FillFermenter : JobDriver
 
     private const int Duration = 200;
 
-    private Thing Fermenter => job.GetTarget(TargetIndex.A).Thing;
+    private Thing Fermenter => job.GetTarget(FermenterInd).Thing;
 
-    private Thing Ingredient => job.GetTarget(TargetIndex.B).Thing;
+    private Thing Ingredient => job.GetTarget(IngredientInd).Thing;
 
     public override bool TryMakePreToilReservations(bool errorOnFailed)
     {
@@ -31,20 +31,20 @@ public class JobDriver_FillFermenter : JobDriver
         this.FailOn(() => !comp.producing);
         this.FailOn(() => comp.spaceLeft <= 0);
         this.FailOn(() => comp.Fermented);
-        this.FailOnDespawnedNullOrForbidden(TargetIndex.A);
-        this.FailOnBurningImmobile(TargetIndex.A);
-        this.FailOnDestroyedNullOrForbidden(TargetIndex.B);
-        var ingrToil = Toils_Reserve.Reserve(TargetIndex.B);
+        this.FailOnDespawnedNullOrForbidden(FermenterInd);
+        this.FailOnBurningImmobile(FermenterInd);
+        this.FailOnDestroyedNullOrForbidden(IngredientInd);
+        var ingrToil = Toils_Reserve.Reserve(IngredientInd);
         yield return ingrToil;
-        yield return Toils_Reserve.Reserve(TargetIndex.A);
-        yield return Toils_Goto.GotoThing(TargetIndex.B, PathEndMode.ClosestTouch)
-            .FailOnSomeonePhysicallyInteracting(TargetIndex.B).FailOnDestroyedNullOrForbidden(TargetIndex.B);
-        yield return Toils_Haul.StartCarryThing(TargetIndex.B, false, true)
-            .FailOnDestroyedNullOrForbidden(TargetIndex.B);
-        yield return Toils_Haul.CheckForGetOpportunityDuplicate(ingrToil, TargetIndex.B, TargetIndex.None, true);
-        yield return Toils_Haul.CarryHauledThingToCell(TargetIndex.A);
-        yield return Toils_General.Wait(200).FailOnDestroyedNullOrForbidden(TargetIndex.A)
-            .WithProgressBarToilDelay(TargetIndex.A);
+        yield return Toils_Reserve.Reserve(FermenterInd);
+        yield return Toils_Goto.GotoThing(IngredientInd, PathEndMode.ClosestTouch)
+            .FailOnSomeonePhysicallyInteracting(IngredientInd).FailOnDestroyedNullOrForbidden(IngredientInd);
+        yield return Toils_Haul.StartCarryThing(IngredientInd, false, true)
+            .FailOnDestroyedNullOrForbidden(IngredientInd);
+        yield return Toils_Haul.CheckForGetOpportunityDuplicate(ingrToil, IngredientInd, TargetIndex.None, true);
+        yield return Toils_Haul.CarryHauledThingToCell(FermenterInd);
+        yield return Toils_General.Wait(Duration).FailOnDestroyedNullOrForbidden(FermenterInd)
+            .WithProgressBarToilDelay(FermenterInd);
         yield return new Toil
         {
             initAction = delegate
@@ -58,7 +58,7 @@ public class JobDriver_FillFermenter : JobDriver
         };
     }
 
-    private bool AddIngredient(Pawn actor, Thing fermenter, Thing ingredient)
+    private static bool AddIngredient(Pawn actor, Thing fermenter, Thing ingredient)
     {
         var comp = fermenter.TryGetComp<CompFerment>();
         if (comp == null)

@@ -7,4 +7,80 @@
   </Configurations>
   <Project Path="CookOil/CookOil.csproj" />
   <Project Path="Fermenter/Fermenter.csproj" />
+  <Folder Name="/XML/Defs/Things/">
+    <File Path="../Defs/Things/Defs_FRMT_Categories.xml" />
+    <File Path="../Defs/Things/Defs_SpoilMash.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/Patches_CPanda_Drinks.xml" />
+    <File Path="../1.7/Patches/Patches_Dubs_Hygiene.xml" />
+    <File Path="../1.7/Patches/Patches_Fish_Industry.xml" />
+    <File Path="../1.7/Patches/Patches_Fishing_Nets.xml" />
+    <File Path="../1.7/Patches/Patches_RC2.xml" />
+    <File Path="../1.7/Patches/Patches_RF_Fish.xml" />
+    <File Path="../1.7/Patches/Patches_RFF.xml" />
+    <File Path="../1.7/Patches/Patches_RimBees.xml" />
+    <File Path="../1.7/Patches/Patches_Seeds_Please.xml" />
+    <File Path="../1.7/Patches/Patches_SI.xml" />
+    <File Path="../1.7/Patches/Patches_SS.xml" />
+    <File Path="../1.7/Patches/Patches_SYR_Blue.xml" />
+    <File Path="../1.7/Patches/Patches_Thanks4AllTFish.xml" />
+    <File Path="../1.7/Patches/Patches_Vanilla_Traders.xml" />
+    <File Path="../1.7/Patches/Patches_VanillaBrewingExpanded.xml" />
+    <File Path="../1.7/Patches/Patches_VCEF.xml" />
+    <File Path="../1.7/Patches/Patches_VFEM.xml" />
+    <File Path="../1.7/Patches/Patches_VFES_Chemshine.xml" />
+    <File Path="../1.7/Patches/Patches_VG_Gourmet.xml" />
+    <File Path="../1.7/Patches/Patches_VG.xml" />
+    <File Path="../1.7/Patches/Patches_VPE.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Things/Preservation/Pasturisation/">
+    <File Path="../Defs/Things/Preservation/Pasturisation/Defs_Pasturised_Milk.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Things/Defs_BioToChemfuel/">
+    <File Path="../Defs/Things/Defs_BioToChemfuel/Defs_BioToChemfuel.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Things/Preservation/Lactose/">
+    <File Path="../Defs/Things/Preservation/Lactose/Defs_Cheese.xml" />
+    <File Path="../Defs/Things/Preservation/Lactose/Defs_Lactose_Cultures.xml" />
+    <File Path="../Defs/Things/Preservation/Lactose/Defs_Yoghurt.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Things/Preservation/Pickling/">
+    <File Path="../Defs/Things/Preservation/Pickling/Defs_FishPreserving.xml" />
+    <File Path="../Defs/Things/Preservation/Pickling/Defs_VegPreserving.xml" />
+    <File Path="../Defs/Things/Preservation/Pickling/Defs_Vinegar.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Things/Defs_Oils/">
+    <File Path="../Defs/Things/Defs_Oils/Defs_Butter.xml" />
+    <File Path="../Defs/Things/Defs_Oils/Defs_Cooking_Oils.xml" />
+    <File Path="../Defs/Things/Defs_Oils/Defs_InsectButter.xml" />
+    <File Path="../Defs/Things/Defs_Oils/Defs_Plants_Oil.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/WorkGiver/">
+    <File Path="../Defs/WorkGiver/WorkGivers_Fermenter.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Research/">
+    <File Path="../Defs/Research/Defs_Research.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Building/">
+    <File Path="../Defs/Building/Defs_Churn.xml" />
+    <File Path="../Defs/Building/Defs_Fermenter.xml" />
+    <File Path="../Defs/Building/Defs_FermenterVat.xml" />
+    <File Path="../Defs/Building/Defs_OilPress.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Recipes/">
+    <File Path="../Defs/Recipes/Defs_Recipe_Oils.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Jobs/">
+    <File Path="../Defs/Jobs/Jobs_Fermenter.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/FTLanguageData.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/Fermentation/">
+    <File Path="../Defs/Fermentation/Defs_Fermentation.xml" />
+  </Folder>
 </Solution>

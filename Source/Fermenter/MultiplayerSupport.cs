@@ -8,7 +8,7 @@ namespace Fermenter;
 [StaticConstructorOnStartup]
 internal static class MultiplayerSupport
 {
-    private static readonly Harmony harmony = new Harmony("rimworld.Fermenter.multiplayersupport");
+    private static readonly Harmony harmony = new("rimworld.Fermenter.multiplayersupport");
 
     static MultiplayerSupport()
     {
@@ -39,8 +39,8 @@ internal static class MultiplayerSupport
 
     private static void FixRNG(MethodInfo method)
     {
-        harmony.Patch(method, new HarmonyMethod(typeof(MultiplayerSupport), "FixRNGPre"),
-            new HarmonyMethod(typeof(MultiplayerSupport), "FixRNGPos"));
+        harmony.Patch(method, new HarmonyMethod(typeof(MultiplayerSupport), nameof(FixRNGPre)),
+            new HarmonyMethod(typeof(MultiplayerSupport), nameof(FixRNGPos)));
     }
 
     private static void FixRNGPre()

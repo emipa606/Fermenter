@@ -92,7 +92,7 @@ public class WorkGiver_FillFermenter : WorkGiver_Scanner
         };
     }
 
-    private Thing FindIngredient(Pawn pawn, Thing fermenter, out ThingDef ingredientdef)
+    private static Thing FindIngredient(Pawn pawn, Thing fermenter, out ThingDef ingredientdef)
     {
         var defname = fermenter is Building_Fermenter buildingFermenter
             ? buildingFermenter.FermentResource

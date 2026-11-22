@@ -8,7 +8,7 @@ using Verse.AI;
 
 namespace CookOil;
 
-public class CookOilUtility
+public static class CookOilUtility
 {
     public const int OilTicks = 120;
 
@@ -65,9 +65,9 @@ public class CookOilUtility
             else
             {
                 var ingestible = thingDef.ingestible;
-                b = ((ingestible != null ? new FoodTypeFlags?(ingestible.foodType) : null).GetValueOrDefault() ==
-                     FoodTypeFlags.Meal) & ((ingestible != null ? new FoodTypeFlags?(ingestible.foodType) : null) !=
-                                            null);
+                b = (ingestible != null ? new FoodTypeFlags?(ingestible.foodType) : null).GetValueOrDefault() ==
+                    FoodTypeFlags.Meal && (ingestible != null ? new FoodTypeFlags?(ingestible.foodType) : null) !=
+                    null;
             }
 
             if (b)
@@ -84,9 +84,9 @@ public class CookOilUtility
             else
             {
                 var ingestible2 = thingDef2.ingestible;
-                b1 = ((ingestible2 != null ? new FoodTypeFlags?(ingestible2.foodType) : null).GetValueOrDefault() ==
-                      FoodTypeFlags.Kibble) &
-                     ((ingestible2 != null ? new FoodTypeFlags?(ingestible2.foodType) : null) != null);
+                b1 = (ingestible2 != null ? new FoodTypeFlags?(ingestible2.foodType) : null).GetValueOrDefault() ==
+                     FoodTypeFlags.Kibble &&
+                     (ingestible2 != null ? new FoodTypeFlags?(ingestible2.foodType) : null) != null;
             }
 
             if (!b1)
@@ -123,13 +123,10 @@ public class CookOilUtility
                         continue;
                     }
 
-                    foreach (var thing in things)
+                    foreach (var thing in things.Where(t =>
+                                 OilDefNames().Contains(t.def.defName) && !t.IsForbidden(p) && !t.IsBurning()))
                     {
-                        if (OilDefNames().Contains(thing.def.defName) && !thing.IsForbidden(p) &&
-                            !thing.IsBurning())
-                        {
-                            candidates.Add(thing);
-                        }
+                        candidates.Add(thing);
                     }
                 }
             }
@@ -148,7 +145,7 @@ public class CookOilUtility
             return false;
         }
 
-        oil = sortedthings.First();
+        oil = sortedthings[0];
         return true;
     }
 
@@ -177,7 +174,7 @@ public class CookOilUtility
                 b = needs?.joy != null;
             }
 
-            if (b && p.needs.joy.CurLevel < p.needs.joy.MaxLevel)
+            if (b && p != null && p.needs.joy.CurLevel < p.needs.joy.MaxLevel)
             {
                 p.needs.joy.CurLevel = Math.Min(p.needs.joy.CurLevel * 1.02f, p.needs.joy.MaxLevel);
             }

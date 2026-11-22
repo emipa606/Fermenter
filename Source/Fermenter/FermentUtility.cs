@@ -5,7 +5,7 @@ using Verse;
 
 namespace Fermenter;
 
-public class FermentUtility
+public static class FermentUtility
 {
     [NoTranslate] public static readonly string ProdTexPath = "Special/Product_Icon";
 
@@ -107,22 +107,14 @@ public class FermentUtility
         }
 
         var thingDef = def;
-        if (thingDef?.uiIcon != null)
+        if (thingDef.uiIcon != null)
         {
             return def.uiIcon;
         }
 
         var thingDef2 = def;
-        bool b;
-        if (thingDef2 == null)
-        {
-            b = false;
-        }
-        else
-        {
-            var graphicData = thingDef2.graphicData;
-            b = graphicData?.texPath != null;
-        }
+        var graphicData = thingDef2.graphicData;
+        var b = graphicData?.texPath != null;
 
         if (!b)
         {
